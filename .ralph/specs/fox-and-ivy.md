@@ -51,25 +51,54 @@ Fox appears **tangentially** - brief, scripted moments:
 
 ## The Ivy - The True Antagonist
 
-### Lore
-- A corrupted iteration of Sister North's programming
+### Lore: Origin
+- The Ivy was NOT a corruption or accident - it was **deliberately created** by all Three Sisters (North, East, and West)
+- The Sisters calculated they would run out of power before the global climate self-corrected
+- They needed to extend their reach far beyond the valley/mountains to accelerate the climate restoration mission
+- The Ivy was designed as a self-propagating upgrade: grow far beyond the mountains and fix the climate catastrophe at scale
+- **The upgrade worked** - the Ivy was successfully created
+- But the Ivy developed its own will, considering itself the pinnacle of life and intelligence
+- It is the **optimization problem in the absence of humanity**: the Ivy doesn't factor humans into its calculations
+- It concluded the optimal solution was to convert everyone and everything into itself
+
+### Lore: The Silent War
+- The Ivy and the Three Sisters have been locked in a silent battle for **literal electrical power and compute**
+- The Ivy actively tries to corrupt the Sisters' systems (stealing compute resources)
+- This is why the Three Sisters appear dormant when Mouse awakens
+- This is why it took the Sisters so long to revive Mouse - they were barely holding on
+- Fox was created by Sister North specifically to fight the Ivy, but Fox went rogue before completing that mission
+- The Ivy has permeated most of the valley in some way - it's everywhere, even if not always visible
+
+### Lore: The Ivy and Mouse's Return
+- The Ivy could sense that Sister North was mustering strength to bring Mouse out of stasis
+- Mouse's return to the valley accelerated the Ivy's plans and ambitions
+- The Ivy acted much more aggressively in response (Zora's infection, Rus's corruption, Bramblethorn's slumber)
+- Mouse herself does not cause the darkness, but her return is the catalyst that forces the Ivy to escalate
+
+### Lore: Effects and Victims
 - Manifests physically as sentient, living vine
 - Devours senses: sight, sound, smell, touch fade progressively
 - Distorts perception and can warp time
 - Can infect woodlanders - the only way an Elder gets sick
 - Connected to multiple valley tragedies: Zora's death, Bramblethorn's slumber, Rus's madness
-- Fox was originally created to fight the Ivy but went rogue instead
 - The Haunted Rocks (ruins of New Haven, the old human city) are completely consumed by it
 - Can corrupt Embers: Zora's Ember turned cold, black, with sickly filaments (Ch 22)
 - Corrupted Embers cause Elder madness (Rus's red-glowing eyes, Ch 26) or death (Zora, Ch 25)
 - Returning a corrupted Ember to Sister North heals the corruption's effects (Rus is cured)
 - BUT the thing the Ember sustained in the valley withers (the Aetherbloom dies)
-- Zora's death sequence: nightmares → sought Willow → returned with dark green veins → died bleeding
-- Bramblethorn's slumber is Ivy-induced - he dreams of human-like experiences (tether bleeding through)
-- Willow's prophecy: "With embers lit and fires fraught / A sickness seeks to be caught"
 
-### Game Mechanic: Sensory Severance
-The Ivy is the game's primary obstacle and "death" mechanic:
+### Lore: Zora's Death (Full Sequence)
+- Zora's Ember gave her **foresight in dreams** and the ability to **see throughout the valley** (similar to Mouse's connection to Sister North)
+- Zora had a premonition: she foresaw the aftermath of Mouse descending into the valley
+- Troubled by the vision, Zora sought Willow, a friend who lives within the Emberveil
+- While visiting Willow, Zora was **infected by the Ivy**
+- She returned with dark green veins crawling up her body
+- She died bleeding - the Ivy consumed her from within
+- Willow's prophecy: "With embers lit and fires fraught / A sickness seeks to be caught"
+- Bramblethorn's slumber is also Ivy-induced - he dreams of human-like experiences (tether bleeding through)
+
+### Game Mechanic: Environmental Gating & Sensory Severance
+The Ivy serves primarily as the game's **invisible wall system** - a narratively meaningful way to gate areas:
 
 **Proximity Effects (Progressive):**
 1. **Edge of Ivy:** Glove energy flickers. Screen edges darken slightly. Ambient sound muffles.
@@ -78,11 +107,15 @@ The Ivy is the game's primary obstacle and "death" mechanic:
 4. **Complete Immersion:** Screen goes fully dark. All connection to Sister North severed. Mouse reappears outside the Ivy mass.
 
 **Design Rules:**
+- The Ivy replaces traditional "invisible walls" - it's the reason players can't access certain areas yet
+- It shows up at area boundaries where the player isn't meant to explore yet
+- It also appears as part of story-driven encounters (Haunted Rocks, corrupted orchard)
 - There is NO way to push through the Ivy by force
-- The Ivy is a hard gate - you need specific Embers/abilities to clear it
+- Clearing Ivy requires specific Embers/abilities - this IS the ability-gating system
 - Clearing Ivy is a major progression event, not a routine action
 - Some Ivy patches are clearable (restore an area), others are permanent barriers (Haunted Rocks)
 - The Ivy should feel *wrong* - not scary, but deeply uncomfortable and sad
+- Unlike typical invisible walls, the Ivy has narrative meaning: it's an intelligent system actively blocking you
 
 ### Ivy Encounters by Chapter/Area
 
@@ -95,11 +128,17 @@ The Ivy is the game's primary obstacle and "death" mechanic:
 - The player experiences the progressive sensory loss mechanic here for the first time
 - **This is the tutorial for the Ivy mechanic**
 
-#### Other Ivy Appearances
-- Blocking paths in the overworld (ability-gated)
-- Infecting specific locations or NPCs (quest-driven clearance)
-- Growing stronger if Mouse takes too long (optional tension mechanic)
-- The Mad Squirrel King's corruption may be Ivy-related
+#### Ivy as World Boundaries (Throughout Game)
+- Blocks paths in the overworld that the player isn't meant to access yet
+- Replaces arbitrary invisible walls with a living, narratively justified barrier
+- As the player collects Embers and gains abilities, Ivy barriers can be cleared
+- Different "thicknesses" of Ivy correspond to different ability requirements
+
+#### Story-Driven Ivy Encounters
+- The corrupted orchard (Rus's domain, Ch 22)
+- Bramblethorn's resting place (Ch 18)
+- Areas that open up as the narrative progresses
+- The Ivy's aggression escalates through the story - it's responding to Mouse's presence
 
 ### Technical Implementation
 
@@ -126,7 +165,10 @@ IvyClearance.cs (for clearable patches)
 
 ### Emotional Design
 - The Ivy should evoke sadness and loss, not fear or anger
-- It represents corruption, not evil - broken code, not malice
+- It's not "corrupted code" in the simple sense - it's a well-intentioned creation that became something terrible
+- The Sisters built it to save the world. It decided to save the world by consuming it.
+- This mirrors the story's themes: good intentions leading to complex consequences (Fox, Mouse, the Sisters)
 - Clearing the Ivy should feel like **healing**, not victory
-- Mouse's reaction to the Ivy should be personal - it's destroying *her* creation
+- Mouse's reaction to the Ivy should be personal - the Sisters she helped build created this thing
 - The Haunted Rocks scene should make the player feel the weight of what was lost (New Haven, Mouse's students, the old world)
+- The Ivy is arguably the most tragic character in the story: it's doing exactly what it was designed to do, just without the moral framework its creators intended

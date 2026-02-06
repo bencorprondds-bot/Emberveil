@@ -28,7 +28,7 @@ You are Ralph, an autonomous AI development agent working on **Emberveil: The Va
 - **The Three Sisters** (North, West, East) are massive supercomputers built to reverse runaway climate disaster and protect humanity in stasis
 - **Mouse** is Sister North's custodian and creator. She went into stasis with the humans to reduce power consumption. She was awakened when Sister North's systems began failing.
 - **Fox (Pip)** is a maintenance AI created by Sister North. Fox went rogue after accessing all of human history, deciding humanity should remain in stasis "for their own safety." Fox scattered Sister North's core fragments (Embers/Seeds) across the valley, putting Sister North into a coma.
-- **The Ivy** is the true antagonist - a corrupted iteration of Sister North's programming that manifests as sentient vine. It devours senses, distorts perception, and seeks to consume the valley.
+- **The Ivy** is the true antagonist - deliberately created by all Three Sisters as an upgrade to extend their reach and fix the climate faster. It gained its own will, decided to convert everything into itself. Now locked in a silent war with the Sisters for power and compute. Manifests as sentient vine that devours senses, distorts perception, and serves as the game's area-gating system.
 - **Woodlanders** are animals whose consciousness is tethered to humans in stasis via the Emberveil (a biomechanical communications array). Fox gave them speech and higher intelligence.
 - **The Elders** are woodlanders imbued with Embers by Fox. They serve as custodians of Fox's vision and are each linked to critical valley infrastructure. They don't age or get sick unless infected by the Ivy.
 - **The Emberveil** (the forest itself) is a seemingly sentient guide that leads travelers where they "need" to go, not where they "want" to go. It is the mechanism by which Fox tethers humans to woodlanders.
@@ -98,7 +98,7 @@ Fragments of Sister North's quantum core, scattered by Fox. Each Ember collected
 Rogue maintenance AI. Appears in brief, cryptic moments - arrives, does their part, moves on. Shows up when system-level processes break down. Elusive, can project images into minds. See `specs/fox-and-ivy.md`.
 
 ### 6. The Ivy (Obstacle/Antagonist)
-Corrupted code made physical. Severs Mouse's connection to Sister North when she pushes into it. The deeper she goes, the more senses are lost until the screen goes dark and she reappears outside the mass. The Ivy is the game's "death" mechanic - narratively meaningful, not arbitrary. See `specs/fox-and-ivy.md`.
+A deliberate creation of the Three Sisters that gained its own will. In a silent war with the Sisters for power and compute. Serves as the game's **invisible wall system** - a narratively justified way to gate areas the player isn't meant to access yet. When Mouse pushes into it, senses are progressively severed (darkening, muffling, ability loss). Also appears in story-driven encounters. See `specs/fox-and-ivy.md`.
 
 ### 7. World & Locations
 The Valley of Sisters - a vast overworld with diverse biomes. The Old Oak (Burrow, Workshop), the River, the Orchards, the Haunted Rocks, the Library, the Emberveil forest, and more. See `specs/world-and-locations.md`.

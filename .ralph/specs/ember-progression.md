@@ -106,7 +106,7 @@ Not all Embers are healthy. Some have been corrupted by the Ivy:
 - Corrupted Embers can drive their carriers mad (Rus's red-glowing eyes, Ch 26)
 - Corrupted Embers can kill (Zora: dark green veins, bleeding death, Ch 25)
 - Mouse's gloves react to corrupted Embers differently - connection to Sister North is painful
-- "0.01%" - the catastrophic reading Mouse gets when connecting to Sister North through Zora's corrupted Ember
+- "0.01%" - **all that remains of humanity**. When Mouse connects to Sister North through Zora's corrupted Ember, she learns that of everyone she tried to save, only 0.01% survive in stasis. This is the story's most devastating revelation.
 
 ### The Central Dilemma (Ch 23) - RESOLVED
 Collecting Embers is NOT straightforward:

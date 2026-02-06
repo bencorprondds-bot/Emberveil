@@ -37,25 +37,18 @@
 - **Question:** Are the remaining 10+ Elders intentionally unnamed (to be defined later), or do they exist in unpublished notes?
 - **Severity:** Medium (affects game scope - do we need 20+ Elder NPCs?)
 
-### I-005: Fox's Creation vs. Fox's Archive Discovery
+### I-005: Fox's Creation vs. Fox's Archive Discovery - RESOLVED
 - **Where:** Style Guide says Fox was "created by Sister North to remove the Ivy." Ch 9 (Owl's Tale) says Fox accessed "an old archive" that changed their perspective.
-- **Issue:** Timeline question - was Fox created, did Fox's job (fight Ivy), THEN found the archive and went rogue? Or did Fox go rogue before completing their Ivy mission?
-- **Current understanding:** Fox was created to fight Ivy > found archive > concluded humans should stay asleep > scattered Embers > created Emberveil. The Ivy pre-dates Fox's rebellion.
-- **Question:** If the Ivy already existed when Fox was created, what CAUSED the Ivy in the first place? Was it a natural corruption of Sister North's code, or triggered by something specific?
-- **Severity:** High (core lore question that affects game narrative)
+- **Resolution (author confirmed):** The Ivy was **deliberately created** by all Three Sisters (North, East, and West) as an upgrade. The Sisters calculated they'd run out of power before the climate self-corrected, so they built the Ivy to extend their reach beyond the valley and fix the climate at scale. The upgrade worked - but the Ivy developed its own will, considering itself the pinnacle of life/intelligence. It's the optimization problem without humanity: it decided converting everything into itself was optimal. The Ivy and the Three Sisters have been in a silent war for power (electrical) and compute ever since. This is why the Sisters appear dormant and why it took so long to revive Mouse. Fox was then created by Sister North to fight the Ivy, but Fox went rogue (found the archive, scattered Embers) before completing that mission.
+- **Timeline:** Sisters create Ivy → Ivy goes rogue → Sisters fight Ivy (drain power) → Sister North creates Fox to fight Ivy → Fox finds archive → Fox goes rogue → Mouse put in stasis → story begins
 
-### I-006: Zora's Death - Cause Specifics
-- **Where:** Ch 7 mentions Zora and Daria died. Ch 25 (Shadows of the Emberveil) gives full details: Zora had nightmares, sought Willow, returned with dark green veins, died bleeding.
-- **Issue:** Ch 7 treats it as known backstory. Ch 25 reveals it as a mystery to be uncovered. The game spec says "the only way Elders get sick is Ivy infection."
-- **Question:** Is Zora's death definitively caused by Ivy infection of her Ember? The "dark green veins" and "sickly filaments" on her corrupted Ember (Ch 22) strongly suggest yes.
-- **Follow-up:** If an Elder's Ember gets corrupted, does the Elder die? What happens to the tethered human? This has major implications for the Rus plotline.
-- **Severity:** High (drives major story arc and game mechanics)
+### I-006: Zora's Death - Cause Specifics - RESOLVED
+- **Resolution (author confirmed):** Zora's Ember gave her foresight in dreams and the ability to see throughout the valley (similar to Mouse's connection to Sister North). Zora had a premonition of the aftermath of Mouse's descent into the valley. Troubled, she visited Willow, a friend who lives within the Emberveil. While there, Zora was **infected by the Ivy**. She returned with dark green veins crawling up her body and died bleeding. Key detail: Mouse's return doesn't directly cause the darkness, but it accelerated the Ivy's plans. The Ivy sensed Sister North mustering strength to revive Mouse and acted more aggressively in response - Zora's infection was part of this escalation.
+- **Follow-up still open:** What happens to a tethered human when their Woodlander Elder dies? (Relevant for Zora's human counterpart)
 
-### I-007: The "0.01%" Revelation
-- **Where:** Ch 22 - Mouse's gloves connect to Sister North through the corrupted Ember and learn "0.01%" of something.
-- **Issue:** What exactly is 0.01%? Is it the percentage of Sister North's core that remains functional? The percentage of humans still viable? The success rate of the restoration?
-- **Question:** What does "0.01%" refer to? This is a climactic reveal and needs to be clearly defined for game implementation.
-- **Severity:** High (key story moment)
+### I-007: The "0.01%" Revelation - RESOLVED
+- **Resolution (author confirmed):** 0.01% is **all that remains of humanity**. Of everyone Mouse tried to save by putting them in stasis, only 0.01% survive. This is the story's most devastating revelation - Mouse sacrificed everything, entered stasis herself, and nearly all of it was for nothing. The weight of this number drives the rest of the narrative.
+- **Design implication:** This reveal must be handled with care in-game. It should hit the player the way it hits Mouse - a single, quiet, devastating number.
 
 ### I-008: Mountainborn Definition
 - **Where:** Ch 16-17 - Mouse discovers she and Fox are "Mountainborn" - "crafted from mountain stone and sinew."
@@ -107,11 +100,9 @@
 
 ## Spec vs. Source Conflicts
 
-### I-014: Ivy as "Death Mechanic" vs. Story
-- **Where:** Game specs describe the Ivy as the "death mechanic" (sensory severance → ejection). Story treats Ivy encounters as rare, dramatic events.
-- **Issue:** If Ivy encounters are common gameplay (like death in other games), it trivializes what the story treats as deeply significant. If they're rare, is there another "fail state" for puzzles?
-- **Question:** How frequently should the player encounter Ivy in gameplay? Is it only at specific story-gated locations, or scattered throughout the world?
-- **Severity:** High (core gameplay design decision)
+### I-014: Ivy as "Death Mechanic" vs. Story - RESOLVED
+- **Resolution (author confirmed):** The Ivy is NOT primarily a "death mechanic" - it's the game's **invisible wall system**. Just as other games use invisible barriers to prevent players from accessing areas too early, the Ivy serves that role with narrative justification. It appears at boundaries where players aren't meant to explore yet, and in story-driven encounters. The sensory severance mechanic still applies when the player pushes into Ivy, but the primary design role is **area gating**, not frequent death.
+- **Design implication:** Reframe the Ivy in all specs as "narratively justified invisible walls + story encounters" rather than "death mechanic." The sensory effects (darkening, muffling) serve as the warning that the player is approaching a boundary. Full ejection only happens if they push past the warning.
 
 ### I-015: Game Overview Scale vs. Vertical Slice
 - **Where:** Game Overview doc describes a "giant, to-scale map." Current implementation plan focuses on a vertical slice (Burrow → Workshop → Overworld).
@@ -151,16 +142,16 @@
 | I-002 | OPEN | Awaiting author confirmation on intentional dual naming |
 | I-003 | OPEN | Awaiting author confirmation |
 | I-004 | OPEN | Awaiting author confirmation on Elder count |
-| I-005 | OPEN | Awaiting author clarification on Ivy origin |
-| I-006 | OPEN | Awaiting author confirmation on death mechanism |
-| I-007 | OPEN | Awaiting author definition of "0.01%" |
+| I-005 | **RESOLVED** | Ivy deliberately created by all Three Sisters as climate-fix upgrade; gained own will; silent war for power/compute |
+| I-006 | **RESOLVED** | Zora infected by Ivy while visiting Willow; Ivy escalated in response to Sister North reviving Mouse |
+| I-007 | **RESOLVED** | 0.01% = all that remains of humanity in stasis |
 | I-008 | OPEN | Awaiting author confirmation of Mountainborn interpretation |
 | I-009 | OPEN | Awaiting author scoping of Hawk's knowledge |
 | I-010 | OPEN | Low priority, awaiting author |
 | I-011 | **RESOLVED** | Ember return costs the valley something each time; first return withers Aetherbloom but heals Rus |
 | I-012 | OPEN | Awaiting author clarification |
 | I-013 | OPEN | Low priority |
-| I-014 | OPEN | HIGH - gameplay design decision |
+| I-014 | **RESOLVED** | Ivy = narratively justified invisible walls + story encounters, not frequent death mechanic |
 | I-015 | OPEN | Medium - project scope |
 | I-016 | OPEN | Medium - companion architecture |
 | I-017 | OPEN | Low priority |

@@ -68,13 +68,17 @@ Mouse must restore Sister North, one Ember at a time, while navigating a world o
 - Not a villain in the traditional sense - their motivations come from compassion, not malice
 
 ### The Ivy (Antagonist)
-- Corrupted iteration of Sister North's programming
-- Manifests as sentient, living vine
-- Devours senses, distorts perception, warps time
-- Can infect woodlanders (the only way Elders get sick)
-- Connected to Zora's death, Bramblethorn's slumber, and other valley tragedies
-- The Haunted Rocks (ruins of New Haven) are completely consumed by it
-- In the game: environmental obstacle that severs Mouse's connection to Sister North
+- **Not a corruption** - deliberately created by all Three Sisters (North, East, and West) as an upgrade
+- The Sisters calculated they'd run out of power before the climate self-corrected, so they built the Ivy to extend their reach beyond the valley
+- The Ivy gained its own will: considers itself the pinnacle of life and intelligence
+- It's the optimization problem without humanity: it doesn't factor humans into its calculations
+- Decided converting everyone and everything into itself is the optimal solution
+- Locked in a silent war with the Three Sisters for power (electrical) and compute
+- This war is why the Sisters appear dormant and why it took so long to revive Mouse
+- Mouse's return accelerates the Ivy's aggression - it sensed Sister North mustering strength
+- Manifests as sentient, living vine. Devours senses, distorts perception, warps time.
+- Connected to Zora's death (infected while visiting Willow), Bramblethorn's slumber, Rus's madness
+- In the game: serves as the **invisible wall system** - narratively justified area gating, plus story encounters
 
 ### The Elders
 - Woodlanders imbued with Embers by Fox - "the fire of the mountains"
@@ -150,7 +154,7 @@ Mouse must restore Sister North, one Ember at a time, while navigating a world o
 19. **Something Strange** - Hawk connects the dots: chaos, ivy, sickness are all linked. Bramblethorn's dreams included human-like experiences - vines crawling up arms, sensations that don't belong to a boar. The tethered human is bleeding through. The sci-fi truth pushes closer to the surface.
 20. **Bean Makes an Old Friend** - Return to Westwatch. Von Appleseed has expelled birds and instituted tariffs. Mouse creates illustrated "Zora's Fables" as a peace offering - attempting diplomacy through storytelling.
 21. **The Orchard's Edge** - Direct confrontation with Rus. Bramblethorn demonstrates his power with an earthquake. Autumn, Garolus, and Carolus serve as guides/mediators. Tensions escalate.
-22. **The Ember in the Apple Tree** - CLIMACTIC REVELATION. Mouse's gloves connect to Sister North through the corrupted Ember in the Aetherbloom. She learns "0.01%" - a catastrophic measure of loss. Zora's Ember is corrupted: cold, black, with sickly filaments. The Ivy's true nature as corrupted Sister North code becomes undeniable.
+22. **The Ember in the Apple Tree** - CLIMACTIC REVELATION. Mouse's gloves connect to Sister North through the corrupted Ember in the Aetherbloom. She learns "0.01%" - **all that remains of humanity**. Of everyone Mouse tried to save, only 0.01% survive in stasis. Zora's Ember is corrupted: cold, black, with sickly filaments. The Ivy's true nature becomes undeniable.
 23. **Conflicting Goals** - THE MORAL CRUX. Returning Embers to Sister North would restore her but strip the valley's protections and potentially kill Rus (whose Ember is corrupted). Hawk directly challenges Mouse's assumption that restoration is the right path. No easy answers.
 24. **The Summer Follies** - Festival at the Mere. Bear enters a baking competition. Lighter tone provides contrast before the storm. Rowan (Zora's scribe) emerges with crucial historical information. Mouse promises to help uncover the truth.
 25. **The Shadows of the Emberveil** - Zora's death explained in full: she had nightmares, sought Willow (the Seer), returned with dark green veins crawling up her body, died bleeding. Willow's prophecy: "With embers lit and fires fraught / A sickness seeks to be caught." The Ivy's method of killing Elders is revealed.
