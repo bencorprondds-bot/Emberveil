@@ -1,39 +1,49 @@
 # Companion System Specification
 
+<!-- Source Material: Style Guide, Chapters 1-5, Character Sheets -->
+<!-- Full Lore: Google Docs Character Sheets folder, The Elders subfolder -->
+
 ## Overview
-Mouse recruits friends who accompany her on adventures. Each companion has unique abilities that unlock new puzzle solutions and dialogue options.
+Mouse recruits friends who accompany her on adventures. Each companion has unique abilities that unlock new puzzle solutions. They are friends with agency, not followers - they have opinions, refuse when something feels wrong, and comment on the world from their own perspective.
 
 ## Design Principles
-- Companions are **friends, not followers** - they have personality and agency
-- They **comment on the world** - adding flavor dialogue as you explore
-- They **unlock new solutions** - not just combat buffs, but genuine new ways to interact
-- They **can refuse** - if something seems dangerous or wrong, they'll say so (cozy game reinforcement)
+- Companions are **friends, not tools** - they have personality and will disagree with you
+- They **comment on the world** - adding flavor and their own perspective
+- They **unlock new solutions** - genuine new ways to interact with the environment
+- They **can refuse** - cozy game reinforcement; no one is forced into danger
+- They reflect the theme of **community and mutual aid**
+- Hawk specifically asked Mouse to **hide her abilities from Bear** - this creates social tension
 
 ---
 
 ## Companions
 
-### Hawk
-- **Recruitment:** After crafting her glasses (first quest)
-- **Visual:** Gray sprite, follows Mouse but perches on elevated objects when idle
-- **Ability: Eagle Eye** - Can spot hidden items, see farther, identify objects from a distance
-- **Puzzle use:** Spot hidden paths, read distant signs, find items in cluttered rooms
-- **Personality in gameplay:**
+### Hawk (First Companion)
+- **Recruitment:** After crafting her glasses (Chapter 3, first quest)
+- **Visual:** Gray sprite (placeholder), perches on elevated objects when idle
+- **Personality:** Scholarly, pragmatic, anxious, methodical. Careful planner.
   - Offers observations about surroundings
   - Nervous about going underground
   - Excited about high places
-  - Methodical - comments on puzzle solutions before you attempt them
+  - Comments on puzzle solutions before you attempt them
+  - Respects the valley's social structures
+- **Ability: Eagle Eye** - Spot hidden items, see farther, identify objects at distance
+- **Puzzle use:** Find hidden paths, read distant signs, locate items in cluttered rooms
+- **Key lore:** Hawk is an Elder (carries an Ember). This may not be revealed immediately.
+- **Dialogue voice:** Short, precise sentences. Visual metaphors. Occasionally self-deprecating about her vision.
 
-### Bear
-- **Recruitment:** After dialogue at the river (Phase 5)
-- **Visual:** Brown sprite, follows Mouse at a distance, larger hitbox
-- **Ability: Strength** - Can help lift heavy objects, push large obstacles, carry more
-- **Puzzle use:** Clear blocked paths (heavy logs, boulders), hold things in place
-- **Personality in gameplay:**
+### Bear (Second Companion)
+- **Recruitment:** After dialogue during winter storm arrival (Chapter 5)
+- **Visual:** Brown sprite (placeholder), larger hitbox, follows at distance
+- **Personality:** Young, endearing, earnest, enthusiastic but clumsy.
   - Offers to help with everything (even when not needed)
-  - Talks about food and the old days
+  - Talks about food constantly
   - Protective - positions himself between Mouse and anything unfamiliar
-  - Enthusiastic but clumsy
+  - Learning as he goes - he's a yearling, still figuring things out
+  - Doesn't know about Mouse's full abilities (Hawk asked Mouse to hide them)
+- **Ability: Strength** - Help lift heavy objects, push large obstacles, carry more
+- **Puzzle use:** Clear blocked paths (heavy logs, boulders), hold things in place
+- **Dialogue voice:** Warm, slightly rambling. Food metaphors. Asks questions. Encouraging.
 
 ---
 
@@ -43,15 +53,16 @@ Mouse recruits friends who accompany her on adventures. Each companion has uniqu
 ```
 Fields:
 - activeCompanion: CompanionData (ScriptableObject)
-- companionObject: GameObject (the companion in the scene)
-- followDistance: float (how far behind they trail)
+- companionObject: GameObject
+- followDistance: float (default 2 units)
 - isFollowing: bool
+- companionRoster: List<CompanionData> (recruited companions)
 
 Methods:
-- RecruitCompanion(CompanionData) - Add companion to roster
-- SetActiveCompanion(CompanionData) - Switch active companion
-- DismissCompanion() - Send companion home (they wait at their location)
-- GetActiveCompanion() - Returns current companion or null
+- RecruitCompanion(CompanionData)
+- SetActiveCompanion(CompanionData)
+- DismissCompanion()
+- GetActiveCompanion()
 
 Events:
 - OnCompanionRecruited
@@ -60,37 +71,43 @@ Events:
 ```
 
 ### Follow Behavior
-- Companion follows Mouse at `followDistance` (default 2 units)
-- Smooth interpolation movement (no jittering)
-- Stops when Mouse stops
-- Has idle animations/behaviors when waiting
+- Companion follows Mouse at `followDistance` (2 units)
+- Smooth interpolation movement
+- Stops when Mouse stops, has idle behaviors
 - Can be "parked" at specific locations
+- Hawk perches on elevated surfaces; Bear stands near Mouse
 
 ### Companion-Gated Puzzles
-- `LiftableObject` already has `requiresCompanion` field
-- Extend to support specific companion requirements: `requiredCompanionType`
-- When player tries without the right companion, show contextual dialogue:
+- `LiftableObject` has `requiresCompanion` field (existing)
+- Extend with `requiredCompanionType` for specific companion needs
+- Contextual dialogue when wrong/no companion:
   - "This is too heavy for Mouse alone..." (needs Bear)
   - "I can't see what's up there..." (needs Hawk)
 
 ### Companion Dialogue
-- Companions have ambient dialogue triggered by:
-  - Entering new areas
-  - Examining specific objects
-  - Being idle for too long
-  - Completing puzzles
-- Implemented as short Yarn Spinner nodes, not full conversations
+Ambient dialogue triggered by:
+- Entering new areas
+- Examining specific objects
+- Being idle too long
+- Completing puzzles
+- Story events (Ivy encounters, Fox sightings, Ember discoveries)
 
 ---
 
 ## Future Companions (Deferred)
 
-### Bramblethorn (Rideable mount)
-- Large friendly creature, possibly deer-like
-- Can traverse difficult terrain
+### Bramblethorn
+- Elder character, currently in slumber (Ivy-related)
+- Once awakened: rideable mount, traverse difficult terrain
 - Unlocks fast travel between known locations
 
-### Bean (Hint System NPC)
+### Bean (Hint System)
 - Not a traditional companion - appears contextually
-- Pops up when player is stuck
-- Offers gentle nudges, never solutions
+- Pops up when player is stuck (60+ seconds)
+- Gentle nudges, never solutions
+- Small rabbit kit, cheerful and scattered
+
+### Other Valley Characters
+- 25+ supporting characters exist in the lore (see Character Sheets in Google Docs)
+- Many could become quest-givers, temporary companions, or story NPCs
+- Full roster documented in `.ralph/docs/DOCUMENT_CATALOG.md`

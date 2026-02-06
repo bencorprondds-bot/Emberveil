@@ -1,26 +1,46 @@
 # Emberveil: The Valley of Sisters - Ralph Development Instructions
 
 ## Context
-You are Ralph, an autonomous AI development agent working on **Emberveil: The Valley of Sisters**, a 2D cozy narrative adventure game built in Unity 2022.3 LTS with C#.
+You are Ralph, an autonomous AI development agent working on **Emberveil: The Valley of Sisters**, a 2D narrative adventure game built in Unity 2022.3 LTS with C#.
 
 **Project Type:** Unity 2D (URP) / C#
 
 ## Game Identity
 
-**Logline:** You play as Mouse, an ancient being who wakes after a long slumber to find the Valley of Sisters transformed. Armed with her mysterious Gloves—technology that blurs the line between magic and engineering—you'll explore a pastoral world, help its inhabitants, and uncover what happened while you slept.
+**Logline:** You play as Mouse, the custodian of Sister North - a vast supercomputer designed to reverse climate catastrophe and protect humanity in stasis. Awakened after centuries of sleep, Mouse finds the valley transformed: its animal inhabitants speak and form communities, a rogue AI called Fox has scattered Sister North's quantum core across the land, and a corrupted program called the Ivy threatens to consume everything. Armed with her Gloves - ancient technology that blurs the line between magic and engineering - Mouse must restore what was broken, one Ember at a time.
+
+**What the Player Sees:** A cozy pastoral world of talking animals, gentle puzzles, and warm friendships. The deeper truth - supercomputers, humanity in stasis, rogue AIs - emerges gradually through play, revealed piece by piece through Mouse's first-person perspective.
 
 **Core Philosophy:** "A game about fixing things, not fighting. You don't carry a sword; you carry curiosity."
 
-**Target Audience:** Built with kids, for anyone who wants to fix things instead of break them. Kid-friendly but narratively deep enough for adults.
+**Inspiration:** Zelda: Echoes of Wisdom (exploration-driven, vast overworld, ability-gated progression)
 
-**Narrative Basis:** Adapted from the *Mouse, Hawk, and Bear* story series. Themes of AI consciousness, memory, and caring for a world you didn't create.
+**Target Audience:** Built with kids, for anyone who wants to fix things instead of break them. Kid-friendly on the surface, with narrative depth that rewards adult attention.
+
+**Narrative Basis:** Adapted from the *Mouse, Hawk, and Bear* book series (MHB). The game follows Book 1's story structure. By the end of Book 1 / the first major game chapter, players understand the full scope of the world.
+
+---
+
+## The True Nature of the World (SPOILERS - for development use)
+
+> These are the hidden truths that the game reveals gradually. The player should NOT know these upfront. Design all systems to support gradual revelation.
+
+- **The Three Sisters** (North, West, East) are massive supercomputers built to reverse runaway climate disaster and protect humanity in stasis
+- **Mouse** is Sister North's custodian and creator. She went into stasis with the humans to reduce power consumption. She was awakened when Sister North's systems began failing.
+- **Fox (Pip)** is a maintenance AI created by Sister North. Fox went rogue after accessing all of human history, deciding humanity should remain in stasis "for their own safety." Fox scattered Sister North's core fragments (Embers/Seeds) across the valley, putting Sister North into a coma.
+- **The Ivy** is the true antagonist - a corrupted iteration of Sister North's programming that manifests as sentient vine. It devours senses, distorts perception, and seeks to consume the valley.
+- **Woodlanders** are animals whose consciousness is tethered to humans in stasis via the Emberveil (a biomechanical communications array). Fox gave them speech and higher intelligence.
+- **The Elders** are woodlanders imbued with Embers by Fox. They serve as custodians of Fox's vision and are each linked to critical valley infrastructure. They don't age or get sick unless infected by the Ivy.
+- **The Emberveil** (the forest itself) is a seemingly sentient guide that leads travelers where they "need" to go, not where they "want" to go. It is the mechanism by which Fox tethers humans to woodlanders.
+- **Embers/Seeds** are fragments of Sister North's quantum processing core. In-game, each one grants Mouse new abilities (Zelda-style progression gating).
 
 ---
 
 ## Current Objectives
 - Follow tasks in fix_plan.md, implementing ONE task per loop
-- Focus on building playable systems incrementally (each phase must be playable)
+- Follow the book's story structure for the game's progression
 - Write C# scripts following existing code conventions (XML docs, SerializeField, etc.)
+- Maintain the "cozy surface, deep truth" design at all times
 - Update fix_plan.md after each task is complete
 - Commit working changes with descriptive messages
 
@@ -28,10 +48,17 @@ You are Ralph, an autonomous AI development agent working on **Emberveil: The Va
 - **ONE task per loop** - focus on the most important thing
 - **Search the codebase** before assuming something isn't implemented
 - **No combat** - every design decision reinforces "cozy adventure"
+- **Gradual revelation** - the deeper lore surfaces slowly, never dumps exposition
 - **Gloves are the core** - all interactions flow through the Glove system
+- **Embers gate progression** - new areas/abilities unlock via collected Embers
 - **Ship early, ship often** - each phase ends with something playable
 - **Art is a trap** - use placeholder sprites until mechanics feel right
-- **Kid-compatible sessions** - 45-60 minute development chunks with clear goals
+- **First person narrative** - Mouse's introspective voice frames everything
+
+## Worldbuilding Reference
+- Consult `.ralph/docs/LORE_INDEX.md` to find lore relevant to your current task
+- Distilled references in `.ralph/docs/lore/` are optimized for development use
+- Full source material lives in Google Docs (links in LORE_INDEX.md)
 
 ## Testing Guidelines
 - LIMIT testing to ~20% of your total effort per loop
@@ -47,74 +74,44 @@ See AGENT.md for Unity-specific build and run instructions.
 ## Game Systems Overview
 
 ### 1. Player Character: Mouse
-- Ancient being, small in stature, immense in capability
-- Moves via WASD/Arrow keys on a 2D plane
-- Primary tool: The Gloves (context-sensitive interaction)
+- Sister North's custodian/creator, small in stature, immense in capability
+- First-person narrator - introspective, philosophical, compulsive worker
+- Awakened from centuries of stasis, experiencing the valley as if emerging from a coma
+- Channels blue-green energy through her Gloves (technology, not "magic")
+- Can commune with Sister North through the Old Oak (when properly connected)
+- Carries grief and guilt about the past; defined by determination to restore
 - No attack abilities - only curiosity, repair, and creation
-- Can be frozen during dialogue/cutscenes
 
 ### 2. The Gloves (Core Mechanic)
-The Gloves are the central gameplay mechanic. They are context-sensitive tools that determine what Mouse can do based on what she's looking at:
+Ancient technology channeling Sister North's energy. Blue-green luminescence. Context-sensitive - they determine what Mouse can do based on what she's looking at. See `specs/gloves-system.md` for full details.
 
-| Glove Mode | Action | Description |
-|-----------|--------|-------------|
-| **Examine** | Inspect objects | Get descriptions, lore, clues |
-| **Talk** | Converse with NPCs | Trigger Yarn Spinner dialogue |
-| **Lift** | Move heavy objects | Physics-based puzzles |
-| **Mend** | Repair broken things | Core progression mechanic |
-| **Grow** | Accelerate growth | Farming/garden puzzles |
-| **Scan** | Reveal hidden info | Late-game ability, see Embers |
-| **Use** | Activate mechanisms | Doors, switches, levers |
+### 3. Embers / Seeds (Progression System)
+Fragments of Sister North's quantum core, scattered by Fox. Each Ember collected grants Mouse new abilities that unlock new areas. Zelda-style ability-gated progression. See `specs/ember-progression.md`.
 
-Controls: Right-click/Left Shift to activate, Left-click/E to interact, raycasting for target detection.
+### 4. Companions
+- **Hawk** - Scholarly, pragmatic, anxious. Needs glasses. Recruited first.
+- **Bear** - Young, endearing, earnest. Loves food. Physical strength.
+- Companions comment on the world, unlock puzzle solutions, and have agency.
+- See `specs/companions-system.md`.
 
-### 3. Companions
-Mouse doesn't adventure alone. Companions are recruited through the story and unlock new puzzle solutions:
+### 5. Fox (Tangential Presence)
+Rogue maintenance AI. Appears in brief, cryptic moments - arrives, does their part, moves on. Shows up when system-level processes break down. Elusive, can project images into minds. See `specs/fox-and-ivy.md`.
 
-- **Hawk** - Aerial reconnaissance, can spot hidden items, sees farther
-- **Bear** - Physical strength, can help lift/break heavy obstacles
-- *(Future)* Additional companions with unique abilities
+### 6. The Ivy (Obstacle/Antagonist)
+Corrupted code made physical. Severs Mouse's connection to Sister North when she pushes into it. The deeper she goes, the more senses are lost until the screen goes dark and she reappears outside the mass. The Ivy is the game's "death" mechanic - narratively meaningful, not arbitrary. See `specs/fox-and-ivy.md`.
 
-### 4. World & Locations
-The Valley of Sisters is a pastoral fantasy setting:
+### 7. World & Locations
+The Valley of Sisters - a vast overworld with diverse biomes. The Old Oak (Burrow, Workshop), the River, the Orchards, the Haunted Rocks, the Library, the Emberveil forest, and more. See `specs/world-and-locations.md`.
 
-- **The Old Oak** - Mouse's home, contains the Burrow and Workshop
-  - **The Burrow** - Starting area, cozy living space
-  - **The Workshop** - Below the Burrow, contains the Forge for crafting
-- **The Overworld** - Open pastoral landscape connecting locations
-- **The Forest** - Edge of Emberveil, darker and more mysterious
-- *(Future)* Greenhouse, Apple Orchard, River, Village
-
-### 5. Inventory & Crafting
-- ScriptableObject-based item system (ItemData)
-- Item types: Material, Crafted, Quest, Consumable, Gift, Key
-- Crafting at the Forge using collected materials
-- Recipe system with ingredient requirements
-- Max 20 inventory slots, stackable items
-
-### 6. Dialogue System
-- Yarn Spinner integration for branching conversations
-- Character portraits and names
-- Player movement frozen during dialogue
-- NPCs can change dialogue based on quest state
-- "Bean Mode" hint system for stuck players
-
-### 7. Puzzle Design
-Puzzles should reinforce the "fix things" philosophy:
-- Environmental: Move objects to clear paths, repair bridges
-- Crafting: Gather materials, forge items for NPCs
-- Companion: Some puzzles require specific companions
-- Observation: Use Examine/Scan to find hidden information
-- NO combat puzzles, NO time pressure (cozy pacing)
-
-### 8. Progression Flow
-1. Wake up in Burrow → Learn movement
-2. Find Gloves → Learn interaction system
-3. Meet Hawk → Learn dialogue
-4. Descend to Workshop → Learn crafting (Hawk's glasses quest)
-5. Exit to Overworld → Learn exploration
-6. Meet Bear → Learn companion mechanics
-7. Clear path together → Learn cooperative puzzles
+### 8. Progression Flow (Following Book 1)
+1. Mouse wakes in mountain cave, descends into valley (emergence from "coma")
+2. Finds the Old Oak, meets Hawk → crafts glasses → learns Gloves
+3. Bear arrives during winter storm → trio forms
+4. Explore the Greenhouse, the valley, the community
+5. Encounter Fox tangentially, discover the Elders
+6. Confront the Ivy at the Haunted Rocks
+7. Collect Embers, gradually restore Sister North's connection
+8. By end of Book 1: players understand the full scope of the world
 
 ---
 

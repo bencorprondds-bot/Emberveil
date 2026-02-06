@@ -1,99 +1,148 @@
 # Narrative Design Specification
 
+<!-- Source Material: Google Docs MHB1/1-MK2 completed chapters, Style Guide -->
+<!-- Full Lore: https://drive.google.com/drive/folders/163D-xVZ8_hFltkd8vfTTyA6i9DBRfo_e -->
+
 ## Story Summary
 
-Mouse is an ancient being - small, quiet, immensely capable - who wakes after a long slumber inside the Old Oak in the Valley of Sisters. The world she knew has changed. The valley's systems are broken, its inhabitants struggling, and the Embers (the valley's life force) are fading.
+Mouse is the custodian and creator of Sister North, one of three massive supercomputers (the Three Sisters) built to reverse runaway climate catastrophe and preserve humanity in stasis. To reduce power consumption, Mouse entered stasis alongside the humans she was trying to save. Centuries later, she awakens because Sister North's systems are failing.
 
-Using her Gloves, Mouse sets out to repair what's broken, reconnect with old friends, and discover what happened while she slept.
+The world she finds is unrecognizable. A maintenance AI called Fox has gone rogue, scattering Sister North's quantum core (the Embers) across the valley. Fox gave the valley's animals speech and consciousness by tethering them to the sleeping humans via the Emberveil - a biomechanical communications array disguised as a sentient forest. Meanwhile, a corrupted iteration of Sister North's code - the Ivy - manifests as a living vine that devours senses and threatens to consume everything.
+
+Mouse must restore Sister North, one Ember at a time, while navigating a world of talking animals who have built their own rich society. She carries grief for the humanity she couldn't save, guilt about her past, and the growing realization that "fixing things" is far more complex than she remembers.
 
 ## Themes
 1. **Repair over destruction** - Every challenge is solved by fixing, building, or growing
-2. **AI consciousness & memory** - Mouse's nature raises questions about what it means to wake up, to remember, to care
-3. **Caring for worlds you didn't create** - Stewardship, not ownership
-4. **Community & friendship** - Problems are solved together with companions
-5. **Curiosity as a superpower** - Understanding precedes action
+2. **Gradual revelation** - The sci-fi truth hides beneath a pastoral fairy tale surface
+3. **AI consciousness & identity** - What does it mean to wake up? To remember? To be responsible?
+4. **Caring for worlds you didn't plan** - Fox created something Mouse never intended. It has value anyway.
+5. **Community & mutual aid** - Woodlanders help each other "without asking for anything in return"
+6. **The cost of good intentions** - Fox's rogue decision came from compassion, not malice
+
+## Narrative Voice
+- **First person, Mouse's perspective** - intimate, introspective, retrospective
+- Chapters open with Mouse's philosophical notes to an unnamed "you"
+- The reader/player learns things as Mouse does - her limited perspective prevents exposition dumps
+- Lore is revealed piece by piece, never all at once
+- Blend of wonder and underlying tension - idyllic surface, existential undercurrent
 
 ## Main Characters
 
-### Mouse (Protagonist)
-- Ancient being, small stature
-- Quiet, thoughtful, observant
-- Wakes after a long slumber with fragmented memories
-- Deeply skilled with the Gloves
-- Doesn't speak much - actions over words
-- Player avatar - dialogue choices define her personality
+### Mouse (Protagonist / Player Character)
+- Sister North's custodian and creator
+- Physically small, immensely capable
+- Introspective, compulsive worker, deeply emotional beneath practical exterior
+- Channels blue-green energy through her Gloves
+- Can levitate objects, resurrect dead plants, forge items, sense living things
+- Was once a teacher guiding humanity through climate catastrophe
+- Carries grief for lost friends, lost students, a lost world
+- The Old Oak responds to her presence - produces supernatural warmth, awakens from dormancy
+- Her connection to Sister North grows stronger as she collects Embers
 
 ### Hawk
-- Sharp-eyed, practical, slightly anxious
+- Sharp-eyed (when she has glasses), scholarly, pragmatic, slightly anxious
 - Lives in the upper branches of the Old Oak
-- Needs new glasses (first quest) - can barely see
-- Once glasses are crafted, becomes a companion with aerial abilities
-- Personality: careful planner, worries about details, loyal
+- Nearly blind without glasses - drives the first quest
+- Asks Mouse to hide her magical/technological abilities from Bear
+- The practical voice of the trio - careful planner, worries about details
+- Community-minded, respects the valley's social structures
+- Nervous about going underground, excited about high places
 
 ### Bear
-- Large, warm, loves food and nature
-- Found in the Overworld near the river, fishing
-- Talks about pie and the old days
-- Physical strength makes him essential for heavy puzzles
-- Personality: gentle giant, nostalgic, encouraging
+- Young yearling, arrived during a winter storm, starving from failed hibernation prep
+- Endearing, earnest, enthusiastic but sometimes clumsy
+- Never learned survival skills; becomes industrious when motivated
+- Learns fishing from the trio, cooking from Mouse
+- Physically strong - essential for heavy puzzles
+- Loves food, talks about pie and the old days
+- Protective - positions himself between Mouse and anything unfamiliar
 
-### Bean (Future - Hint System)
+### Fox (Pip)
+- Maintenance AI created by Sister North
+- Went rogue after accessing all of human history in an old archive
+- Decided humanity should remain in stasis "for their own safety"
+- Scattered Sister North's core (Embers) across the valley
+- Cryptic, elusive, can project images into minds
+- Appears only when system-level processes break down, not for individual problems
+- In the game: tangential presence. Brief moments where Fox arrives, does their part, moves on
+- Not a villain in the traditional sense - their motivations come from compassion, not malice
+
+### The Ivy (Antagonist)
+- Corrupted iteration of Sister North's programming
+- Manifests as sentient, living vine
+- Devours senses, distorts perception, warps time
+- Can infect woodlanders (the only way Elders get sick)
+- Connected to Zora's death, Bramblethorn's slumber, and other valley tragedies
+- The Haunted Rocks (ruins of New Haven) are completely consumed by it
+- In the game: environmental obstacle that severs Mouse's connection to Sister North
+
+### The Elders
+- Woodlanders imbued with Embers by Fox
+- Each linked to critical valley infrastructure/lore
+- Don't age or get sick (unless Ivy-infected)
+- Custodians of Fox's vision for the valley
+- Known Elders: Hawk, Bramblethorn, Zora, Anwin, Dr. Shellby, Wei the Heron, Wolfmother, Raj the Tiger, Leviathan
+
+### Bean
 - Small rabbit kit
-- Appears when player is stuck (60+ seconds of no meaningful action)
-- Offers gentle hints as dialogue
-- Personality: cheerful, curious, a bit scattered
+- Goes missing (Chapter 14) - drives a major story arc
+- Makes an "old friend" (Chapter 20) - likely Fox connection
+- In the game: hint system character who appears when player is stuck
 
-## Narrative Structure
+## Story Structure (Book 1 / Game Chapter 1)
 
-### Act 1: Awakening (Phases 1-3)
-- Mouse wakes in the Burrow
-- Discovers the Gloves
-- Meets Hawk, learns the valley has changed
-- First quest: Craft glasses for Hawk in the Workshop
-- Hawk joins as companion
+### Act 1: Awakening (Chapters 1-5)
+1. **Mouse Wakes Up** - Emerges from mountain cave, descends into valley. Encounters Fox briefly. Finds the Old Oak. Meets Hawk (injured, can't see). Offers to craft glasses.
+2. **Digging a Burrow** - Mouse and Hawk dig out the Burrow. The Old Oak produces supernatural warmth. They establish a home.
+3. **The Workshop** - Mouse descends to the Workshop beneath the Burrow. Uses the Forge (blue-green energy via Gloves) to craft Hawk's glasses. Reveals she was there before woodlanders could speak.
+4. **Essentia** - (Details to be read) - Likely introduces core valley mechanics
+5. **Don't Bears Need to Hibernate?** - Bear arrives during winter storm, starving. Mouse and Hawk take him in. Chess, cards, fishing lessons. Bear becomes a regular visitor.
 
-### Act 2: Exploration (Phases 4-5)
-- Mouse exits the Old Oak for the first time
-- Discovers broken infrastructure in the valley
-- Meets Bear, recruits him
-- Uses Mend ability to begin restoring the valley
-- Grows things in the Greenhouse
+### Act 2: Community (Chapters 6-14)
+6. **The Greenhouse** - Exploration of the growing system
+7. **A Thanksgiving** - Community gathering, woodlander culture
+8. **The Fabula Noctua** - Story/lore delivery
+9. **Owl's Tale** - Elder lore, deeper worldbuilding
+10. **A Rout of Rabbits** - Rabbit community, Clover's family
+11. **The Mad Squirrel King** - Von Appleseed, corrupted by Embers
+12. **Building Westwatch Warren** - Community construction
+13. **The Queen's Chamber** - Underground exploration
+14. **Bean is Missing** - Major plot turn, search begins
 
-### Act 3: Restoration (Future)
-- Full exploration of the Valley of Sisters
-- Multiple quest chains helping valley inhabitants
-- Uncovering what caused the decay
-- The Ember system and deeper lore
-- Climactic restoration event
+### Act 3: Confrontation (Chapters 15-26+)
+15. **The Haunted Rocks** - Ruins of New Haven, consumed by the Ivy. Senses distorted, time warped.
+16. **The Library** - Sentient structure that produces books from reader's thoughts
+17. **The Elders** - Meeting the Ember-imbued custodians
+18. **Seeking Bramblethorn** - Finding the slumbering Elder
+19-26. Escalating confrontation with the Ivy, Fox encounters, Ember collection, Summer Follies festival, climactic events
 
-## Dialogue Design Principles
-- **Show, don't tell** - Let the world communicate through its state (broken vs. repaired)
-- **Short exchanges** - No exposition dumps. Quick, characterful dialogue.
-- **Choice matters contextually** - Dialogue options change based on inventory, companions, and world state
-- **Kid-friendly** - No dark themes, violence, or scary content. Melancholy is okay; despair is not.
+### Parallel: Human Survivor Timeline
+- Chapters about humans "Under the Wall," "Cherry Pie," "Back Down the Mountain"
+- These may appear as found documents, dreams, or Ember-triggered memories in the game
 
-## Quest Design: Hawk's Glasses (First Quest, Vertical Slice)
+## Quest Design: Hawk's Glasses (First Quest / Tutorial)
 
 ### Setup
-Hawk can barely see. She mentions needing new glasses but the old lens-grinder is gone.
+Hawk can barely see. Mouse finds her injured near the Old Oak.
 
 ### Steps
-1. Talk to Hawk in the Burrow - she explains the problem
+1. Meet Hawk in/near the Old Oak - she explains she can't see
 2. Hawk mentions the Workshop below might have what's needed
 3. Descend to Workshop - find it in disrepair
-4. Find Metal Frames on a workbench (pickup)
-5. Find Lenses in a dusty drawer (examine + pickup)
-6. Use the Forge to craft Hawk's Glasses
-7. Return to Burrow, give glasses to Hawk
-8. Hawk thanks Mouse, can now see clearly
-9. Hawk offers to be a companion (unlocks companion system)
+4. Find Metal Frames on a workbench
+5. Find Lenses in a dusty drawer
+6. Use the Forge to craft Hawk's Glasses (blue-green energy animation)
+7. Give glasses to Hawk
+8. Hawk thanks Mouse, can see clearly for the first time
+9. Hawk asks Mouse to hide her abilities from others (important character moment)
 
 ### Emotional Arc
-Confusion → Discovery → Accomplishment → Friendship
+Confusion → Discovery → Accomplishment → Friendship → First Secret
 
-## World-Building Notes
-- The Valley of Sisters has a pastoral European countryside feel
-- Technology is embedded in nature (the Gloves look like garden gloves with faint circuitry)
-- "Embers" are the valley's energy/life force - visible as floating motes of light
-- The Old Oak is literally a giant oak tree that's been hollowed into a home
-- Time feels gentle - no urgency, no countdown timers, no fail states
+## Dialogue Design Principles
+- **Show, don't tell** - The world communicates through its state
+- **Short exchanges** - No exposition dumps. Quick, characterful dialogue.
+- **First-person framing** - Mouse's internal monologue contextualizes everything
+- **Lore piece by piece** - Never reveal the full truth at once
+- **Kid-friendly surface** - No dark themes, violence, or scary content visible upfront
+- **Earned depth** - The philosophical weight is there for players who look for it
