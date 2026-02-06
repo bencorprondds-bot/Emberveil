@@ -29,6 +29,16 @@ Fox appears **tangentially** - brief, scripted moments:
 - Fox's appearances should feel mysterious and slightly unsettling
 - After Fox leaves, Mouse's internal monologue processes what happened
 
+### Known Fox Appearances (from chapters)
+1. **Ch 1** - Brief glimpse during Mouse's descent from the mountain cave
+2. **Ch 7** - Referenced: Fox once appeared at Otterdam to repair the dam
+3. **Ch 9** - Fox whispers to Owl. Tells Mouse "I set the valley free"
+4. **Ch 14** - Fox appears in the ruins of the Haunted Rocks when Bean goes missing
+5. **Ch 15** - Fox navigates the Ivy confidently (immune to it), helps locate Bean
+6. **Ch 16** - Referenced: The Library has no record of Fox or pre-Woodlander history
+7. **Ch 17** - Referenced: Fox gave Elders "the fire of the mountains" (Embers)
+8. **Ch 22** - Mouse connects to Sister North through corrupted Ember, learns Fox's full impact
+
 ### Technical Implementation
 - Fox is NOT an NPC you walk up to and talk to
 - Fox encounters are triggered events / cutscenes
@@ -47,9 +57,14 @@ Fox appears **tangentially** - brief, scripted moments:
 - Devours senses: sight, sound, smell, touch fade progressively
 - Distorts perception and can warp time
 - Can infect woodlanders - the only way an Elder gets sick
-- Connected to multiple valley tragedies: Zora's death, Bramblethorn's slumber
+- Connected to multiple valley tragedies: Zora's death, Bramblethorn's slumber, Rus's madness
 - Fox was originally created to fight the Ivy but went rogue instead
 - The Haunted Rocks (ruins of New Haven, the old human city) are completely consumed by it
+- Can corrupt Embers: Zora's Ember turned cold, black, with sickly filaments (Ch 22)
+- Corrupted Embers cause Elder madness (Rus's red-glowing eyes, Ch 26) or death (Zora, Ch 25)
+- Zora's death sequence: nightmares → sought Willow → returned with dark green veins → died bleeding
+- Bramblethorn's slumber is Ivy-induced - he dreams of human-like experiences (tether bleeding through)
+- Willow's prophecy: "With embers lit and fires fraught / A sickness seeks to be caught"
 
 ### Game Mechanic: Sensory Severance
 The Ivy is the game's primary obstacle and "death" mechanic:

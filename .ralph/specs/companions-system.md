@@ -111,3 +111,19 @@ Ambient dialogue triggered by:
 - 25+ supporting characters exist in the lore (see Character Sheets in Google Docs)
 - Many could become quest-givers, temporary companions, or story NPCs
 - Full roster documented in `.ralph/docs/DOCUMENT_CATALOG.md`
+
+### Key NPCs from Chapters (potential quest-givers, story characters)
+- **Tiny** - Raccoon, runs the Ringtail Tavern. Social hub for the valley. (Ch 8)
+- **Daisy & Diggory** - Badger innkeepers. Community fixtures. (Ch 8)
+- **Dr. Shellby** - Tortoise therapist/Elder. Wise, slow, deliberate. (Ch 8)
+- **Owl** - Outsider who arrives with a creation myth. Fox whispers to Owl. (Ch 8-9)
+- **Clover** - Rabbit matriarch of the Westwatch community. (Ch 10, 12)
+- **Rus (Von Appleseed)** - Mad Squirrel King. Corrupted Ember. Grief-driven tyrant. (Ch 11, 13, 21, 26)
+- **Autumn** - Rus's compassionate sister. Potential ally for diplomacy. (Ch 11, 21)
+- **Garolus & Carolus** - Guides/mediators in the orchard conflict. (Ch 21)
+- **Honeybadger glassmakers** - Artisan community, help build Westwatch. (Ch 12)
+- **Rue** - Shrew librarian. Custodian of the Library. (Ch 16)
+- **Rowan** - Zora's scribe. Holds crucial historical records about Zora's death. (Ch 24-25)
+- **Willow** - Seer figure. Gives key prophecy. Zora sought Willow before dying. (Ch 25)
+- **Mullvad** - Mole community. Help with greenhouse construction. (Ch 6)
+- **Driftwoods** - Beaver family. Community builders. (Ch 6)

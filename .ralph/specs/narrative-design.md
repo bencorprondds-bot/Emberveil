@@ -77,17 +77,50 @@ Mouse must restore Sister North, one Ember at a time, while navigating a world o
 - In the game: environmental obstacle that severs Mouse's connection to Sister North
 
 ### The Elders
-- Woodlanders imbued with Embers by Fox
+- Woodlanders imbued with Embers by Fox - "the fire of the mountains"
 - Each linked to critical valley infrastructure/lore
 - Don't age or get sick (unless Ivy-infected)
 - Custodians of Fox's vision for the valley
-- Known Elders: Hawk, Bramblethorn, Zora, Anwin, Dr. Shellby, Wei the Heron, Wolfmother, Raj the Tiger, Leviathan
+- 20+ Elders exist in the valley (Ch 17)
+- Named Elders: Hawk, Bramblethorn, Zora (deceased), Anwin, Dr. Shellby, Wei the Heron, Wolfmother, Raj the Tiger, Leviathan, Delta "Mum-of-Many-Rills", Morwen
+- If an Elder's Ember is corrupted by the Ivy, they sicken and can die (Zora's fate)
+- Central dilemma: returning Embers to Sister North may strip protections from their Elders
 
 ### Bean
-- Small rabbit kit
-- Goes missing (Chapter 14) - drives a major story arc
-- Makes an "old friend" (Chapter 20) - likely Fox connection
+- Small rabbit kit, cheerful and scattered
+- Goes missing in the Haunted Rocks (Chapter 14) - major plot escalation
+- Found under Ivy by Mouse and Fox (Chapter 15)
+- Returns to Westwatch (Chapter 20)
 - In the game: hint system character who appears when player is stuck
+
+### Rus (Sciurus von Appleseed) - The Mad Squirrel King
+- Baron of the orchards, custodian of the Ancestral Apple Tree (Aetherbloom)
+- Grief-maddened after Zora's death (she was his friend/protector)
+- His Ember is corrupted - cold, black, with sickly filaments (Ch 22)
+- Supernatural red-glowing eyes when enraged (Ch 26)
+- Not simply a villain - a grieving soul driven mad by corruption
+- His sister Autumn is compassionate and wants to help him
+- The corrupted Ember in the Apple Tree is connected to his madness
+
+### Rowan
+- Zora's scribe, keeper of Zora's records
+- Emerges in Ch 24-25 with crucial information about Zora's death
+- May hold keys to understanding the Ivy's mechanism
+
+### Willow
+- Character who gives a key prophecy in Ch 25
+- "With embers lit and fires fraught / A sickness seeks to be caught"
+- Zora sought Willow before her death, returned with dark green veins
+
+### Rue
+- Shrew librarian, custodian of the Library (Ch 16)
+- The Library's Magical Catalogue responds to reader intent
+- Discovered the "Mountainborn" classification for Mouse and Fox
+
+### Owl
+- Arrives in Ch 8, tells creation myth in Ch 9
+- Fox whispers to Owl; Owl tells Mouse "I set the valley free"
+- Connection to Eagle in the creation myth
 
 ## Story Structure (Book 1 / Game Chapter 1)
 
@@ -99,26 +132,44 @@ Mouse must restore Sister North, one Ember at a time, while navigating a world o
 5. **Don't Bears Need to Hibernate?** - Bear arrives during winter storm, starving. Mouse and Hawk take him in. Chess, cards, fishing lessons. Bear becomes a regular visitor.
 
 ### Act 2: Community (Chapters 6-14)
-6. **The Greenhouse** - Exploration of the growing system
-7. **A Thanksgiving** - Community gathering, woodlander culture
-8. **The Fabula Noctua** - Story/lore delivery
-9. **Owl's Tale** - Elder lore, deeper worldbuilding
-10. **A Rout of Rabbits** - Rabbit community, Clover's family
-11. **The Mad Squirrel King** - Von Appleseed, corrupted by Embers
-12. **Building Westwatch Warren** - Community construction
-13. **The Queen's Chamber** - Underground exploration
-14. **Bean is Missing** - Major plot turn, search begins
+6. **The Greenhouse** - Mouse leads community effort to build a greenhouse. Introduces the Mullvad (moles) and Driftwoods (beavers). Fox is mentioned as the first Woodlander - the mysterious figure who gave animals speech. First major community cooperation event.
+7. **A Thanksgiving** - The valley draws a communal map. Key geography established: Otterdam, Felmere, the Mere, the water system. Reveals that Fox once appeared to fix the dam at Otterdam. Deaths of Daria and Zora mentioned as known backstory. Community bonding.
+8. **The Fabula Noctua** - "The Night Fable" - a community event at Tiny's Ringtail Tavern. Introduces Tiny (raccoon tavern keeper), Daisy & Diggory (badger innkeepers), Dr. Shellby (tortoise therapist). Owl arrives - an outsider with a tale to tell.
+9. **Owl's Tale** - Creation myth: the story of Eagle and Owl. Deepens valley mythology. Fox appears and whispers to Owl. The haunting line: Fox tells Mouse "I set the valley free." First direct Fox-to-Mouse communication.
+10. **A Rout of Rabbits** - Bean (rabbit kit) arrives seeking help. Squirrels led by Rus (Baron von Appleseed) are raiding the orchards and attacking rabbits. The Ancestral Apple Tree (the Aetherbloom) introduced - massive, ancient, connected to valley's deep systems.
+11. **The Mad Squirrel King** - Diplomatic mission to Rus fails. Mouse senses an Ember in the orchard (first Ember detection outside the Old Oak). Autumn, Rus's compassionate sister, introduced as potential ally. The corruption driving Rus begins to become apparent.
+12. **Building Westwatch Warren** - Rabbit community rebuilds their warren. Introduces Honeybadger glassmakers. Massive community cooperation project showcasing the "community and mutual aid" theme. The valley pulls together.
+13. **The Queen's Chamber** - Told from Rus's perspective. Reveals his grief over Zora's death is driving his tyranny. The broken wooden box symbolism. Humanizes the "villain" - this is a grieving soul, not an evil one.
+14. **Bean is Missing** - Bean has wandered into the Haunted Rocks. Fox appears in the ruins of the old city. Panic sets in. The story's tone shifts toward urgency.
 
 ### Act 3: Confrontation (Chapters 15-26+)
-15. **The Haunted Rocks** - Ruins of New Haven, consumed by the Ivy. Senses distorted, time warped.
-16. **The Library** - Sentient structure that produces books from reader's thoughts
-17. **The Elders** - Meeting the Ember-imbued custodians
-18. **Seeking Bramblethorn** - Finding the slumbering Elder
-19-26. Escalating confrontation with the Ivy, Fox encounters, Ember collection, Summer Follies festival, climactic events
+15. **The Haunted Rocks** - CRITICAL IVY CHAPTER. Ruins of New Haven, the old human city. A week-long search feels like a single day inside the Ivy. The Ivy suppresses all senses and Mouse's glove abilities. Fox navigates the Ivy confidently (immune to it). Mouse finds Bean buried under ivy. **This is the Ivy mechanic tutorial in the game.**
+16. **The Library** - Three ancient redwoods spiraling together, forming a living library. Rue (shrew) is the librarian. The Magical Catalogue produces books based on a reader's thoughts. Mouse discovers the word "Mountainborn" - learns she and Fox are something different from Woodlanders. The Library has no record of Fox or pre-Woodlander history.
+17. **The Elders** - Mouse learns there are 20+ Elders in the valley, each carrying an Ember from Fox ("the fire of the mountains"). Mouse is "Mountainborn" - "crafted from mountain stone and sinew." THE CENTRAL DILEMMA: returning Embers to Sister North might strip protections from the valley and could harm or kill Elder-connected Woodlanders like Rus.
+18. **Seeking Bramblethorn** - The party finds Bramblethorn, a 15-foot boar Elder, sleeping beneath a mass of ivy. His slumber is confirmed to be Ivy-caused. The connection between Ivy and Elder vulnerability is established.
+19. **Something Strange** - Hawk connects the dots: chaos, ivy, sickness are all linked. Bramblethorn's dreams included human-like experiences - vines crawling up arms, sensations that don't belong to a boar. The tethered human is bleeding through. The sci-fi truth pushes closer to the surface.
+20. **Bean Makes an Old Friend** - Return to Westwatch. Von Appleseed has expelled birds and instituted tariffs. Mouse creates illustrated "Zora's Fables" as a peace offering - attempting diplomacy through storytelling.
+21. **The Orchard's Edge** - Direct confrontation with Rus. Bramblethorn demonstrates his power with an earthquake. Autumn, Garolus, and Carolus serve as guides/mediators. Tensions escalate.
+22. **The Ember in the Apple Tree** - CLIMACTIC REVELATION. Mouse's gloves connect to Sister North through the corrupted Ember in the Aetherbloom. She learns "0.01%" - a catastrophic measure of loss. Zora's Ember is corrupted: cold, black, with sickly filaments. The Ivy's true nature as corrupted Sister North code becomes undeniable.
+23. **Conflicting Goals** - THE MORAL CRUX. Returning Embers to Sister North would restore her but strip the valley's protections and potentially kill Rus (whose Ember is corrupted). Hawk directly challenges Mouse's assumption that restoration is the right path. No easy answers.
+24. **The Summer Follies** - Festival at the Mere. Bear enters a baking competition. Lighter tone provides contrast before the storm. Rowan (Zora's scribe) emerges with crucial historical information. Mouse promises to help uncover the truth.
+25. **The Shadows of the Emberveil** - Zora's death explained in full: she had nightmares, sought Willow (the Seer), returned with dark green veins crawling up her body, died bleeding. Willow's prophecy: "With embers lit and fires fraught / A sickness seeks to be caught." The Ivy's method of killing Elders is revealed.
+26. **The Mad King's Fury** - Rus raids the Summer Follies with supernatural red-glowing eyes. His corruption has reached a tipping point. The Elder Council responds. Bear confronts Rus directly - a physical and emotional climax. The valley must now act.
+
+### Later Chapters (Titles Known, Numbering TBD)
+- **Mouse Returns to Sister North** - Outline/fragment only. Key endgame chapter where Mouse confronts the full truth.
+- **Fire and Ice / Kindred Kindled, Forager Forged** - Complete allegory about the Ember igniting and burning the Ancestral Apple Tree. Metaphor for the cost of restoration.
+- **The Potluck** - Outline only. Community gathering post-crisis. Resolution and healing.
+- **Dissent** - Referenced, not yet written. Internal valley conflict.
+- **Lady Autumn** - Referenced, not yet written. Autumn's perspective/arc.
+- **The Metal and The Mire** - Referenced, not yet written. Possibly underground/cistern exploration.
 
 ### Parallel: Human Survivor Timeline
-- Chapters about humans "Under the Wall," "Cherry Pie," "Back Down the Mountain"
+- **Ch 1: Under the Wall** - Humans beneath the mountain/wall
+- **Ch 2: Cherry Pie** - Human domestic scene
+- **Ch 3: Back Down the Mountain** - Return/descent
 - These may appear as found documents, dreams, or Ember-triggered memories in the game
+- Status unverified - need reading
 
 ## Quest Design: Hawk's Glasses (First Quest / Tutorial)
 

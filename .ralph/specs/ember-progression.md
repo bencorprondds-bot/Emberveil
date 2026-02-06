@@ -100,9 +100,26 @@ Integration:
 - AudioManager reads EmberManager to adjust Sister North audio presence
 ```
 
+## Corrupted Embers (Key Story Element)
+Not all Embers are healthy. Some have been corrupted by the Ivy:
+- **Zora's Ember** (in the Ancestral Apple Tree / Aetherbloom): Cold, black, sickly filaments (Ch 22)
+- Corrupted Embers can drive their carriers mad (Rus's red-glowing eyes, Ch 26)
+- Corrupted Embers can kill (Zora: dark green veins, bleeding death, Ch 25)
+- Mouse's gloves react to corrupted Embers differently - connection to Sister North is painful
+- "0.01%" - the catastrophic reading Mouse gets when connecting to Sister North through Zora's corrupted Ember
+
+### The Central Dilemma (Ch 23)
+Collecting Embers is NOT straightforward:
+- Returning Embers to Sister North would restore her systems
+- BUT it would strip the valley's protections (Elders lose their power)
+- Returning a corrupted Ember may harm or kill the Elder carrying it (Rus)
+- Hawk challenges Mouse: "Is restoration always the right answer?"
+- The game must present this dilemma to the player as a genuine moral question
+
 ## Balance Notes
 - Embers should be discoverable through exploration, not grinding
 - No Ember should be permanently missable
 - The player should always have something to do even without the "next" Ember
 - Ability unlocks should feel earned but not frustrating
 - The connection-to-Sister-North arc should feel emotional, not mechanical
+- Corrupted Embers should feel qualitatively different from healthy ones

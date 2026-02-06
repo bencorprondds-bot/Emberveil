@@ -110,11 +110,26 @@ Mouse's ancient home. A massive oak tree shaped (not built) into a living struct
 - Beautiful but unpredictable
 - Contains hidden paths, Ember locations, and deeper mysteries
 
+### Otterdam / Felmere (Chapter 7)
+- Water management system in the valley
+- Fox once appeared here to repair the dam - one of Fox's rare direct interventions
+- Connected to the Mere and the river network
+- Important geography established during the Thanksgiving map-drawing
+
+### The Ancestral Apple Tree / Aetherbloom (Chapters 10-11, 21-22)
+- Massive ancient tree in the orchards
+- Contains a corrupted Ember (Zora's Ember) - cold, black, with sickly filaments
+- Guarded by Rus (Von Appleseed) and the squirrels
+- Mouse's gloves react strongly to it - connects to Sister North ("0.01%")
+- A key Ember location the player must reach and reckon with
+- The "Fire and Ice" chapter describes the Ember igniting/burning this tree
+
 ### The Three Sisters (Mountains)
 - Visible on the horizon - three mountain peaks
 - The player doesn't know they're supercomputers until late in the story
 - Sister North is the focus - her "garden" core is beneath/within the mountain
 - Visual landmark that gains meaning as lore is revealed
+- Mouse is "Mountainborn" - crafted from mountain stone (i.e., created by Sister North)
 
 ---
 
