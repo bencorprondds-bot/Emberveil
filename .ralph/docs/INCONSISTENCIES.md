@@ -80,11 +80,16 @@
 - **Question:** Is Bear's origin story told anywhere? Does it matter for the game, or is he simply "a young bear who showed up"?
 - **Severity:** Low (characterization detail)
 
-### I-011: The Dilemma of Returning Embers
-- **Where:** Ch 23 (Conflicting Goals) - returning Embers to Sister North would strip valley protection and potentially kill Rus/other Elder-tethered Woodlanders.
-- **Issue:** This is THE central moral dilemma of the story. The game needs to present this to the player.
-- **Question:** How is this resolved? Does Mouse find a way to restore Sister North WITHOUT harming the Woodlanders? Or is there a genuine sacrifice required?
-- **Severity:** CRITICAL (this determines the game's ending and the player's moral journey)
+### I-011: The Dilemma of Returning Embers - RESOLVED
+- **Where:** Ch 23 (Conflicting Goals) - returning Embers to Sister North would strip valley protection.
+- **Resolution (author confirmed):** In Book 1, Mouse returns the first Ember (Zora's corrupted Ember from the Aetherbloom) to Sister North. Consequences:
+  - Sister North begins to come back online (some capacity restored)
+  - The Ancestral Apple Tree (Aetherbloom) withers and dies
+  - No squirrels are directly harmed physically
+  - BUT the tree was part of the squirrels' collective identity - an indirect, cultural loss
+  - Returning the corrupted Ember HEALS Rus - his madness lifts
+  - The trade-off is real: restoration costs the valley something irreplaceable each time
+- **Design implication:** The game does NOT offer the player a "clean" resolution. Each Ember return carries a bittersweet cost. Present this as narrative weight, not a player choice (Mouse decides in the story).
 
 ### I-012: Bramblethorn's Dreams
 - **Where:** Ch 19 - Bramblethorn's dreams include human-like experiences (vines crawling up arms).
@@ -152,7 +157,7 @@
 | I-008 | OPEN | Awaiting author confirmation of Mountainborn interpretation |
 | I-009 | OPEN | Awaiting author scoping of Hawk's knowledge |
 | I-010 | OPEN | Low priority, awaiting author |
-| I-011 | OPEN | CRITICAL - determines game ending |
+| I-011 | **RESOLVED** | Ember return costs the valley something each time; first return withers Aetherbloom but heals Rus |
 | I-012 | OPEN | Awaiting author clarification |
 | I-013 | OPEN | Low priority |
 | I-014 | OPEN | HIGH - gameplay design decision |

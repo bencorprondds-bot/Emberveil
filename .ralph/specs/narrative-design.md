@@ -156,12 +156,19 @@ Mouse must restore Sister North, one Ember at a time, while navigating a world o
 25. **The Shadows of the Emberveil** - Zora's death explained in full: she had nightmares, sought Willow (the Seer), returned with dark green veins crawling up her body, died bleeding. Willow's prophecy: "With embers lit and fires fraught / A sickness seeks to be caught." The Ivy's method of killing Elders is revealed.
 26. **The Mad King's Fury** - Rus raids the Summer Follies with supernatural red-glowing eyes. His corruption has reached a tipping point. The Elder Council responds. Bear confronts Rus directly - a physical and emotional climax. The valley must now act.
 
+### Book 1 Resolution
+Mouse returns the first Ember - Zora's corrupted Ember from the Aetherbloom - to Sister North.
+- **What is gained:** Sister North begins to come back online. Some capacity restored. Rus is healed - the corruption that drove him mad lifts.
+- **What is lost:** The Ancestral Apple Tree (Aetherbloom) withers and dies. No squirrels are physically harmed, but the tree was central to their collective identity. An irreplaceable cultural loss.
+- **The tone:** Bittersweet. Not a triumph. Not a tragedy. A "game about fixing things" reckons with the fact that fixing one thing can break another.
+- **Implication for future books:** Each Ember returned will presumably carry a similar trade-off. The weight of restoration compounds.
+
 ### Later Chapters (Titles Known, Numbering TBD)
-- **Mouse Returns to Sister North** - Outline/fragment only. Key endgame chapter where Mouse confronts the full truth.
-- **Fire and Ice / Kindred Kindled, Forager Forged** - Complete allegory about the Ember igniting and burning the Ancestral Apple Tree. Metaphor for the cost of restoration.
-- **The Potluck** - Outline only. Community gathering post-crisis. Resolution and healing.
-- **Dissent** - Referenced, not yet written. Internal valley conflict.
-- **Lady Autumn** - Referenced, not yet written. Autumn's perspective/arc.
+- **Mouse Returns to Sister North** - Outline/fragment only. Key endgame chapter where Mouse confronts the full truth and returns the first Ember.
+- **Fire and Ice / Kindred Kindled, Forager Forged** - Complete allegory about the Ember igniting and burning the Ancestral Apple Tree. Foreshadows the cost of restoration.
+- **The Potluck** - Outline only. Community gathering post-crisis. Resolution and healing after the Aetherbloom's loss.
+- **Dissent** - Referenced, not yet written. Internal valley conflict (likely reaction to the tree's death).
+- **Lady Autumn** - Referenced, not yet written. Autumn's perspective/arc (her brother healed, but at what cost to her community).
 - **The Metal and The Mire** - Referenced, not yet written. Possibly underground/cistern exploration.
 
 ### Parallel: Human Survivor Timeline

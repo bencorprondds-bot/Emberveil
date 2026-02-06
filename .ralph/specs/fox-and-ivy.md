@@ -62,6 +62,8 @@ Fox appears **tangentially** - brief, scripted moments:
 - The Haunted Rocks (ruins of New Haven, the old human city) are completely consumed by it
 - Can corrupt Embers: Zora's Ember turned cold, black, with sickly filaments (Ch 22)
 - Corrupted Embers cause Elder madness (Rus's red-glowing eyes, Ch 26) or death (Zora, Ch 25)
+- Returning a corrupted Ember to Sister North heals the corruption's effects (Rus is cured)
+- BUT the thing the Ember sustained in the valley withers (the Aetherbloom dies)
 - Zora's death sequence: nightmares → sought Willow → returned with dark green veins → died bleeding
 - Bramblethorn's slumber is Ivy-induced - he dreams of human-like experiences (tether bleeding through)
 - Willow's prophecy: "With embers lit and fires fraught / A sickness seeks to be caught"

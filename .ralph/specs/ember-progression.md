@@ -108,13 +108,20 @@ Not all Embers are healthy. Some have been corrupted by the Ivy:
 - Mouse's gloves react to corrupted Embers differently - connection to Sister North is painful
 - "0.01%" - the catastrophic reading Mouse gets when connecting to Sister North through Zora's corrupted Ember
 
-### The Central Dilemma (Ch 23)
+### The Central Dilemma (Ch 23) - RESOLVED
 Collecting Embers is NOT straightforward:
-- Returning Embers to Sister North would restore her systems
-- BUT it would strip the valley's protections (Elders lose their power)
-- Returning a corrupted Ember may harm or kill the Elder carrying it (Rus)
+- Returning Embers to Sister North restores her systems
+- BUT the thing the Ember was sustaining in the valley withers away
+- **Book 1 Resolution:** Mouse returns the first Ember (Zora's corrupted Ember from the Aetherbloom)
+  - Sister North begins to come back online, some capacity restored
+  - The Ancestral Apple Tree (Aetherbloom) withers and dies
+  - No squirrels are directly harmed
+  - BUT the tree was part of the squirrels' collective identity - an indirect, cultural loss
+  - The corrupted Ember's return HEALS Rus - his madness lifts
+- The trade-off is real and bittersweet: heal corruption + restore Sister North, but lose something irreplaceable to the community
 - Hawk challenges Mouse: "Is restoration always the right answer?"
-- The game must present this dilemma to the player as a genuine moral question
+- The game presents this as a genuine moral weight, not a menu choice
+- Future Embers will presumably carry similar trade-offs: each restoration costs the valley something
 
 ## Balance Notes
 - Embers should be discoverable through exploration, not grinding
