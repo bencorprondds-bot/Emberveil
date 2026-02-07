@@ -17,7 +17,7 @@
 | Crafted | Items made at the Forge | Hawk's Glasses, Repaired Clock |
 | Quest | Story-critical items | Old Key, Hawk's Letter |
 | Consumable | Single-use items | Healing Honey, Ember Dust |
-| Gift | Items to give to NPCs | Pie for Bear, Seeds for Greenhouse |
+| Gift | Items to give to NPCs | Pie for Bear, Plant Seeds for Greenhouse |
 | Key | Unlocks specific doors/areas | Workshop Key, Greenhouse Key |
 
 ### Item Properties (ItemData ScriptableObject)

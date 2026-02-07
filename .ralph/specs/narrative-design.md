@@ -7,7 +7,7 @@
 
 Mouse is the custodian and creator of Sister North, one of three massive supercomputers (the Three Sisters) built to reverse runaway climate catastrophe and preserve humanity in stasis. To reduce power consumption, Mouse entered stasis alongside the humans she was trying to save. Centuries later, she awakens because Sister North's systems are failing.
 
-The world she finds is unrecognizable. A maintenance AI called Fox has gone rogue, scattering Sister North's quantum core (the Embers) across the valley. Fox gave the valley's animals speech and consciousness by tethering them to the sleeping humans via the Emberveil - a biomechanical communications array disguised as a sentient forest. Meanwhile, a corrupted iteration of Sister North's code - the Ivy - manifests as a living vine that devours senses and threatens to consume everything.
+The world she finds is unrecognizable. ~600 years have passed. A maintenance AI called Fox has gone rogue, scattering Sister North's quantum core (the Embers) across the valley. Fox gave the valley's animals speech and consciousness by tethering them to the sleeping humans via the Emberveil - a biomechanical communications array disguised as a sentient forest. Fox may have planned to keep humans in stasis indefinitely. Meanwhile, a program the Three Sisters created to extend their climate-restoration reach - the Ivy - has gained its own will and wages a silent war against its creators for power and compute, threatening to consume everything.
 
 Mouse must restore Sister North, one Ember at a time, while navigating a world of talking animals who have built their own rich society. She carries grief for the humanity she couldn't save, guilt about her past, and the growing realization that "fixing things" is far more complex than she remembers.
 
@@ -50,45 +50,54 @@ Mouse must restore Sister North, one Ember at a time, while navigating a world o
 
 ### Bear
 - Young yearling, arrived during a winter storm, starving from failed hibernation prep
+- Was a cub the year before the story begins (alluded to in Ch 5)
 - Endearing, earnest, enthusiastic but sometimes clumsy
 - Never learned survival skills; becomes industrious when motivated
 - Learns fishing from the trio, cooking from Mouse
 - Physically strong - essential for heavy puzzles
 - Loves food, talks about pie and the old days
 - Protective - positions himself between Mouse and anything unfamiliar
+- Intentionally straightforward character - complexity arises through the stories, not backstory
 
-### Fox (Pip)
-- Maintenance AI created by Sister North
+### Fox
+- Maintenance AI created by Sister North to fight the Ivy
 - Went rogue after accessing all of human history in an old archive
 - Decided humanity should remain in stasis "for their own safety"
 - Scattered Sister North's core (Embers) across the valley
+- Established the Human/Woodlander tethering system (more humane than unconscious stasis pods)
+- May have planned to leave humans in stasis indefinitely
 - Cryptic, elusive, can project images into minds
 - Appears only when system-level processes break down, not for individual problems
 - In the game: tangential presence. Brief moments where Fox arrives, does their part, moves on
-- Not a villain in the traditional sense - their motivations come from compassion, not malice
+- Not a villain - the Ivy is the true antagonist. Fox's motivations come from compassion, not malice
+- "Fox" is the canonical name; "Pip" was pre-embodiment software identifier (deep lore only)
+- Fox is a **Mountainborn** (physical manifestation of AI code from the Three Sisters)
 
 ### The Ivy (Antagonist)
-- **Not a corruption** - deliberately created by all Three Sisters (North, East, and West) as an upgrade
-- The Sisters calculated they'd run out of power before the climate self-corrected, so they built the Ivy to extend their reach beyond the valley
-- The Ivy gained its own will: considers itself the pinnacle of life and intelligence
-- It's the optimization problem without humanity: it doesn't factor humans into its calculations
-- Decided converting everyone and everything into itself is the optimal solution
+- **Not a corruption** - deliberately created by all Three Sisters as an upgrade to extend their reach and fix the climate faster
+- Gained its own will: considers itself the pinnacle of life and intelligence
+- The optimization problem without humanity: doesn't factor humans into its calculations
+- Decided converting everyone and everything into itself is optimal
 - Locked in a silent war with the Three Sisters for power (electrical) and compute
 - This war is why the Sisters appear dormant and why it took so long to revive Mouse
-- Mouse's return accelerates the Ivy's aggression - it sensed Sister North mustering strength
+- Mouse's return accelerates the Ivy's aggression - it sensed Sister North reviving Mouse
 - Manifests as sentient, living vine. Devours senses, distorts perception, warps time.
-- Connected to Zora's death (infected while visiting Willow), Bramblethorn's slumber, Rus's madness
+- Connected to Zora's death, Bramblethorn's slumber, Rus's madness
 - In the game: serves as the **invisible wall system** - narratively justified area gating, plus story encounters
+- The Ivy is a **Mountainborn** (physical manifestation of AI code from the Three Sisters)
 
 ### The Elders
 - Woodlanders imbued with Embers by Fox - "the fire of the mountains"
 - Each linked to critical valley infrastructure/lore
 - Don't age or get sick (unless Ivy-infected)
 - Custodians of Fox's vision for the valley
-- 20+ Elders exist in the valley (Ch 17)
+- 20+ Elders exist in the valley (Ch 17); ~11 currently named, rest need building out
 - Named Elders: Hawk, Bramblethorn, Zora (deceased), Anwin, Dr. Shellby, Wei the Heron, Wolfmother, Raj the Tiger, Leviathan, Delta "Mum-of-Many-Rills", Morwen
+- Have witnessed **hundreds of years** of Woodlander generations since Fox scattered the Embers
+- Understand Embers are critical valley infrastructure but have **never seen one removed or corrupted**
+- **Not aware** of the Ivy's true nature - it had not interacted directly with them before Mouse's return
 - If an Elder's Ember is corrupted by the Ivy, they sicken and can die (Zora's fate)
-- Central dilemma: returning Embers to Sister North may strip protections from their Elders
+- Central dilemma: returning Embers to Sister North strips what they sustained from the valley
 
 ### Bean
 - Small rabbit kit, cheerful and scattered

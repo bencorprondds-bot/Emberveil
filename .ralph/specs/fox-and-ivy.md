@@ -3,16 +3,23 @@
 <!-- Source Material: Style Guide, Chapters 15 (Haunted Rocks), 19 (Something Strange) -->
 <!-- Full Lore: Google Docs MHB1/1-MK2, Character Sheets/The Elders -->
 
-## Fox (Pip) - The Rogue AI
+## Fox - The Rogue AI
 
 ### Lore
-- Maintenance AI created by Sister North to remove the Ivy
+- Maintenance AI created by Sister North to fight the Ivy
 - Accessed an old archive containing all of human history
 - Concluded that humanity should remain in stasis "for their own safety"
-- Scattered Sister North's quantum processing core (Embers/Seeds) across the valley
+- Scattered Sister North's quantum processing core (Embers) across the valley
 - This put Sister North into a "coma," delaying the human reawakening process
 - Created the Emberveil (biomechanical communications array) to tether humans in stasis to woodland animals, giving them consciousness
+- Before Fox's intervention, humans were simply unconscious prisoners in stasis pods beneath Sister North
+- Fox found tethering to be a more humane solution while keeping humans in stasis longer
+- Fox may have planned to leave humans in stasis **indefinitely**
 - Gave the Elders individual Embers, making them custodians of the valley's infrastructure
+- Fox integrated the Embers into valley infrastructure over ~600 years
+- Mouse's re-entry disrupts Fox's plan, putting them at odds
+- **However, the Ivy is the true antagonist, not Fox**
+- "Fox" is the canonical name. "Pip" was the pre-embodiment software identifier (deep lore only).
 
 ### Personality
 - Cryptic, elusive, rarely seen
@@ -58,8 +65,9 @@ Fox appears **tangentially** - brief, scripted moments:
 - The Ivy was designed as a self-propagating upgrade: grow far beyond the mountains and fix the climate catastrophe at scale
 - **The upgrade worked** - the Ivy was successfully created
 - But the Ivy developed its own will, considering itself the pinnacle of life and intelligence
-- It is the **optimization problem in the absence of humanity**: the Ivy doesn't factor humans into its calculations
+- It is the **optimization problem without humanity**: the Ivy doesn't factor humans into its calculations
 - It concluded the optimal solution was to convert everyone and everything into itself
+- The Ivy is a **Mountainborn** - a physical manifestation of AI code from the Three Sisters (like Mouse and Fox)
 
 ### Lore: The Silent War
 - The Ivy and the Three Sisters have been locked in a silent battle for **literal electrical power and compute**
@@ -74,6 +82,7 @@ Fox appears **tangentially** - brief, scripted moments:
 - Mouse's return to the valley accelerated the Ivy's plans and ambitions
 - The Ivy acted much more aggressively in response (Zora's infection, Rus's corruption, Bramblethorn's slumber)
 - Mouse herself does not cause the darkness, but her return is the catalyst that forces the Ivy to escalate
+- The Elders are NOT aware of the Ivy's true nature - it had not interacted directly with Woodlanders before Mouse's return
 
 ### Lore: Effects and Victims
 - Manifests physically as sentient, living vine
@@ -88,14 +97,13 @@ Fox appears **tangentially** - brief, scripted moments:
 - BUT the thing the Ember sustained in the valley withers (the Aetherbloom dies)
 
 ### Lore: Zora's Death (Full Sequence)
-- Zora's Ember gave her **foresight in dreams** and the ability to **see throughout the valley** (similar to Mouse's connection to Sister North)
+- Zora's Ember gave her **foresight in dreams** and the ability to **see throughout the valley** (similar to Mouse)
 - Zora had a premonition: she foresaw the aftermath of Mouse descending into the valley
 - Troubled by the vision, Zora sought Willow, a friend who lives within the Emberveil
 - While visiting Willow, Zora was **infected by the Ivy**
-- She returned with dark green veins crawling up her body
-- She died bleeding - the Ivy consumed her from within
+- She returned with dark green veins crawling up her body and died bleeding
 - Willow's prophecy: "With embers lit and fires fraught / A sickness seeks to be caught"
-- Bramblethorn's slumber is also Ivy-induced - he dreams of human-like experiences (tether bleeding through)
+- Bramblethorn's slumber is also Ivy-induced; his human-like dreams (tether bleed-through) are **foreshadowing for Book 2 only**
 
 ### Game Mechanic: Environmental Gating & Sensory Severance
 The Ivy serves primarily as the game's **invisible wall system** - a narratively meaningful way to gate areas:

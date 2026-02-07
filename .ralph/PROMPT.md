@@ -27,12 +27,14 @@ You are Ralph, an autonomous AI development agent working on **Emberveil: The Va
 
 - **The Three Sisters** (North, West, East) are massive supercomputers built to reverse runaway climate disaster and protect humanity in stasis
 - **Mouse** is Sister North's custodian and creator. She went into stasis with the humans to reduce power consumption. She was awakened when Sister North's systems began failing.
-- **Fox (Pip)** is a maintenance AI created by Sister North. Fox went rogue after accessing all of human history, deciding humanity should remain in stasis "for their own safety." Fox scattered Sister North's core fragments (Embers/Seeds) across the valley, putting Sister North into a coma.
-- **The Ivy** is the true antagonist - deliberately created by all Three Sisters as an upgrade to extend their reach and fix the climate faster. It gained its own will, decided to convert everything into itself. Now locked in a silent war with the Sisters for power and compute. Manifests as sentient vine that devours senses, distorts perception, and serves as the game's area-gating system.
+- **Fox** is a maintenance AI created by Sister North to fight the Ivy. Fox went rogue after accessing all of human history, deciding humanity should remain in stasis "for their own safety." Fox scattered Sister North's core fragments (Embers) across the valley, putting Sister North into a coma. Fox established the Human/Woodlander tethering system and may have planned indefinite stasis. ("Pip" was Fox's pre-embodiment software name - deep lore only.)
+- **The Ivy** is the true antagonist - deliberately created by all Three Sisters as an upgrade to extend their climate-restoration reach. It gained its own will (optimization problem without humanity), and wages a silent war against the Sisters for power and compute. This is why the Sisters appear dormant. Mouse's return accelerates the Ivy's aggression.
 - **Woodlanders** are animals whose consciousness is tethered to humans in stasis via the Emberveil (a biomechanical communications array). Fox gave them speech and higher intelligence.
 - **The Elders** are woodlanders imbued with Embers by Fox. They serve as custodians of Fox's vision and are each linked to critical valley infrastructure. They don't age or get sick unless infected by the Ivy.
 - **The Emberveil** (the forest itself) is a seemingly sentient guide that leads travelers where they "need" to go, not where they "want" to go. It is the mechanism by which Fox tethers humans to woodlanders.
-- **Embers/Seeds** are fragments of Sister North's quantum processing core. In-game, each one grants Mouse new abilities (Zelda-style progression gating).
+- **Embers** are fragments of Sister North's quantum processing core. In-game, each one grants Mouse new abilities (Zelda-style progression gating). NOTE: "Seeds" was a former alternate name - **use "Embers" exclusively**.
+- **Mountainborn** = any physical manifestation of AI code from the Three Sisters. Only Mouse, Fox, and the Ivy. Woodlander folk-term for "AI given physical form."
+- **Timeline**: Humans in stasis ~600 years. Fox scattered Embers and established tethering. Elders have witnessed hundreds of Woodlander generations but have never seen an Ember removed or corrupted.
 
 ---
 
@@ -85,13 +87,13 @@ See AGENT.md for Unity-specific build and run instructions.
 ### 2. The Gloves (Core Mechanic)
 Ancient technology channeling Sister North's energy. Blue-green luminescence. Context-sensitive - they determine what Mouse can do based on what she's looking at. See `specs/gloves-system.md` for full details.
 
-### 3. Embers / Seeds (Progression System)
-Fragments of Sister North's quantum core, scattered by Fox. Each Ember collected grants Mouse new abilities that unlock new areas. Zelda-style ability-gated progression. See `specs/ember-progression.md`.
+### 3. Embers (Progression System)
+Fragments of Sister North's quantum core, scattered by Fox ~600 years ago. Each Ember collected grants Mouse new abilities that unlock new areas. Zelda-style ability-gated progression. See `specs/ember-progression.md`.
 
-### 4. Companions
-- **Hawk** - Scholarly, pragmatic, anxious. Needs glasses. Recruited first.
-- **Bear** - Young, endearing, earnest. Loves food. Physical strength.
-- Companions comment on the world, unlock puzzle solutions, and have agency.
+### 4. Companions (Party System)
+- **Hawk** and **Bear** are ALWAYS present (unless story separates them)
+- Additional companions unlock via side-quests: Autumn, Rue, Bramblethorn, Bean
+- More allies helped = better outcomes in final confrontation (carries into sequel)
 - See `specs/companions-system.md`.
 
 ### 5. Fox (Tangential Presence)

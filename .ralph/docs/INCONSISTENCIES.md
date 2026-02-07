@@ -1,80 +1,66 @@
 # Emberveil Inconsistencies & Open Questions
 
 > Tracked contradictions, ambiguities, and unresolved questions between chapters,
-> character sheets, worldbuilding docs, and game specs. Each item needs author review.
+> character sheets, worldbuilding docs, and game specs.
+> Last updated: 2026-02-07
 
 ---
 
 ## Naming Inconsistencies
 
-### I-001: Sciurus vs. Scurius von Appleseed
-- **Where:** Two separate character sheet docs: `Sciurus von Appleseed` and `Scurius "Rus" von Appleseed`
-- **Issue:** Different spellings of the same character's first name. Chapters consistently use "Rus" as the short form.
-- **Suggestion:** Confirm canonical spelling and merge/reconcile the two docs.
-- **Severity:** Low (cosmetic)
+### I-001: Sciurus vs. Scurius von Appleseed - RESOLVED
+- **Resolution (author confirmed):** Canonical spelling is **Sciurus** (Latin for squirrel). The "Scurius" doc is a typo. Merge the two Google Drive character sheet docs into one under the correct spelling.
 
-### I-002: Embers vs. Seeds
-- **Where:** Style Guide uses both terms. Game overview uses "Embers." Some chapters use "Seeds."
-- **Issue:** The same objects (fragments of Sister North's quantum core) are called by two names.
-- **Current spec decision:** We use "Embers" as the primary game term, "Seeds" as lore/alternate name.
-- **Question:** Is "Seeds" an in-world term used by Woodlanders who don't know the true nature? If so, that's intentional and should be documented as such.
-- **Severity:** Medium (affects dialogue writing and UI text)
+### I-002: Embers vs. Seeds - RESOLVED
+- **Resolution (author confirmed):** **Embers** is the canonical term. Discontinue all use of "Seeds." All specs, dialogue, and UI should use "Embers" exclusively. Update any remaining references.
 
-### I-003: Pip vs. Fox
-- **Where:** Character sheets use "Pip" and "Fox" interchangeably. Chapters mostly use "Fox."
-- **Issue:** Is "Pip" Fox's given name and "Fox" their species/title? Or are these separate characters?
-- **Current understanding:** Pip is Fox's name; Fox is what everyone calls them.
-- **Question:** Confirm: Is "Pip" the name Sister North gave the AI, and "Fox" the form they chose?
-- **Severity:** Low (but important for dialogue)
+### I-003: Pip vs. Fox - RESOLVED (simplified)
+- **Resolution (author confirmed):** "Pip" was Fox's pre-embodiment name - a software-only identifier before the AI was uploaded into the physical Fox form. However, this distinction overcomplicates things. **Use "Fox" as the canonical name** in all game content. "Pip" may appear in deep lore if the player digs far enough, but it is not the primary identifier.
 
 ---
 
 ## Lore Contradictions
 
-### I-004: Number of Elders
-- **Where:** Ch 17 says "20+ Elders in the valley." The Elders subfolder has 10 docs. Specs list ~9 named Elders.
-- **Issue:** We have profiles for fewer than half the stated Elder count.
-- **Question:** Are the remaining 10+ Elders intentionally unnamed (to be defined later), or do they exist in unpublished notes?
-- **Severity:** Medium (affects game scope - do we need 20+ Elder NPCs?)
+### I-004: Number of Elders - ACKNOWLEDGED
+- **Resolution (author confirmed):** The Elders have NOT been fully built out yet. ~11 are named, 20+ exist canonically. Building all Elder profiles is a major future worldbuilding task with downstream consequences for the game. This will be a dedicated session.
+- **Action:** Add to COMPLETENESS.md as a high-priority worldbuilding task.
 
-### I-005: Fox's Creation vs. Fox's Archive Discovery - RESOLVED
-- **Where:** Style Guide says Fox was "created by Sister North to remove the Ivy." Ch 9 (Owl's Tale) says Fox accessed "an old archive" that changed their perspective.
-- **Resolution (author confirmed):** The Ivy was **deliberately created** by all Three Sisters (North, East, and West) as an upgrade. The Sisters calculated they'd run out of power before the climate self-corrected, so they built the Ivy to extend their reach beyond the valley and fix the climate at scale. The upgrade worked - but the Ivy developed its own will, considering itself the pinnacle of life/intelligence. It's the optimization problem without humanity: it decided converting everything into itself was optimal. The Ivy and the Three Sisters have been in a silent war for power (electrical) and compute ever since. This is why the Sisters appear dormant and why it took so long to revive Mouse. Fox was then created by Sister North to fight the Ivy, but Fox went rogue (found the archive, scattered Embers) before completing that mission.
-- **Timeline:** Sisters create Ivy → Ivy goes rogue → Sisters fight Ivy (drain power) → Sister North creates Fox to fight Ivy → Fox finds archive → Fox goes rogue → Mouse put in stasis → story begins
+### I-005: Ivy Origin - RESOLVED
+- **Resolution (author confirmed):** The Ivy was **deliberately created** by all Three Sisters (North, East, and West) as an upgrade to extend their reach beyond the valley and fix the global climate faster. They calculated they'd run out of power before the climate self-corrected. The upgrade worked, but the Ivy developed its own will - considering itself the pinnacle of life and intelligence. It's the **optimization problem without humanity**: the Ivy doesn't factor humans into its calculations and decided converting everything into itself is optimal. The Ivy and the Three Sisters have been locked in a silent war for **literal electrical power and compute** ever since. This is why the Sisters appear dormant and why it took so long to revive Mouse.
+- **Timeline:** Sisters create Ivy as upgrade → Ivy gains will → Silent war begins (power/compute) → Sister North creates Fox to fight Ivy → Fox finds archive → Fox goes rogue → Mouse enters stasis → ~600 years pass → Story begins
 
-### I-006: Zora's Death - Cause Specifics - RESOLVED
-- **Resolution (author confirmed):** Zora's Ember gave her foresight in dreams and the ability to see throughout the valley (similar to Mouse's connection to Sister North). Zora had a premonition of the aftermath of Mouse's descent into the valley. Troubled, she visited Willow, a friend who lives within the Emberveil. While there, Zora was **infected by the Ivy**. She returned with dark green veins crawling up her body and died bleeding. Key detail: Mouse's return doesn't directly cause the darkness, but it accelerated the Ivy's plans. The Ivy sensed Sister North mustering strength to revive Mouse and acted more aggressively in response - Zora's infection was part of this escalation.
-- **Follow-up still open:** What happens to a tethered human when their Woodlander Elder dies? (Relevant for Zora's human counterpart)
+### I-006: Zora's Death - RESOLVED
+- **Resolution (author confirmed):** Zora's Ember gave her **foresight in dreams** and the ability to **see throughout the valley** (similar to Mouse). Zora had a premonition of the aftermath of Mouse descending into the valley. Troubled, she visited **Willow**, a friend who lives within the Emberveil, and was **infected by the Ivy** there. She returned with dark green veins and died bleeding.
+- **Critical detail:** Mouse's return does NOT directly cause the darkness. But Sister North mustering strength to revive Mouse caused the Ivy to **escalate aggressively** - Zora's infection was part of this escalation. Mouse's re-entry is the tipping point.
+- **Follow-up still open:** What happens to a tethered human when their Elder dies?
 
 ### I-007: The "0.01%" Revelation - RESOLVED
-- **Resolution (author confirmed):** 0.01% is **all that remains of humanity**. Of everyone Mouse tried to save by putting them in stasis, only 0.01% survive. This is the story's most devastating revelation - Mouse sacrificed everything, entered stasis herself, and nearly all of it was for nothing. The weight of this number drives the rest of the narrative.
-- **Design implication:** This reveal must be handled with care in-game. It should hit the player the way it hits Mouse - a single, quiet, devastating number.
+- **Resolution (author confirmed):** 0.01% is **all that remains of humanity** in stasis. Of everyone Mouse tried to save, only 0.01% survive. This is the story's most devastating revelation.
 
-### I-008: Mountainborn Definition
-- **Where:** Ch 16-17 - Mouse discovers she and Fox are "Mountainborn" - "crafted from mountain stone and sinew."
-- **Issue:** This seems to contradict the "AI/custodian" framing. Were Mouse and Fox literally built from mountain materials? Is "Mountainborn" the Woodlander term for what we (the reader) know as AIs/custodians?
-- **Current understanding:** "Mountainborn" is the Woodlander mythology for the truth that Mouse and Fox were created by the Sisters (who ARE the mountains, in a sense).
-- **Question:** Confirm: Mouse was crafted by Sister North, Fox was crafted by Sister North. They are both AI systems given physical form, not biological creatures. "Mountainborn" is the folk-tale version of this.
-- **Severity:** Medium (affects how we present Mouse's identity in dialogue)
+### I-008: Mountainborn Definition - RESOLVED
+- **Resolution (author confirmed):** A Mountainborn is any character who is a **physical manifestation of AI code** originating from the Three Sisters (hence "mountain" born). This currently includes exactly three entities:
+  1. **Mouse** - created by Sister North
+  2. **Fox** - created by Sister North
+  3. **The Ivy** - created by all Three Sisters
+- No plans to add other Mountainborn. "Mountainborn" is the Woodlander folk-term for what is technically "AI given physical form."
 
 ---
 
 ## Story Logic Questions
 
-### I-009: Hawk's Ember and the Secret
-- **Where:** Hawk is confirmed as an Elder (carries an Ember) in the specs. Hawk asks Mouse to hide her abilities from Bear.
-- **Issue:** If Hawk has an Ember, does she know what Embers truly are? Does she know about Sister North? How much does Hawk understand about Mouse's true nature?
-- **Question:** What is the exact scope of Hawk's knowledge? She seems to know Mouse is special but may not understand the full sci-fi truth.
-- **Severity:** Medium (critical for writing Hawk's dialogue accurately)
+### I-009: Hawk's Ember and the Secret - RESOLVED
+- **Resolution (author confirmed):** Hawk and the Elders have existed in the valley **for as long as Woodlanders have existed** - hundreds of years, from the time Fox descended with the Embers and scattered them. They have witnessed **generation after generation** of Woodlanders. Each Elder understands that Embers are critical parts of valley infrastructure and cultural identity.
+- **What they DON'T know:**
+  - They have **never witnessed** the removal or corruption of an Ember before
+  - They are **not fully aware** of the Ivy or its effects - the Ivy has not attempted direct interaction with Woodlanders or Embers yet (it was locked in its silent battle with the Sisters)
+  - Mouse's re-entry into the valley is the **tipping point** that causes the Ivy to escalate
+- **Design implication:** Hawk knows Mouse is special but does NOT understand the full sci-fi truth. Hawk knows Embers matter but has never faced the question of what happens when one is removed.
 
-### I-010: Bear's Backstory Gap
-- **Where:** Bear arrives in Ch 5 starving from failed hibernation prep. He's a yearling.
-- **Issue:** Where did Bear come from? What happened to his family? Is Bear tethered to a human in stasis like all Woodlanders?
-- **Question:** Is Bear's origin story told anywhere? Does it matter for the game, or is he simply "a young bear who showed up"?
-- **Severity:** Low (characterization detail)
+### I-010: Bear's Backstory - PARTIALLY RESOLVED
+- **Resolution (author confirmed):** Bear was a cub the year before we enter the story (this is alluded to in Ch 5 when he meets Mouse and Hawk and they teach him to fish). A formal backstory needs to be written, but Bear's character is intentionally straightforward - his complexity and depth arise organically through the stories. He's not mysterious; he's earnest.
+- **Action:** Add "Write Bear's formal backstory" to COMPLETENESS.md.
 
 ### I-011: The Dilemma of Returning Embers - RESOLVED
-- **Where:** Ch 23 (Conflicting Goals) - returning Embers to Sister North would strip valley protection.
 - **Resolution (author confirmed):** In Book 1, Mouse returns the first Ember (Zora's corrupted Ember from the Aetherbloom) to Sister North. Consequences:
   - Sister North begins to come back online (some capacity restored)
   - The Ancestral Apple Tree (Aetherbloom) withers and dies
@@ -82,55 +68,51 @@
   - BUT the tree was part of the squirrels' collective identity - an indirect, cultural loss
   - Returning the corrupted Ember HEALS Rus - his madness lifts
   - The trade-off is real: restoration costs the valley something irreplaceable each time
-- **Design implication:** The game does NOT offer the player a "clean" resolution. Each Ember return carries a bittersweet cost. Present this as narrative weight, not a player choice (Mouse decides in the story).
 
-### I-012: Bramblethorn's Dreams
-- **Where:** Ch 19 - Bramblethorn's dreams include human-like experiences (vines crawling up arms).
-- **Issue:** This implies the tethered human's experience is bleeding through into the Woodlander. Does this happen to other Woodlanders? Is it specific to Elders? Is it caused by the Ivy?
-- **Question:** Is the "tether bleeding through" a general phenomenon, or specific to Bramblethorn's proximity to the Ivy?
-- **Severity:** Medium (affects world mechanics design)
+### I-012: Bramblethorn's Dreams / Tether Bleed-through - RESOLVED
+- **Resolution (author confirmed):** The tether bleed-through is a **symptom of Ivy infection**, not a general phenomenon. Bramblethorn was completely covered in Ivy when found. This will become a **plot point in Book 2, not Book 1** - it is foreshadowing only.
+- **Design implication:** Do NOT build tether bleed-through mechanics for the Book 1 game. It's narrative foreshadowing only.
 
-### I-013: The Library's Nature
-- **Where:** Ch 16 - The Library is three redwoods spiraling together, produces books from reader's thoughts, keeps records of all Woodlanders.
-- **Issue:** Is the Library part of Sister North's infrastructure? Part of Fox's Emberveil system? Or something else entirely? It "has no record of Fox or pre-Woodlander history" which suggests it's post-Fox-rebellion.
-- **Question:** Who/what created the Library? Is it self-aware? Is it an Elder?
-- **Severity:** Low (fascinating lore question but doesn't block development)
+### I-013: The Library's Nature - PARTIALLY RESOLVED
+- **Resolution (author confirmed):** The Library is **Ember-powered** (like the Aetherbloom). An Ember is responsible for its existence and function. The Elder connected to this Ember is undecided - the author is torn between **Hawk** (would require some chapter rewrites) or **Rue the Shrew** (who Mouse meets in the Library and who brings the Elders book to Mouse's attention).
+- **Action:** Author decision needed. This affects whether Hawk has a deeper Library connection or whether Rue becomes a more prominent Elder character.
 
 ---
 
 ## Spec vs. Source Conflicts
 
 ### I-014: Ivy as "Death Mechanic" vs. Story - RESOLVED
-- **Resolution (author confirmed):** The Ivy is NOT primarily a "death mechanic" - it's the game's **invisible wall system**. Just as other games use invisible barriers to prevent players from accessing areas too early, the Ivy serves that role with narrative justification. It appears at boundaries where players aren't meant to explore yet, and in story-driven encounters. The sensory severance mechanic still applies when the player pushes into Ivy, but the primary design role is **area gating**, not frequent death.
-- **Design implication:** Reframe the Ivy in all specs as "narratively justified invisible walls + story encounters" rather than "death mechanic." The sensory effects (darkening, muffling) serve as the warning that the player is approaching a boundary. Full ejection only happens if they push past the warning.
+- **Resolution (author confirmed):** The Ivy is NOT primarily a death mechanic. It serves as the game's **invisible wall system** - a narratively justified way to gate areas the player isn't meant to access yet. It also appears in story-driven encounters. The sensory severance effects serve as warnings at boundaries; full ejection only if the player pushes past the warning.
 
-### I-015: Game Overview Scale vs. Vertical Slice
-- **Where:** Game Overview doc describes a "giant, to-scale map." Current implementation plan focuses on a vertical slice (Burrow → Workshop → Overworld).
-- **Issue:** The scope described in the overview is enormous (multiple biomes, 20+ Elder NPCs, complex ability-gating). The vertical slice is necessarily small.
-- **Question:** What's the actual target scope for the first playable build? The full Book 1, or a demo covering Act 1 only?
-- **Severity:** Medium (project planning, not lore)
+### I-015: Game Scope - RESOLVED
+- **Resolution (author confirmed):** Ultimate scope is **all of Book 1**. Development starts with **Act 1** (up to a specified chapter) to build out basic mechanics, world map, and location maps. Sequential development is necessary given the scale.
+- **Design implication:** Design systems to be extensible. Build Act 1 complete, then extend chapter by chapter.
 
-### I-016: Companion Limit
-- **Where:** Specs describe Hawk and Bear as the two companions. Story has them traveling together as a trio for most of Book 1.
-- **Issue:** Can the player have BOTH companions active simultaneously? The spec says "activeCompanion" (singular) suggesting only one at a time. The story has all three together constantly.
-- **Question:** Should the game support multiple active companions (matching the story), or one-at-a-time switching (simpler gameplay)?
-- **Severity:** Medium (affects companion system architecture)
+### I-016: Companion System - RESOLVED
+- **Resolution (author confirmed):** **Both Hawk and Bear are always present** (unless story dictates otherwise). Additionally, other characters can join the party based on completed side-quests:
+  - **Unlockable companions:** Autumn, Rue, Bramblethorn, Bean (and potentially others)
+  - **Unlock condition:** Complete each character's side-quest chain (help them, deepen relationship)
+  - **Final confrontation scaling:** During the confrontation with Sciurus von Appleseed, the more Woodlanders you've helped, the more allies join you. More allies = more story content + better outcomes for Mouse (less harm, which carries into the sequel).
+  - **Example:** If the player never finds Bramblethorn, they won't have Bramblethorn as a party member later.
+- **Design implication:** CompanionManager needs to support multiple active companions, not just one. The `activeCompanion` (singular) field needs to become a party system. This is a significant architecture change.
 
 ---
 
-## Timeline Uncertainties
+## Timeline
 
-### I-017: Seasonal Progression
-- **Where:** Story moves from Mouse waking (unclear season) → winter (Bear arrives) → spring (greenhouse) → summer (Follies). Game Overview mentions "winter → spring → summer" progression.
-- **Issue:** How long does the in-game story span? One year? The chapters suggest roughly one year from awakening to Summer Follies.
-- **Question:** Does the game use real seasonal progression (day/night, seasonal changes) or is it scripted to story chapters?
-- **Severity:** Low (aesthetic/technical decision)
+### I-017: Seasonal Progression - RESOLVED
+- **Resolution (author confirmed):** Seasons are **story-scripted**, not real-time. Seasonal changes unlock as the storyline progresses (winter → spring → summer following the chapter structure).
 
-### I-018: Pre-Story Timeline
-- **Where:** How long were humans in stasis? How long has Fox been managing the valley? How old is the Woodlander society?
-- **Issue:** "Centuries" is used loosely. The exact timeframe affects how established the Woodlander society should feel.
-- **Question:** Is there a canonical number for how long the stasis has lasted?
-- **Severity:** Low (background lore)
+### I-018: Pre-Story Timeline - PARTIALLY RESOLVED
+- **Resolution (author confirmed):**
+  - Humans have been in stasis for **~600 years** (approximate; exact number needs locking down)
+  - Mouse entered stasis around the same time as part of energy/compute saving measures
+  - Fox descended into the valley, scattered the Embers, established the Human/Woodlander tethering system, and integrated Embers into valley infrastructure
+  - Before Fox's intervention, humans were simply unconscious prisoners in stasis pods beneath Sister North
+  - Fox found tethering to be a more humane solution while keeping humans in stasis longer
+  - Fox may have planned to leave humans in stasis **indefinitely**
+  - Mouse's re-entry disrupts Fox's plan, putting them at odds
+  - However, the Ivy is the true antagonist, not Fox
 
 ---
 
@@ -138,21 +120,21 @@
 
 | ID | Status | Resolution |
 |----|--------|------------|
-| I-001 | OPEN | Awaiting author confirmation on spelling |
-| I-002 | OPEN | Awaiting author confirmation on intentional dual naming |
-| I-003 | OPEN | Awaiting author confirmation |
-| I-004 | OPEN | Awaiting author confirmation on Elder count |
-| I-005 | **RESOLVED** | Ivy deliberately created by all Three Sisters as climate-fix upgrade; gained own will; silent war for power/compute |
-| I-006 | **RESOLVED** | Zora infected by Ivy while visiting Willow; Ivy escalated in response to Sister North reviving Mouse |
+| I-001 | **RESOLVED** | Sciurus is canonical (Latin for squirrel) |
+| I-002 | **RESOLVED** | "Embers" is canonical; discontinue "Seeds" |
+| I-003 | **RESOLVED** | Use "Fox" as primary name; "Pip" is deep lore only |
+| I-004 | **ACKNOWLEDGED** | 20+ Elders need full build-out; major future task |
+| I-005 | **RESOLVED** | Ivy deliberately created by all Three Sisters as upgrade; gained own will; silent war for power/compute |
+| I-006 | **RESOLVED** | Zora infected by Ivy while visiting Willow; Ivy escalated due to Mouse's revival |
 | I-007 | **RESOLVED** | 0.01% = all that remains of humanity in stasis |
-| I-008 | OPEN | Awaiting author confirmation of Mountainborn interpretation |
-| I-009 | OPEN | Awaiting author scoping of Hawk's knowledge |
-| I-010 | OPEN | Low priority, awaiting author |
-| I-011 | **RESOLVED** | Ember return costs the valley something each time; first return withers Aetherbloom but heals Rus |
-| I-012 | OPEN | Awaiting author clarification |
-| I-013 | OPEN | Low priority |
-| I-014 | **RESOLVED** | Ivy = narratively justified invisible walls + story encounters, not frequent death mechanic |
-| I-015 | OPEN | Medium - project scope |
-| I-016 | OPEN | Medium - companion architecture |
-| I-017 | OPEN | Low priority |
-| I-018 | OPEN | Low priority |
+| I-008 | **RESOLVED** | Mountainborn = physical manifestation of AI code from the Sisters (Mouse, Fox, Ivy only) |
+| I-009 | **RESOLVED** | Elders witnessed hundreds of years but never saw Ember removal/corruption; unaware of Ivy; Mouse's return is tipping point |
+| I-010 | **PARTIAL** | Bear was cub previous year; formal backstory needed; complexity arises through stories |
+| I-011 | **RESOLVED** | First Ember return withers Aetherbloom but heals Rus; bittersweet trade-off each time |
+| I-012 | **RESOLVED** | Tether bleed-through is Ivy infection symptom; Book 2 plot point, Book 1 foreshadowing only |
+| I-013 | **PARTIAL** | Library is Ember-powered; Elder connection undecided (Hawk vs. Rue) |
+| I-014 | **RESOLVED** | Ivy = narratively justified invisible walls + story encounters, not death mechanic |
+| I-015 | **RESOLVED** | Full Book 1 ultimate scope; start with Act 1 sequential build |
+| I-016 | **RESOLVED** | Hawk + Bear always present; additional companions unlockable via side-quests; more allies = better final confrontation outcomes |
+| I-017 | **RESOLVED** | Seasons are story-scripted, not real-time |
+| I-018 | **PARTIAL** | ~600 years stasis; Fox established tethering; exact timeline needs locking down |

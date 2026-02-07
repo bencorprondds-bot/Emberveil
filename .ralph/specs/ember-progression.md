@@ -1,10 +1,11 @@
-# Ember / Seeds Progression System
+# Ember Progression System
 
 <!-- Source Material: "The Embers: A Core Mechanic of the Emberveil" doc, Style Guide -->
 <!-- Full Lore: Google Docs MHB1/1-MK2 -->
+<!-- NOTE: "Seeds" was a former alternate name. "Embers" is now the ONLY canonical term. -->
 
 ## Overview
-Embers (also called Seeds) are fragments of Sister North's quantum processing core (QPUs), scattered across the valley by Fox. They are the game's primary progression currency - each one collected grants Mouse new abilities or strengthens existing ones, gating access to new areas in Zelda-style fashion.
+Embers are fragments of Sister North's quantum processing core (QPUs), scattered across the valley by Fox ~600 years ago. They are the game's primary progression currency - each one collected grants Mouse new abilities or strengthens existing ones, gating access to new areas in Zelda-style fashion. Fox integrated the Embers into valley infrastructure, giving them to the Elders and embedding them in key locations (like the Aetherbloom). The Elders have come to understand Embers as critical parts of their cultural identity, though they've never witnessed one being removed.
 
 ## Lore Context
 - Sister North's core was a garden of technobiologic quantum processing units
@@ -106,7 +107,7 @@ Not all Embers are healthy. Some have been corrupted by the Ivy:
 - Corrupted Embers can drive their carriers mad (Rus's red-glowing eyes, Ch 26)
 - Corrupted Embers can kill (Zora: dark green veins, bleeding death, Ch 25)
 - Mouse's gloves react to corrupted Embers differently - connection to Sister North is painful
-- "0.01%" - **all that remains of humanity**. When Mouse connects to Sister North through Zora's corrupted Ember, she learns that of everyone she tried to save, only 0.01% survive in stasis. This is the story's most devastating revelation.
+- "0.01%" - **all that remains of humanity** in stasis. When Mouse connects to Sister North through Zora's corrupted Ember, she learns that of everyone she tried to save, only 0.01% survive. The story's most devastating revelation.
 
 ### The Central Dilemma (Ch 23) - RESOLVED
 Collecting Embers is NOT straightforward:

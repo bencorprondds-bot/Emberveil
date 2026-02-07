@@ -47,42 +47,67 @@ Mouse recruits friends who accompany her on adventures. Each companion has uniqu
 
 ---
 
-## Technical Design
+## Party System (Multi-Companion)
 
-### CompanionManager.cs (Singleton)
+### Core Rule
+**Hawk and Bear are ALWAYS present** (unless the story specifically separates them). The player does not choose between them - the trio travels together, matching the book.
+
+### Unlockable Companions
+Additional characters join the party based on completed **side-quest chains**:
+
+| Companion | Unlock Condition | Ability |
+|-----------|-----------------|---------|
+| **Bramblethorn** | Find and awaken the slumbering Elder | Rideable mount, traverse difficult terrain, fast travel |
+| **Autumn** | Complete orchard diplomacy questline | Squirrel agility, tree navigation, Rus mediation |
+| **Rue** | Complete Library questline | Knowledge/lore access, catalogue searches |
+| **Bean** | Rescue from Haunted Rocks + follow-up quests | Hint system, small-space access |
+
+### Final Confrontation Scaling
+During the climactic confrontation with Sciurus von Appleseed:
+- The more Woodlanders you've helped throughout the game, the more allies join you
+- More allies = **more story content** (additional dialogue, scenes, character moments)
+- More allies = **better outcomes for Mouse** (less harm during confrontation)
+- Mouse's condition at the end of Book 1 **carries into the sequel**
+- This creates meaningful replay value and rewards thorough exploration
+
+### Technical Design
+
+#### PartyManager.cs (Singleton)
 ```
 Fields:
-- activeCompanion: CompanionData (ScriptableObject)
-- companionObject: GameObject
+- coreCompanions: List<CompanionData> (Hawk, Bear - always present)
+- unlockedCompanions: List<CompanionData> (earned through quests)
+- activeParty: List<CompanionData> (currently following Mouse)
+- alliedWoodlanders: List<string> (NPCs helped - affects final confrontation)
 - followDistance: float (default 2 units)
-- isFollowing: bool
-- companionRoster: List<CompanionData> (recruited companions)
 
 Methods:
-- RecruitCompanion(CompanionData)
-- SetActiveCompanion(CompanionData)
-- DismissCompanion()
-- GetActiveCompanion()
+- RecruitCompanion(CompanionData) - Add to unlockedCompanions
+- AddToParty(CompanionData) / RemoveFromParty(CompanionData)
+- GetPartyMembers() - Returns all active companions
+- HasCompanion(CompanionType) - Check if specific companion is available
+- RegisterAlly(string npcId) - Track helped Woodlanders
+- GetAllyCount() - For final confrontation scaling
 
 Events:
 - OnCompanionRecruited
-- OnCompanionChanged
-- OnCompanionDismissed
+- OnPartyChanged
+- OnAllyRegistered
 ```
 
 ### Follow Behavior
-- Companion follows Mouse at `followDistance` (2 units)
-- Smooth interpolation movement
-- Stops when Mouse stops, has idle behaviors
-- Can be "parked" at specific locations
-- Hawk perches on elevated surfaces; Bear stands near Mouse
+- Multiple companions follow Mouse in formation
+- Hawk perches on elevated surfaces; Bear walks near Mouse
+- Unlockable companions have unique idle behaviors
+- Companions can be "parked" at specific locations for story reasons
+- Party spreads out when idle, clusters when moving
 
 ### Companion-Gated Puzzles
-- `LiftableObject` has `requiresCompanion` field (existing)
-- Extend with `requiredCompanionType` for specific companion needs
-- Contextual dialogue when wrong/no companion:
+- Some puzzles require specific companions:
   - "This is too heavy for Mouse alone..." (needs Bear)
   - "I can't see what's up there..." (needs Hawk)
+  - Specific unlockable companions open optional paths/puzzles
+- Contextual dialogue when wrong/missing companion
 
 ### Companion Dialogue
 Ambient dialogue triggered by:
@@ -91,21 +116,23 @@ Ambient dialogue triggered by:
 - Being idle too long
 - Completing puzzles
 - Story events (Ivy encounters, Fox sightings, Ember discoveries)
+- Companions comment on EACH OTHER - Hawk/Bear banter, reactions to new party members
 
 ---
 
-## Future Companions (Deferred)
+## Companion Details
 
-### Bramblethorn
-- Elder character, currently in slumber (Ivy-related)
+### Bramblethorn (Unlockable)
+- Elder character, currently in slumber beneath Ivy (Ch 18)
 - Once awakened: rideable mount, traverse difficult terrain
 - Unlocks fast travel between known locations
+- 15-foot boar - dramatic visual presence in party
 
-### Bean (Hint System)
-- Not a traditional companion - appears contextually
-- Pops up when player is stuck (60+ seconds)
+### Bean (Unlockable / Hint System)
+- Appears contextually when player is stuck (60+ seconds)
 - Gentle nudges, never solutions
 - Small rabbit kit, cheerful and scattered
+- Full companion after rescue + follow-up quests
 
 ### Other Valley Characters
 - 25+ supporting characters exist in the lore (see Character Sheets in Google Docs)
