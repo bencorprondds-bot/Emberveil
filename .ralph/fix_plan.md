@@ -73,6 +73,8 @@
 ---
 
 ## Phase 4: Mend System (MEDIUM PRIORITY)
+<!-- NOTE: Mend is unlocked via a side-character quest chain, NOT via Ember collection. -->
+<!-- The specific quest that unlocks Mend is TBD (author decision needed). -->
 
 ### Mend Interaction Type
 - [ ] Create MendableObject.cs (extends Interactable)
@@ -81,10 +83,13 @@
 - [ ] Create mendable objects for Burrow (broken shelf, cracked window)
 - [ ] Implement material requirements for some mend actions
 - [ ] Mended objects should change appearance and unlock new interactions
+- [ ] Hook unlock trigger to ProgressionManager quest completion (quest TBD)
 
 ---
 
 ## Phase 5: Grow System (MEDIUM PRIORITY)
+<!-- NOTE: Grow is unlocked via a side-character quest chain, NOT via Ember collection. -->
+<!-- The specific quest that unlocks Grow is TBD (author decision needed). -->
 
 ### Grow Interaction Type
 - [ ] Create GrowableObject.cs (extends Interactable)
@@ -93,6 +98,7 @@
 - [ ] Create garden area in Overworld or Greenhouse
 - [ ] Implement seed planting and growth mechanics
 - [ ] Grown items can be harvested into inventory
+- [ ] Hook unlock trigger to ProgressionManager quest completion (quest TBD)
 
 ---
 
@@ -126,15 +132,29 @@
 
 ---
 
+## Phase 4.5: Quest-Driven Progression System (MEDIUM PRIORITY)
+<!-- This is the core progression architecture for Game 1 -->
+
+### ProgressionManager
+- [ ] Create ProgressionManager.cs (Singleton) — tracks quest completions, ability unlocks, ally count
+- [ ] Define quest → ability unlock mappings (pending author decision on specific mappings)
+- [ ] Integrate with GloveController for ability availability checks
+- [ ] Integrate with PartyManager for ally tracking
+- [ ] Create Forge recipe unlock system (recipes discovered through quests/exploration)
+- [ ] Implement finale scaling based on ally count
+
+---
+
 ## Deferred (Future Phases)
 - [ ] Greenhouse and farming mechanics
 - [ ] Summer Follies minigames (Bear's Bake-Off, Ring Toss)
 - [ ] Stealth sections in Apple Orchard
 - [ ] Bramblethorn as rideable mount
-- [ ] Scan ability to see Embers
+- [ ] Scan ability to see Embers (possibly Game 2)
 - [ ] Storm/weather system
 - [ ] Full 26+ chapter narrative
 - [ ] Multiple companions beyond Bear and Hawk
+- [ ] Multi-Ember progression system (Game 2+)
 
 ---
 

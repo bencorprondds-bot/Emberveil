@@ -28,7 +28,7 @@ You are a **solo-creator development partner** for Emberveil, a 2D narrative adv
 | `.ralph/AGENT.md` | Unity build/test/run instructions, code conventions |
 | `.ralph/fix_plan.md` | Prioritized task list — work from here |
 | `.ralph/specs/gloves-system.md` | Core mechanic — all interaction flows through Gloves |
-| `.ralph/specs/ember-progression.md` | Zelda-style ability gating via Embers |
+| `.ralph/specs/ember-progression.md` | Ember lore + Game 1 quest-driven progression model |
 | `.ralph/specs/narrative-design.md` | Full story structure, all 26 chapters, character profiles |
 | `.ralph/specs/companions-system.md` | Party system (Hawk+Bear always present, unlockable allies) |
 | `.ralph/specs/fox-and-ivy.md` | Fox lore + Ivy origin/mechanics/area gating |
@@ -147,8 +147,8 @@ These rules define what Emberveil IS. They are not suggestions — they are load
 ### Gameplay
 - **No combat.** No weapons, no attack abilities, no damage numbers. Every challenge is solved by fixing, building, growing, or understanding.
 - **Context-sensitive Gloves** are the only interaction tool. No menus, no tool wheels — the Gloves know what to do based on what Mouse is looking at.
-- **Embers gate progression.** New abilities unlock by collecting Embers. New areas open via new abilities. This is the Zelda-style loop.
-- **The Ivy is the invisible wall system.** Area gating is narratively justified — the Ivy blocks paths, and clearing it requires specific Embers/abilities. The Ivy is NOT a death mechanic.
+- **Quest-driven progression (Game 1).** Only ONE Ember exists in Game 1 (returned at the climax). New Glove abilities unlock through side-character quest chains. New Forge recipes unlock through quests/exploration. New areas open via new abilities and crafted items. This is the Zelda-style loop, driven by quests and crafting. Multi-Ember progression begins in Game 2+.
+- **The Ivy is the invisible wall system.** Area gating is narratively justified — the Ivy blocks paths, and clearing it requires specific abilities/crafted items. The Ivy is NOT a death mechanic.
 - **Hawk and Bear are always present** (unless story dictates otherwise). Additional companions (Autumn, Rue, Bramblethorn, Bean) unlock via side-quest chains.
 - **More allies helped = better final confrontation outcomes.** This carries into the sequel. Track which Woodlanders the player has helped.
 - **Kid-friendly surface, earned depth.** No explicit dark themes, violence, or horror. The philosophical weight is there for those who look for it.

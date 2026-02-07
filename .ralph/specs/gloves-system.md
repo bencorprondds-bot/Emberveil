@@ -9,7 +9,7 @@ The Gloves are Mouse's primary tool - ancient technology that channels Sister No
 ## Lore Context
 - The Gloves are connected to Sister North's systems
 - They channel blue-green energy (the same energy the Forge uses)
-- Their power grows as Mouse collects more Embers (restoring Sister North's core)
+- In Game 1, their abilities grow through quest completion and Forge crafting. In future games, Ember collection strengthens them further
 - The Ivy can interfere with or suppress the Gloves' function
 - Mouse was asked by Hawk to hide her abilities from Bear (social tension around the Gloves)
 
@@ -17,7 +17,7 @@ The Gloves are Mouse's primary tool - ancient technology that channels Sister No
 - The Gloves replace a traditional weapon/tool wheel. No menu - they just *know* what to do.
 - They reinforce the game's identity: understand, repair, and create - never destroy.
 - The blue-green glow is the game's visual signature - warm, inviting, technological.
-- Power progression is tied to Ember collection, not skill trees or XP.
+- In Game 1, power progression is tied to **quest completion and Forge crafting**, not Ember collection. Embers drive progression in future games only.
 
 ## Interaction Types
 
@@ -39,17 +39,17 @@ The Gloves are Mouse's primary tool - ancient technology that channels Sister No
 - **Visual:** Object glows with Glove energy while carried
 - **Design notes:** Mouse can levitate things - this is technological telekinesis, not just "picking up." Some objects require companion help (Bear for heavy items).
 
-### Mend (Unlocked via Ember)
+### Mend (Unlocked via quest)
 - **Trigger:** Target any broken/damaged object
 - **Effect:** Begins repair process. Blue-green energy flows into cracks.
 - **Visual:** Particles flow from Gloves into object, cracks seal, object transforms
-- **Design notes:** Core progression mechanic. Mended objects change appearance and unlock areas/quests. May require specific materials.
+- **Design notes:** Core progression mechanic. Mended objects change appearance and unlock areas/quests. May require specific materials. Unlocked through a side-character quest chain (specific quest TBD — see ember-progression.md for HUMAN DECISION).
 
-### Grow (Unlocked via Ember)
+### Grow (Unlocked via quest)
 - **Trigger:** Target any growable plant, dead tree, or seed
 - **Effect:** Accelerates growth, resurrects dead vegetation
 - **Visual:** Green-tinged blue energy, leaves unfurl, branches extend
-- **Design notes:** Mouse can resurrect dead trees (shown in Chapter 2). Powers the Greenhouse system. Tied to the valley's restoration arc.
+- **Design notes:** Mouse can resurrect dead trees (shown in Chapter 2). Powers the Greenhouse system. Tied to the valley's restoration arc. Unlocked through a side-character quest chain (specific quest TBD — see ember-progression.md for HUMAN DECISION).
 
 ### Forge (Available at the Forge)
 - **Trigger:** Interact with the Forge in the Workshop
@@ -57,11 +57,11 @@ The Gloves are Mouse's primary tool - ancient technology that channels Sister No
 - **Visual:** Dark rectangular device channels blue-green energy to shape materials
 - **Design notes:** The Forge is a fixed location, not a portable ability. Crafting happens here.
 
-### Scan (Late game, unlocked via Ember)
+### Scan (Late game, unlocked via quest — possibly deferred to Game 2)
 - **Trigger:** Activate in any area
 - **Effect:** Reveals Ember signatures, hidden paths, the Ivy's reach, Sister North's infrastructure
 - **Visual:** Overlay/filter effect - the world's "true nature" becomes briefly visible
-- **Design notes:** Ties into the revelation arc. What you see with Scan hints at the sci-fi truth.
+- **Design notes:** Ties into the revelation arc. What you see with Scan hints at the sci-fi truth. May be deferred to Game 2 where multi-Ember progression begins — author decision needed.
 
 ### Use (Available from start)
 - **Trigger:** Target any usable mechanism (door, switch, lever)
@@ -85,19 +85,22 @@ When Mouse is near or inside the Ivy:
 - Complete immersion = screen goes dark, Mouse reappears outside the Ivy mass
 - This is the game's "death" mechanic - the Ivy severs her connection to Sister North
 
-## Ember-Gated Progression
-The Gloves start with basic abilities. New modes unlock as Mouse collects Embers:
+## Quest-Gated Progression (Game 1)
+The Gloves start with basic abilities. New modes unlock as Mouse completes side-character quest chains:
 
 1. **Start:** Examine, Talk, Lift, Use, Forge (at Workshop)
-2. **Early Ember:** Mend
-3. **Mid Ember:** Grow
-4. **Late Ember:** Scan
-5. Each Ember also strengthens existing abilities (longer range, faster mend, etc.)
+2. **Quest unlock (TBD):** Mend — unlocked through a specific quest chain
+3. **Quest unlock (TBD):** Grow — unlocked through a specific quest chain
+4. **Possibly Game 2:** Scan — may require Ember-based progression from future games
+
+The specific quest → ability mapping is an open design question (see `ember-progression.md`).
+
+In **future games**, additional Embers collected will strengthen existing abilities (longer range, faster mend, etc.) and unlock Ember-specific abilities (Commune, Resist, Scan).
 
 ## Technical Implementation
 - `GloveController.cs` on Mouse GameObject
-- Physics2D raycasting (1.5 unit range, grows with Embers) on "Interactable" layer
+- Physics2D raycasting (1.5 unit range) on "Interactable" layer
 - Event system: `OnTargetChanged(IInteractable)` for UI updates
-- Light2D component (blue-green, RGB 50/200/150, intensity scales with Ember count)
+- Light2D component (blue-green, RGB 50/200/150)
 - `IInteractable` interface determines valid interaction type per object
-- `EmberManager` tracks collected Embers and unlocked abilities
+- `ProgressionManager` tracks completed quests and unlocked abilities (replaces EmberManager for ability gating in Game 1)
