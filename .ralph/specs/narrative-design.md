@@ -89,7 +89,16 @@ Mouse must restore Sister North, one Ember at a time, while navigating a world o
 ### The Elders
 - Woodlanders imbued with Embers by Fox - "the fire of the mountains"
 - Each linked to critical valley infrastructure/lore
-- Don't age or get sick (unless Ivy-infected)
+- **Immortality:** Do not age. Do not get sick (the ONLY exception is Ivy infection). CAN still die from accidents or violence.
+- **Ember Boon:** Each Elder's Ember amplifies something about them — a trait, a sense, or a capability that comes across as almost magical. Every Elder has a unique boon tied to their specific Ember.
+  - Known boon: Zora's Ember gave her **foresight in dreams** and the ability to **see throughout the valley**
+  - Known boon: Hawk's **Eagle Eye** (exceptional long-range vision) — likely her Ember boon
+  - All other Elder boons need to be defined (see Elder Profiles below)
+- **Severance:** If an Elder is severed from their Ember (e.g., it is returned to Sister North), they:
+  - Begin aging again (become mortal)
+  - Become susceptible to disease
+  - Lose their Ember boon entirely
+  - This is the personal cost of the central dilemma — returning Embers doesn't just affect valley infrastructure, it strips an individual Elder of their immortality and gift
 - Custodians of Fox's vision for the valley
 - 20+ Elders exist in the valley (Ch 17); ~11 currently named, rest need building out
 - Named Elders: Hawk, Bramblethorn, Zora (deceased), Anwin, Dr. Shellby, Wei the Heron, Wolfmother, Raj the Tiger, Leviathan, Delta "Mum-of-Many-Rills", Morwen
@@ -97,7 +106,17 @@ Mouse must restore Sister North, one Ember at a time, while navigating a world o
 - Understand Embers are critical valley infrastructure but have **never seen one removed or corrupted**
 - **Not aware** of the Ivy's true nature - it had not interacted directly with them before Mouse's return
 - If an Elder's Ember is corrupted by the Ivy, they sicken and can die (Zora's fate)
-- Central dilemma: returning Embers to Sister North strips what they sustained from the valley
+- Central dilemma: returning Embers to Sister North strips what they sustained from the valley AND severs the Elder from their Ember (see above)
+
+#### Elder Profiles (TODO)
+Each Elder needs a full profile defining:
+1. **Who they are** — species, personality, role in the valley
+2. **Their Ember** — which fragment of Sister North's core they carry
+3. **Their boon** — what the Ember amplifies or grants them
+4. **What they sustain** — what valley infrastructure/feature their Ember powers
+5. **Severance cost** — what specifically would be lost if their Ember were returned
+
+This is future-game design work (Game 2+ involves collecting multiple Embers), but the profiles should be established now for narrative consistency.
 
 ### Bean
 - Small rabbit kit, cheerful and scattered

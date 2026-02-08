@@ -16,6 +16,7 @@
 - Fox found tethering to be a more humane solution while keeping humans in stasis longer
 - Fox may have planned to leave humans in stasis **indefinitely**
 - Gave the Elders individual Embers, making them custodians of the valley's infrastructure
+- Each Elder's Ember grants them immortality (no aging, no sickness) and a unique boon (an amplified trait or near-magical ability). See Elder Profiles in `narrative-design.md`.
 - Fox integrated the Embers into valley infrastructure over ~600 years
 - Mouse's re-entry disrupts Fox's plan, putting them at odds
 - **However, the Ivy is the true antagonist, not Fox**
@@ -88,7 +89,7 @@ Fox appears **tangentially** - brief, scripted moments:
 - Manifests physically as sentient, living vine
 - Devours senses: sight, sound, smell, touch fade progressively
 - Distorts perception and can warp time
-- Can infect woodlanders - the only way an Elder gets sick
+- Can infect woodlanders - the only way an Elder gets sick (Elders are otherwise immune to disease due to their Ember)
 - Connected to multiple valley tragedies: Zora's death, Bramblethorn's slumber, Rus's madness
 - The Haunted Rocks (ruins of New Haven, the old human city) are completely consumed by it
 - Can corrupt Embers: Zora's Ember turned cold, black, with sickly filaments (Ch 22)

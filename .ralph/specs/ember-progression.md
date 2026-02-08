@@ -96,6 +96,15 @@ Returning the Ember to Sister North is NOT straightforward:
 - Hawk challenges Mouse: "Is restoration always the right answer?"
 - The trade-off is real and bittersweet
 
+### Elder Severance (Future Games — Deepens the Dilemma)
+When an Elder's Ember is returned to Sister North, that Elder is **severed** from it:
+- They begin **aging again** — their immortality ends
+- They become **susceptible to disease** — the only protection they had was the Ember
+- They **lose their Ember boon** — whatever amplified trait or near-magical ability the Ember granted them is gone
+- Note: Elders can always die from accidents or violence regardless of Ember status; the Ember only prevents aging and illness
+- In Game 1, Zora's Ember is the one returned — but Zora is already dead (from Ivy infection), so the personal Elder severance cost is not felt by a living character. In future games, returning Embers from **living Elders** will force this dilemma into sharp focus.
+- Each Elder profile (see `narrative-design.md`) must define what their specific severance cost would be
+
 ### Book 1 Resolution
 Mouse returns the first Ember — Zora's corrupted Ember from the Aetherbloom — to Sister North.
 - **What is gained:** Sister North begins to come back online. Rus is healed.
