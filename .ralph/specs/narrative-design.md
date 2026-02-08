@@ -106,7 +106,9 @@ Mouse must restore Sister North, one Ember at a time, while navigating a world o
 - Understand Embers are critical valley infrastructure but have **never seen one removed or corrupted**
 - **Not aware** of the Ivy's true nature - it had not interacted directly with them before Mouse's return
 - If an Elder's Ember is corrupted by the Ivy, they sicken and can die (Zora's fate)
+- **Most Elders don't know** what their Ember actually sustains in the valley's infrastructure. A few do: Hawk, Rue, Wolfmother. The rest experience their boon as a gift, not as a custodial responsibility.
 - Central dilemma: returning Embers to Sister North strips what they sustained from the valley AND severs the Elder from their Ember (see above)
+- **When an Elder's Ember is returned:** the infrastructure node goes offline, BUT Mouse gains something in parallel since she's directly tied to Sister North. The loss may look superficial at first (e.g., the Aetherbloom's death looks like losing a landmark, not a systemic failure). The compounding consequences only become apparent over time.
 
 #### Elder Profiles (TODO)
 Each Elder needs a full profile defining:
@@ -117,6 +119,68 @@ Each Elder needs a full profile defining:
 5. **Severance cost** — what specifically would be lost if their Ember were returned
 
 This is future-game design work (Game 2+ involves collecting multiple Embers), but the profiles should be established now for narrative consistency.
+
+#### Infrastructure-to-Elder Mapping (Working Draft)
+The number of Elders (~20+) is driven by how many critical infrastructure nodes the Three Sisters require. Each node needs an Elder custodian with an Ember.
+
+| # | Infrastructure Domain | Known/Likely Elder | Status |
+|---|----------------------|-------------------|--------|
+| 1 | Communications hub (Old Oak) | Hawk | Active — boon: Eagle Eye |
+| 2 | Tether recycling (Loaming Ponds) | Wolfmother | Active — boon: cycle awareness |
+| 3 | Foresight/monitoring system | Zora (deceased) | OFFLINE — Ivy killed Zora |
+| 4 | Data/system node (Aetherbloom) | Zora's Ember was here | OFFLINE — Ember returned to Sister North |
+| 5 | Data archives (Library) | Rue? or separate Elder | Active |
+| 6 | Geological stability | Bramblethorn | DORMANT — Ivy-induced slumber |
+| 7 | Water distribution network | Delta "Mum-of-Many-Rills" | Active |
+| 8 | Healing/medical monitoring | Dr. Shellby | Active |
+| 9 | Knowledge/education | Raj the Tiger | Active |
+| 10 | Deep water systems (the Mere) | Leviathan | Active |
+| 11 | River/dam system | Wei the Heron | Active |
+| 12 | Power generation (geothermal) | TBD | Active |
+| 13 | Power distribution | TBD | Active |
+| 14 | Cooling systems (Cistern) | TBD | Active |
+| 15 | Atmospheric/weather | TBD | Active |
+| 16 | Seasonal regulation | TBD | Active |
+| 17 | Forest/flora management | TBD | Active |
+| 18 | Fauna/population balance | TBD | Active |
+| 19 | Perimeter defense (anti-Ivy) | TBD | Active |
+| 20 | Stasis pod life support | TBD | Active |
+| 21 | Cultural preservation | Morwen? | Active |
+| 22 | Navigation/pathfinding | Anwin? | Active |
+
+Exact count and assignments are author decisions. The total should be driven by infrastructure needs, not arbitrary.
+
+---
+
+### Woodlander Life Cycle & The Loaming Ponds
+
+#### The Tethering System
+- Woodlanders are animals tethered to sleeping humans via the Emberveil
+- Tethering grants them speech and consciousness
+- Neither party remembers previous cycles
+- Tethers SHUFFLE between cycles — the same human is NOT always tethered to the same Woodlander species. Humans "live" a massively diverse set of animal lives across centuries.
+- Woodlanders have somewhat typical lifespans for their species, extended modestly by the absence of predators
+
+#### The Loaming Ponds
+- Still, mirror-like ponds deep within the Emberveil
+- At end of a Woodlander's natural cycle, they are brought to the Loaming Ponds (or go willingly)
+- The community or loved ones accompany them — this is a ceremony, not a tragedy
+- The Woodlander is laid to rest in the pond, floats to the bottom
+- A **loaming serpent** (biomechanical entity, part of the tethering infrastructure) processes the body and severs the old tether
+- Shortly after, **newborns emerge from adjacent ponds** — dripping wet, small, mostly helpless
+- The tether is reassigned to a new Woodlander species based on what the valley needs for balance
+- **Wolfmother** (Elder) assigns/adopts the newborns to families and communities. She does not speak openly about the process. It's just something she does.
+- Wolfmother is viewed with both **awe and fear** — she is the custodian of death and rebirth
+- This has been happening for ~600 years. It is utterly ordinary to Woodlanders. Not even sad. Just a part of their social fabric.
+- There is likely an **annual ceremony/festival** intertwining death and rebirth
+
+#### Disrupted Cycles
+- **Ordinary sequence:** Seamless. Woodlander passes → Loaming Ponds → new Woodlander emerges → Wolfmother assigns. No gap in the tether.
+- **Accidental death away from the ponds:** The tethered human enters a coma/limbo state. They get reassigned at the **next annual ceremony**. Recoverable, but there's a gap.
+- **Ivy kills a Woodlander:** **TRUE DEATH.** The tether is fully and permanently severed. The Woodlander cannot be reconnected. The complete disconnection causes a **feedback loop that kills the tethered human** in their stasis pod. Both die. This is the most devastating consequence of the Ivy, and nobody in the valley knows this is happening.
+  - Zora's death didn't just kill Zora — it killed a sleeping human too.
+  - Every Woodlander the Ivy kills reduces the 0.01% of surviving humanity even further.
+  - The Ivy is attacking both sides of the tether simultaneously.
 
 ### Bean
 - Small rabbit kit, cheerful and scattered

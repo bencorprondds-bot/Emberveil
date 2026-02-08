@@ -21,6 +21,8 @@
 - Mouse's re-entry disrupts Fox's plan, putting them at odds
 - **However, the Ivy is the true antagonist, not Fox**
 - "Fox" is the canonical name. "Pip" was the pre-embodiment software identifier (deep lore only).
+- **FOX KNOWS THE FULL IMPLICATIONS:** Fox is the only entity who understands that restoring Sister North to her original state means ending Woodlander consciousness entirely. Fox scattered the Embers to protect the world Fox built. Every cryptic appearance, every evasion, is Fox trying to communicate this without saying it directly. Fox is caught between two apocalypses: let Mouse restore Sister North (end the Woodlanders) or stop her (let the Ivy consume everything). Fox chose a third path 600 years ago — scatter the Embers, buy time, build something beautiful — and Mouse is now undoing that path one Ember at a time.
+- Mouse has NO concept of the full implications until very late. Book 1 ends with the Aetherbloom withering, but severing Rus from the Ember doesn't change his consciousness tether — he just seems "cured." The systemic cost is invisible. It may not be until end of Book 2 that Mouse and some Elders truly grasp what full restoration means.
 
 ### Personality
 - Cryptic, elusive, rarely seen
@@ -96,6 +98,36 @@ Fox appears **tangentially** - brief, scripted moments:
 - Corrupted Embers cause Elder madness (Rus's red-glowing eyes, Ch 26) or death (Zora, Ch 25)
 - Returning a corrupted Ember to Sister North heals the corruption's effects (Rus is cured)
 - BUT the thing the Ember sustained in the valley withers (the Aetherbloom dies)
+- **Ivy kills = TRUE DEATH:** When the Ivy kills a Woodlander, the tether to their sleeping human is fully and permanently severed. The disconnection causes a feedback loop that **kills the tethered human** in their stasis pod. Both die. Cannot be recovered.
+  - This means every Woodlander the Ivy kills also reduces the 0.01% of surviving humanity
+  - Zora's death killed a sleeping human too — nobody knows this
+  - The Ivy is attacking both sides of the tether simultaneously
+  - This is distinct from accidental death (where the tether enters limbo and can be reassigned at the next annual ceremony at the Loaming Ponds)
+- Sustained contact with the Ivy knocks out most ordinary Woodlanders — they naturally avoid it wherever it appears
+
+### Lore: The Ivy's Strategic Intelligence
+The Ivy operates with high-level intelligent strategy, targeting infrastructure nodes in a calculated order. This sequencing should guide the chronology of the storyline.
+
+**Phase 1: Blind the defenders** (already accomplished before Book 1)
+- Targeted Zora — the one Elder who could see the Ivy's movements across the valley. Her foresight was the early warning system. With her dead, nobody can track the Ivy's expansion. First and most important move.
+
+**Phase 2: Neutralize heavy hitters** (Book 1 timeline)
+- Put Bramblethorn to sleep rather than killing him — sleeping looks natural, avoids the attention a death would create. His infrastructure (geological stability) goes dormant, not destroyed. Subtle.
+
+**Phase 3: Corrupt from within** (Book 1 timeline)
+- Corrupted Rus's Ember rather than killing him — a corrupted Elder sows chaos from within (raiding orchards, attacking rabbits, destabilizing community trust). The Ivy turns defenders into wrecking balls without spending energy to kill them. Corrupting Embers also degrades the infrastructure node.
+
+**Phase 4: Target the tethering system** (future books)
+- The Loaming Ponds / Wolfmother — if the recycling system is disrupted, Woodlander population collapses within a generation. No new conscious births. This would be a devastating late-game escalation.
+
+**Phase 5: Target power and compute** (endgame)
+- Go after Elders sustaining power generation, cooling, the dam — infrastructure the Sisters need to stay online at all.
+
+**What the Ivy avoids targeting early:**
+- Things whose loss would be immediately obvious and galvanize a response
+- The Old Oak / communications hub (Hawk) — taking this out would alert Mouse directly
+- Community-facing Elders (Dr. Shellby, Raj) — their loss would be noticed by everyone
+- Pattern: remove the ability to see the threat → neutralize the ability to respond → corrupt from within → destroy structural foundations. Classic siege strategy from an intelligence that thinks in centuries.
 
 ### Lore: Zora's Death (Full Sequence)
 - Zora's Ember gave her **foresight in dreams** and the ability to **see throughout the valley** (similar to Mouse)

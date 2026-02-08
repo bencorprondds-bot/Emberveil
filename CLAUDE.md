@@ -57,14 +57,18 @@ The story is deeply interconnected. Getting lore wrong creates cascading problem
 - **Fox** = rogue maintenance AI, compassionate not evil. "Fox" is the canonical name. "Pip" is deep lore only (pre-embodiment software identifier)
 - **The Ivy** = deliberately created by ALL THREE Sisters as a climate-fix upgrade. Gained its own will. Optimization problem without humanity. Silent war with the Sisters for power/compute. This is why the Sisters appear dormant
 - **Mountainborn** = physical manifestation of AI code from the Three Sisters. ONLY three exist: Mouse, Fox, and the Ivy
-- **Woodlanders** = animals tethered to humans in stasis via the Emberveil
+- **Woodlanders** = animals tethered to humans in stasis via the Emberveil. Tethers shuffle between life cycles — humans live diverse animal lives.
 - **The Emberveil** = biomechanical communications array disguised as sentient forest
-- **0.01%** = all that remains of humanity in stasis
+- **The Loaming Ponds** = still, mirror-like ponds deep in the Emberveil where Woodlander death/rebirth cycle occurs. Loaming serpents recycle tethers. Wolfmother (Elder) oversees assignments. Ordinary and ceremonial to Woodlanders — not sad, just part of life.
+- **Ivy kills = TRUE DEATH** — fully severs tether, kills both Woodlander AND their tethered human. Cannot be recovered. Accidental death away from ponds = limbo, recoverable at next annual ceremony.
+- **0.01%** = all that remains of humanity in stasis. The Ivy is actively reducing this number — every Woodlander the Ivy kills also kills a human.
 - **Sciurus von Appleseed** = canonical spelling (Latin: *sciurus* = squirrel). NOT "Scurius"
 - **Book 1 ends bittersweet:** first Ember returned heals Rus but the Aetherbloom (Ancestral Apple Tree) withers
 - **Zora** died from Ivy infection while visiting Willow. Her Ember gave foresight/valley-sight
-- **Elders** have witnessed hundreds of years of Woodlanders but NEVER saw Ember removal/corruption. They are unaware of the Ivy's true nature
+- **Elders** do NOT age, do NOT get sick (only exception: Ivy infection), CAN die from accidents/violence. Each has a unique Ember boon. Most don't know what their Ember sustains. Severance = aging resumes, disease susceptible, boon lost.
 - **Mouse's return** accelerates Ivy aggression — it sensed Sister North reviving Mouse
+- **Fox KNOWS** that full restoration of Sister North means ending Woodlander consciousness. Fox is the only one who understands this. Mouse won't grasp the full implications until late Book 2 at earliest.
+- **The Ivy targets infrastructure strategically:** first blinded the defenders (killed Zora), then neutralized heavy hitters (put Bramblethorn to sleep), then corrupted from within (Rus). Classic siege strategy from an intelligence that thinks in centuries.
 - **Tether bleed-through** (Bramblethorn's dreams) = Ivy infection symptom. Book 2 plot point ONLY — do not build mechanics for this in Book 1
 - **Seasons** = story-scripted, not real-time
 
