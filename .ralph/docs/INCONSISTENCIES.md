@@ -2,7 +2,7 @@
 
 > Tracked contradictions, ambiguities, and unresolved questions between chapters,
 > character sheets, worldbuilding docs, and game specs.
-> Last updated: 2026-02-07
+> Last updated: 2026-02-08
 
 ---
 
@@ -116,6 +116,51 @@
 
 ---
 
+## Lore Gaps from Location Documents (2026-02-08)
+
+### I-019: Who is Ava? — OPEN
+- **Source:** The Cistern location doc
+- **Context:** "There is an old maintenance facility there that Ava will decide to hide away in."
+- **Issue:** "Ava" does not appear in any existing spec, character sheet, or chapter. Appears to be a Book 2+ character.
+- **Impact:** Cistern location design (maintenance facility layout), future character sheet needed.
+
+### I-020: Hawk's Academy Professor — OPEN
+- **Source:** The Archenreach Academy location doc
+- **Context:** "Hawk got her doctorate in library and archival sciences at the Academy. (Who is her professor?)"
+- **Issue:** The author flagged this as an open question in the source doc itself. Professor is unnamed.
+- **Impact:** Potential NPC design, possible Elder candidate, Hawk backstory enrichment.
+
+### I-021: Professor of Woodland Literature — OPEN
+- **Source:** The Archenreach Academy location doc
+- **Context:** "This is where the Professor of Woodland Literature lives. They occupy one of the Academy's towers."
+- **Issue:** Unnamed character. Could be an Elder or a regular NPC.
+- **Impact:** Academy NPC roster, potential quest-giver.
+
+### I-022: Mole King and Cistern Construction — OPEN (Incomplete)
+- **Source:** The Mere location doc
+- **Context:** "The Mole King - A mole that's so convincing he manages to convince all the other moles to do his bidding. They build the cistern, which controls [incomplete]"
+- **Issue:** Sentence is incomplete in the source doc. The Mole King's role in cistern construction is partially described but unfinished.
+- **Impact:** Cistern backstory, Mole King character sheet, possible Elder candidate.
+
+### I-023: Ivy's Forge Location — OPEN
+- **Source:** The Glass Caverns location doc
+- **Context:** "The Ivy has created its own forge, but it doesn't work as well as Mouse's. It can only make monolithic pieces."
+- **Issue:** The Ivy's forge exists but its location is unspecified. This is a significant strategic detail.
+- **Impact:** Ivy encounter design, late-game location, possible story beat.
+
+### I-024: "Leafmere Lake" vs. "The Mere" — OPEN
+- **Source:** The Archenreach Academy calls it "Leafmere Lake"; The Mere doc calls it "The Mere"
+- **Issue:** Could be formal vs. common name, or the lake vs. the broader region. Needs clarification.
+- **Impact:** Naming consistency in dialogue and specs.
+
+### I-025: Is Leviathan an Elder? — OPEN
+- **Source:** The Mere and The Cistern docs
+- **Context:** The Leviathan manages the cistern water system (critical infrastructure) and is described as a "water dragon of sorts" — currently asleep, managing reflexively. She has her own pronouns.
+- **Issue:** Currently listed as an infrastructure custodian in the Elder mapping, but it's unclear if Leviathan is an Elder (has an Ember, has a boon, is a Woodlander) or something else entirely (a biomechanical entity like the loaming serpents).
+- **Impact:** Elder count, infrastructure mapping, deep lore about the cistern/cooling system.
+
+---
+
 ## Resolution Tracking
 
 | ID | Status | Resolution |
@@ -138,3 +183,10 @@
 | I-016 | **RESOLVED** | Hawk + Bear always present; additional companions unlockable via side-quests; more allies = better final confrontation outcomes |
 | I-017 | **RESOLVED** | Seasons are story-scripted, not real-time |
 | I-018 | **PARTIAL** | ~600 years stasis; Fox established tethering; exact timeline needs locking down |
+| I-019 | **OPEN** | Who is Ava? (Cistern maintenance facility, Book 2+ character) |
+| I-020 | **OPEN** | Hawk's Academy professor unnamed (author flagged as open question) |
+| I-021 | **OPEN** | Professor of Woodland Literature unnamed (Academy tower) |
+| I-022 | **OPEN** | Mole King / cistern construction — incomplete sentence in source doc |
+| I-023 | **OPEN** | Ivy's forge exists but location unspecified |
+| I-024 | **OPEN** | "Leafmere Lake" vs "The Mere" — naming clarification needed |
+| I-025 | **OPEN** | Is Leviathan an Elder (with Ember) or a biomechanical entity? |

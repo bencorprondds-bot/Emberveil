@@ -1,7 +1,8 @@
 # World & Locations Specification
 
-<!-- Source Material: Style Guide, Chapters 1-6, Locations folder in Google Docs -->
+<!-- Source Material: Style Guide, Chapters 1-26, Locations folder in Google Docs -->
 <!-- Full Lore: https://drive.google.com/drive/folders/1hcnJ_ci-UJq-IYGOv7-Ixrz7ea1u9SK2 -->
+<!-- Last sync with Google Docs: 2026-02-08 -->
 
 ## The Valley of Sisters - Overview
 
@@ -16,10 +17,26 @@ The Emberveil forest acts as a sentient guide, leading travelers where they "nee
 - **Lighting:** URP 2D lighting. Warm interiors, soft outdoor light. Glove glow as visual signature.
 - **Scale:** Zelda: Echoes of Wisdom-inspired. Vast, explorable overworld. Not a small tile room.
 
+## Valley Geography
+The valley is **diamond-shaped**, open at the south, closed by a wall. North of the wall = the valley. South of the wall = farmland inhabited by a few hundred subsistence farmers.
+
+The three largest mountains form the corners: Sister North (north), Sister West (southwest), Sister East (southeast). The valley contains meadows, forests (the Emberveil), rivers, orchards, underground systems, and multiple settlements.
+
+### The Cooling System (Critical Infrastructure)
+The valley's water system IS the Three Sisters' cooling system:
+1. **The Cistern** (deep underground) — origin point. The Leviathan manages water levels
+2. Water flows UP through the mountains, cooling their internal processors
+3. Water exits the mountains as **ice** on the peaks and as the **River** flowing downhill
+4. Water collects in **reservoirs and lakes** (The Mere, other lakes) where it cools
+5. Water re-enters the Cistern at the base of the wall, beyond the farmlands
+6. Cycle repeats: Cistern → Mountains → Ice/River/Lakes → Cistern
+
+The River is NOT a natural waterway — it is the cooling system's effluent.
+
 ## Game Scale
 The game overview doc specifies a "giant, to-scale map" with diverse biomes:
 - Mountains, forests, rivers, fields, underground areas
-- Ability-gated progression (Ember unlocks open new regions)
+- Ability-gated progression (quest-driven unlocks open new regions)
 - Each area should feel like a meaningful discovery
 
 ---
@@ -85,51 +102,127 @@ Mouse's ancient home. A massive oak tree shaped (not built) into a living struct
 - A place of mystery and knowledge
 
 ### Westwatch Warren (Chapter 12)
-- Rabbit community construction project
+- Rabbit community construction project, connected to Clover's family
+- A hill that will be progressively hollowed out as new inhabitants arrive
+- **Starts Book 1:** Rabbits only
+- **Grows incrementally:** Moles, crows, a lone beaver — one new group per book
+- Each group gets their own nook in the hill (modular architecture)
+- **End state (across series):** Completely hollowed hill with a central courtyard/agora
+- Grows in narrative importance across books — someone will eventually threaten it (possibly the Ivy)
 - Community-building mechanics
-- Connected to Clover's family and the rabbit characters
 
 ### The Queen's Chamber (Chapter 13)
-- Underground area
+- Underground area beneath Westwatch Warren
 - Connected to the rabbit warren storyline
 
 ### The Haunted Rocks (Chapter 15)
 - **THE KEY IVY LOCATION**
-- Ruins of New Haven - an old human city
+- Ruins of New Haven — an old human city at the head of the river where it exits Sister North
+- One of three cities that existed at the base of each Sister mountain (headquarters for engineers, scientists, politicians who built the Sisters)
+- Woodlanders see it as an unusual rock formation — very geometric, tall rocks
 - Completely consumed by the Ivy
 - Senses are warped, time behaves strangely
 - Fox has given up fighting the Ivy here
-- Makes Mouse deeply sad - she lost friends, students here
-- **Game function:** Tutorial for the Ivy severance mechanic. The player experiences progressive sensory loss for the first time.
+- Makes Mouse deeply sad — she lost friends, students here
+- **Game function:** Tutorial for the Ivy severance mechanic. The player experiences progressive sensory loss for the first time
 - This is where the game's tone shifts from cozy to something deeper
+- Strategically located at Sister North's river exit — a chokepoint the Ivy controls
 
 ### The Emberveil Forest
-- The sentient forest that guides travelers
+- The sentient forest — biomechanical communications array disguised as a living forest
 - Leads you where you "need" to go, not where you "want" to go
 - Tied to Fox's systems
 - Beautiful but unpredictable
 - Contains hidden paths, Ember locations, and deeper mysteries
+- **Two zones:** Emberveil Shallows (accessible, lighter) and Emberveil Deep (dangerous, darker)
+- **Known residents:** Bramblethorn (Ancient Hollow, a Douglas-Fir trunk), Bear, Queen Bee Hyleae, Wolfmother
+- Contains the Loaming Ponds deep within
+
+### Cedartown
+- A village in the Emberveil canopy — bustling crossroads between Emberveil Deep and Emberveil Shallows
+- **Upper level (canopy):** Squirrels, raccoons, birds — arboreal species
+- **Lower level (ground):** Boars, shrews, wolves, deer — ground species
+- Diverse, well-populated settlement — natural waypoint for the player
+- Potential hub for quests, fast-travel, or commerce
 
 ### Otterdam / Felmere (Chapter 7)
-- Water management system in the valley
-- Fox once appeared here to repair the dam - one of Fox's rare direct interventions
+- Dam and water management system in the valley
+- Fox once appeared here to repair the dam — one of Fox's rare direct interventions
+- Beavers maintain the dam; muskrat families from The Mere help patch holes beavers can't reach
 - Connected to the Mere and the river network
 - Important geography established during the Thanksgiving map-drawing
 
+### The Mere / Leafmere Lake
+- Large lake at one of the lowest points in the valley, hugging the base of **Sister West**
+- Sits over an **abandoned human city** (undisclosed lore)
+- **Fed by the Leviathan** from the cistern deep below — NOT by the river (hidden lore, revealed several books in)
+- Prone to flooding in heavy rain years
+- **Muskrat families** run the only boat transport on the lake — two families who bicker constantly over territorial control
+  - Pirate-like/sailor-like speech patterns
+  - Help the beavers at the dam by patching holes
+  - Host a **New Moon Market** attended by almost all Woodlanders
+- On the NW corner: The Archenreach Academy (accessible only by boat or through the mountain)
+- On the western bank: steep scalloped rock cliffs at the base of Sister West
+- **New Year's Festival:** Annual celebration at The Mere marking the end of winter. Woodlanders place remembrances (small gifts) in little boats made of woven reeds/willow by kits, with elders helping. Celebrates differences and shared identity.
+- **Fox's Origin:** When Fox first emerged from Sister North during a continent-spanning hurricane, the old cooling reservoir dam broke, flooding the valley. Fox rebuilt the valley, planted the Emberveil, and installed safeguards (including the Leviathan). Fox also purged the Ivy from the valley during this period, driving it underground. "This feels like its own story."
+
+### The Archenreach Academy
+- School for all Woodlanders — free, open, prestigious for those who become professors
+- Carved by moles into scalloped rock cliffs on the western bank of The Mere, at the base of Sister West
+- Accessible ONLY by boat from the lake or through the mountain itself — isolated, quiet retreat
+- Built over an **old pumping station** that pre-dates the Leviathan (used to pump water from the cistern)
+- Full of cloisters and courtyards; most classes held outside; weather always warm on the far side of the lake
+- Has its **own library** (separate from the Emberveil Library)
+- **Notable characters:**
+  - Professor of Woodland Literature (lives in one of the Academy's towers — unnamed)
+  - Hawk got her doctorate in library and archival sciences here (professor unnamed — **LORE GAP**)
+  - Bear will eventually become the first professor of culinary arts (no culinary program exists yet)
+- Currently no culinary arts program — Bear must first apprentice with valley cooks (multi-book arc)
+
 ### The Ancestral Apple Tree / Aetherbloom (Chapters 10-11, 21-22)
 - Massive ancient tree in the orchards
-- Contains a corrupted Ember (Zora's Ember) - cold, black, with sickly filaments
+- Contains a corrupted Ember (Zora's Ember) — cold, black, with sickly filaments
 - Guarded by Rus (Von Appleseed) and the squirrels
-- Mouse's gloves react strongly to it - connects to Sister North ("0.01%")
+- Mouse's gloves react strongly to it — connects to Sister North ("0.01%")
 - A key Ember location the player must reach and reckon with
 - The "Fire and Ice" chapter describes the Ember igniting/burning this tree
 
 ### The Three Sisters (Mountains)
-- Visible on the horizon - three mountain peaks
+- Visible on the horizon — three mountain peaks forming the diamond valley's corners
 - The player doesn't know they're supercomputers until late in the story
-- Sister North is the focus - her "garden" core is beneath/within the mountain
-- Visual landmark that gains meaning as lore is revealed
-- Mouse is "Mountainborn" - crafted from mountain stone (i.e., created by Sister North)
+- **Sister North:** The present — makes choices based on current conditions. Diameter ~25 miles, height ~11,000 ft (Mt. Rainier scale). Contains the Ark (humans in cryogenic stasis) and the QPU core (quantum processing units = "higher reasoning"). QPU core looked like a forest glen before Fox scattered it. Focus of Book 1.
+- **Sister West:** Archive/memory — "infinite context window." Base of The Mere, Archenreach Academy
+- **Sister East:** The future — plans survival of all living things. Neither West nor East act in the present, which is why they didn't stop Fox.
+- Mouse is "Mountainborn" — crafted from mountain stone (i.e., created by Sister North)
+- Each Sister had a human city at its base (all now in ruins; the Haunted Rocks are the remains of Sister North's city)
+
+### The Cistern (Underground)
+- Massive underground lake deep beneath the valley — the starting point of the entire cooling system
+- Fed by the **Leviathan** (a water dragon of sorts, positioned at the bottom)
+- Overhung by **Glowcap mushrooms** (which the moles harvest for Lottie's Casino)
+- Contains an old maintenance facility where **"Ava"** will hide (Book 2+ — **LORE GAP: who is Ava?**)
+- Former human occupant was a reader and fisherman — kept a journal (discoverable lore item)
+- **Mole King** organized moles to build the cistern infrastructure (incomplete lore — **LORE GAP**)
+- The Ivy has NOT found its way down here yet — the cistern is currently safe but a future target
+- The Leviathan is asleep, managing water levels reflexively
+
+### The Glass Caverns
+- Caverns that look like a giant art installation — every surface covered in glass art
+- **Sunbears:** Live within the caves, constantly blowing glass in their furnaces. Glass furniture, glass hanging from ceilings. Artisans devoted to experimentation.
+- **Metal:** Sunbears use metal only for flues. Metal is an **extremely rare commodity** in the valley, reserved for very special uses.
+- **Deep within:** A vein of iron worked by a family of **Honeybadgers**
+  - Responsible for making ALL metal items for the valley
+  - Very reclusive, very selective about who gets metal and what it's used for
+  - NOT weapon-makers (reinforces no-combat design)
+  - **Quest-gating potential:** Mouse may need to earn Honeybadger trust to obtain metal for the Forge
+- **The Ivy has created its own forge** somewhere — inferior to Mouse's, can only make "monolithic pieces" (**LORE GAP: where is the Ivy's forge?**)
+
+### Lottie's Casino (Book 2+)
+- Underground casino "in the ribs" above the cistern — geological/structural framework above the cistern, below the valley surface
+- Primary location for a large chunk of Book 2
+- Run by moles (proprietor likely named **Lottie**)
+- Moles brew a drink from the **Glowcap mushrooms** growing around the cistern
+- NOT relevant to Game 1 implementation
 
 ---
 
@@ -147,6 +240,31 @@ Mountain Cave → Valley (opening sequence, one-way)
 Burrow ←→ Workshop (stairs)
 Burrow ←→ Overworld (door)
 Overworld → Various locations (paths, doors)
+```
+
+### Connections (Full World - Conceptual)
+```
+Surface Layer:
+  Mountain Cave → Old Oak (central hub)
+  Old Oak ←→ Overworld (door)
+  Overworld → Orchards / Ringtail Tavern / Emberveil / Otterdam / The Mere
+  Emberveil Shallows → Cedartown (crossroads) → Emberveil Deep
+  Emberveil Deep → Loaming Ponds / Bramblethorn's Hollow
+  The Mere → Archenreach Academy (boat only) / Westwatch Warren
+
+Underground Layer:
+  Old Oak → Workshop (stairs)
+  Glass Caverns (Sunbears/Honeybadgers) → Iron vein
+  Westwatch → Queen's Chamber (below)
+  Lottie's Casino (ribs above cistern)
+  The Cistern (deepest - Leviathan)
+
+Vertical Stack (SW corner, Sister West):
+  The Mere (surface) → Archenreach Academy (cliff level) → Lottie's Casino (ribs) → The Cistern (deep)
+
+Ivy-Blocked:
+  The Haunted Rocks (completely consumed)
+  Various overworld paths (ability-gated)
 ```
 
 ## Environmental Storytelling

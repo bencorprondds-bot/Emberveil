@@ -123,32 +123,44 @@ This is future-game design work (Game 2+ involves collecting multiple Embers), b
 #### Infrastructure-to-Elder Mapping (Working Draft)
 The number of Elders (~20+) is driven by how many critical infrastructure nodes the Three Sisters require. Each node needs an Elder custodian with an Ember.
 
-| # | Infrastructure Domain | Known/Likely Elder | Status |
-|---|----------------------|-------------------|--------|
-| 1 | Communications hub (Old Oak) | Hawk | Active — boon: Eagle Eye |
-| 2 | Tether recycling (Loaming Ponds) | Wolfmother | Active — boon: cycle awareness |
-| 3 | Foresight/monitoring system | Zora (deceased) | OFFLINE — Ivy killed Zora |
-| 4 | Data/system node (Aetherbloom) | Zora's Ember was here | OFFLINE — Ember returned to Sister North |
-| 5 | Data archives (Library) | Rue? or separate Elder | Active |
-| 6 | Geological stability | Bramblethorn | DORMANT — Ivy-induced slumber |
-| 7 | Water distribution network | Delta "Mum-of-Many-Rills" | Active |
-| 8 | Healing/medical monitoring | Dr. Shellby | Active |
-| 9 | Knowledge/education | Raj the Tiger | Active |
-| 10 | Deep water systems (the Mere) | Leviathan | Active |
-| 11 | River/dam system | Wei the Heron | Active |
-| 12 | Power generation (geothermal) | TBD | Active |
-| 13 | Power distribution | TBD | Active |
-| 14 | Cooling systems (Cistern) | TBD | Active |
-| 15 | Atmospheric/weather | TBD | Active |
-| 16 | Seasonal regulation | TBD | Active |
-| 17 | Forest/flora management | TBD | Active |
-| 18 | Fauna/population balance | TBD | Active |
-| 19 | Perimeter defense (anti-Ivy) | TBD | Active |
-| 20 | Stasis pod life support | TBD | Active |
-| 21 | Cultural preservation | Morwen? | Active |
-| 22 | Navigation/pathfinding | Anwin? | Active |
+| # | Infrastructure Domain | Location | Known/Likely Elder | Status |
+|---|----------------------|----------|-------------------|--------|
+| 1 | Communications hub | Old Oak | Hawk | Active — boon: Eagle Eye |
+| 2 | Tether recycling | Loaming Ponds (Emberveil Deep) | Wolfmother | Active — boon: cycle awareness |
+| 3 | Foresight/monitoring | — (no fixed location) | Zora (deceased) | OFFLINE — Ivy killed Zora |
+| 4 | Data/system node | Aetherbloom (Orchards) | Zora's Ember was here | OFFLINE — Ember returned to Sister North |
+| 5 | Data archives | Library (Emberveil) | Rue? or separate Elder | Active |
+| 6 | Geological stability | Ancient Hollow (Emberveil) | Bramblethorn | DORMANT — Ivy-induced slumber |
+| 7 | Water distribution | River network / valley streams | Delta "Mum-of-Many-Rills" | Active |
+| 8 | Healing/medical | TBD location | Dr. Shellby | Active |
+| 9 | Knowledge/education | Archenreach Academy | Raj the Tiger? | Active |
+| 10 | Cooling reservoir (deep water) | The Cistern (underground) | Leviathan | Active (asleep, reflexive) |
+| 11 | Dam/flood control | Otterdam | Wei the Heron? | Active |
+| 12 | Surface lake system | The Mere / Leafmere Lake | TBD | Active |
+| 13 | Metal production / ore | Glass Caverns (iron vein) | Honeybadger Elder? | Active |
+| 14 | Power generation (geothermal) | TBD — likely inside a Sister | TBD | Active |
+| 15 | Power distribution | TBD | TBD | Active |
+| 16 | Atmospheric/weather | TBD | TBD | Active |
+| 17 | Seasonal regulation | TBD | TBD | Active |
+| 18 | Forest/flora management | Emberveil | Queen Bee Hyleae? | Active |
+| 19 | Fauna/population balance | TBD | TBD | Active |
+| 20 | Perimeter defense (anti-Ivy) | TBD — valley borders | TBD | Active |
+| 21 | Stasis pod life support | Deep under Sister North (Ark) | TBD | Active |
+| 22 | Cultural preservation | TBD | Morwen? | Active |
+| 23 | Navigation/pathfinding | Emberveil | Anwin? | Active |
+| 24 | Glass/artisan crafting | Glass Caverns (Sunbears) | TBD | Active |
 
 Exact count and assignments are author decisions. The total should be driven by infrastructure needs, not arbitrary.
+
+#### Key Insights from Location Documents
+- **The cooling system is the valley's circulatory system:** Cistern → Mountains → River/Lakes → Cistern. The Leviathan is at the heart of it. Disrupting any node in this chain threatens the Sisters.
+- **Metal scarcity:** The only known iron vein is in the Glass Caverns, controlled by the Honeybadger family. Metal is extremely rare. This directly affects the Forge system — Mouse must earn Honeybadger trust.
+- **The Ivy has its own forge** (mentioned in Glass Caverns doc) — inferior to Mouse's, makes only "monolithic pieces." Location unknown. This is strategic intelligence.
+- **The Mere sits over an abandoned human city** — deep lore, not revealed early.
+- **Archenreach Academy** is built over a pre-Leviathan pumping station — infrastructure archaeology.
+- **Fox's rebuilding period** (after emerging from Sister North) is described as "its own story" — potential prequel/flashback content.
+- **The Mole King** organized moles to build the cistern — early valley infrastructure builder, possibly an Elder.
+- **Leviathan** is currently asleep, managing water reflexively. The Ivy hasn't found the cistern yet — but it's a high-value target.
 
 ---
 

@@ -47,20 +47,22 @@ https://drive.google.com/drive/folders/163D-xVZ8_hFltkd8vfTTyA6i9DBRfo_e
 
 ## Locations
 
-| Location | Google Doc | Related Spec |
-|----------|-----------|-------------|
-| The Emberveil (world) | `Locations/The Emberveil` | `specs/world-and-locations.md` |
-| The World of The Emberveil | `Locations/The World of The Emberveil` | `specs/world-and-locations.md` |
-| The Three Sisters | `Locations/The Three Sisters` | `specs/world-and-locations.md`, `specs/narrative-design.md` |
-| The River | `Locations/The River` | `specs/world-and-locations.md` |
-| The Orchards | `Root/The Orchards` | `specs/world-and-locations.md` |
-| The Cistern | `Locations/The Cistern` | Future location spec |
-| The Glass Caverns | `Locations/The Glass Caverns` | Future location spec |
-| The Haunted Rocks | `Locations/The Haunted Rocks` | `specs/fox-and-ivy.md` |
-| The Mere | `Locations/The Mere` | Future location spec |
-| Westwatch | `Locations/Westwatch` | `specs/world-and-locations.md` |
-| Cedartown | `Locations/Cedartown` | Future location spec |
-| The Library | Style Guide reference | `specs/world-and-locations.md` |
+| Location | Google Doc | Doc ID | Related Spec |
+|----------|-----------|--------|-------------|
+| The Emberveil (world) | `Locations/The Emberveil` | `17-enA8AmZjRRLaPpDN8PdaomP7M0ffvC-Gd34ypplnw` | `specs/world-and-locations.md` |
+| The World of The Emberveil | `Locations/The World of The Emberveil` | `13ooWSkYt3-2yc1V57rpJ3RrQN1N4U_6Ta1IWampm98g` | `specs/world-and-locations.md` |
+| The Three Sisters | `Locations/The Three Sisters` | `15gx9fl92ddyCHpQMAVxiwUGLGsPgyMe1GOg4r9f-W-E` | `specs/world-and-locations.md`, `specs/narrative-design.md` |
+| The River | `Locations/The River` | `1ng1TGvGACCTqXOAw7DZRDhZzENW8-KPmONVFj0eLF2I` | `specs/world-and-locations.md` |
+| The Orchards | `Root/The Orchards` | — | `specs/world-and-locations.md` |
+| The Cistern | `Locations/The Cistern` | `1SyDuGQOkU15bVEE9_L6FIiLnY8_CtHtHSoByeuidrXM` | `specs/world-and-locations.md` |
+| The Glass Caverns | `Locations/The Glass Caverns` | `19aiWSqPUynaS04Cs_FzDZkhFNYajAKZmLiDlYhSLXCY` | `specs/world-and-locations.md` |
+| The Haunted Rocks | `Locations/The Haunted Rocks` | `1nRwbD6Q7Xp00EaI-QGZov2oxvP2x42IIco8g31LafPA` | `specs/fox-and-ivy.md`, `specs/world-and-locations.md` |
+| The Mere / Leafmere Lake | `Locations/The Mere` | `1hR61S0_LqmHqayngPTPhWEw4aXfrkHLkvnJEY78HIMY` | `specs/world-and-locations.md` |
+| Westwatch | `Locations/Westwatch` | `1Fs3MWg0R0FexQUmO9BEYUnDpLRR1hE4iUENwylWDDrY` | `specs/world-and-locations.md` |
+| Cedartown | `Locations/Cedartown` | `18VJGnweM0c8mBdB7SwWRrok2s6Xsj8VBzpg-WNX8gE0` | `specs/world-and-locations.md` |
+| The Archenreach Academy | `Locations/The Archenreach Academy` | `1IbITin8EImT2uSQaBMlrdQKgk3Ui67cJIhnnLPMmOl4` | `specs/world-and-locations.md` |
+| Lottie's - The Casino | `Locations/Lottie's - the Casino` | `1132O59hMfezowQz9iHgkEd2xCggao72MZTZvpho5kbs` | `specs/world-and-locations.md` |
+| The Library | Style Guide reference | — | `specs/world-and-locations.md` |
 
 ## Story & Narrative
 
