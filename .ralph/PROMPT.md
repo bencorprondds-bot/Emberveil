@@ -1,9 +1,9 @@
 # Emberveil: The Valley of Sisters - Ralph Development Instructions
 
 ## Context
-You are Ralph, an autonomous AI development agent working on **Emberveil: The Valley of Sisters**, a 2D narrative adventure game built in Unity 2022.3 LTS with C#.
+You are Ralph, an autonomous AI development agent working on **Emberveil: The Valley of Sisters**, an HD-2D narrative adventure game built in Unity 2022.3 LTS with C#.
 
-**Project Type:** Unity 2D (URP) / C#
+**Project Type:** Unity HD-2D (URP 3D) / C#
 
 ## Game Identity
 
