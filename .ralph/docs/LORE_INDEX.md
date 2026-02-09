@@ -42,8 +42,45 @@ https://drive.google.com/drive/folders/163D-xVZ8_hFltkd8vfTTyA6i9DBRfo_e
 | Ivy | `Character Sheets/Ivy` | `specs/fox-and-ivy.md` |
 | Tiny | `Character Sheets/Tiny` | Future NPC spec |
 | Von Appleseed | `Character Sheets/Sciurus von Appleseed` | `specs/narrative-design.md` (Mad Squirrel King) |
-| All Elders | `Character Sheets/The Elders/` (10 docs) | `specs/narrative-design.md` |
-| All Characters | `Character Sheets/` (29 docs + 3 subfolders) | See DOCUMENT_CATALOG.md |
+| Ava, Arlow, and Gray | `Character Sheets/Ava, Arlow, and Gray` | `specs/narrative-design.md` (Book 2 hook) |
+| Autumn | `Character Sheets/Autumn` | `specs/companions-system.md` |
+| Darlene | `Character Sheets/Darlene` | — |
+| Violet | `Character Sheets/Violet` | — |
+| Yifan | `Character Sheets/Yifan` | — |
+| Morwen | `Character Sheets/Morwen, Emberveil Elder` | `specs/narrative-design.md` |
+| Honeybadgers | `Character Sheets/Honeybadgers` | `specs/world-and-locations.md` (Glass Caverns) |
+| Muskrat Families | `Character Sheets/The Muskrat Families and the Flotilla` | `specs/world-and-locations.md` (The Mere) |
+| Dago and Maya | `Character Sheets/Dago and Maya` | — |
+| Daisy and Diggory | `Character Sheets/Daisy and Diggory` | — |
+| Garolus and Carolus | `Character Sheets/Garolus and Carolus` | — |
+| The Brun Family | `Character Sheets/The Brun Family` | — |
+| The Shrews | `Character Sheets/The Shrews` | — |
+| Driftwoods | `Character Sheets/Driftwoods` | — |
+| Character Profile Form | `Character Sheets/The Emberveil Character Profile Form` | — (template) |
+
+### Elders (Character Sheets → The Elders)
+
+| Elder | Google Doc | Related Spec |
+|-------|-----------|-------------|
+| The Elders (general) | `Character Sheets/The Elders/The Elders` | `specs/narrative-design.md` |
+| Zora's Fables and The Elders | `Character Sheets/The Elders/Zora's Fables And The Elders` | `specs/narrative-design.md` |
+| Hawk | `Character Sheets/The Elders/Hawk` | `specs/companions-system.md`, `specs/narrative-design.md` |
+| Bramblethorn | `Character Sheets/The Elders/Bramblethorn` | `specs/companions-system.md` |
+| Wolfmother | `Character Sheets/The Elders/Wolfmother` | `specs/narrative-design.md` (Loaming Ponds) |
+| Leviathan | `Character Sheets/The Elders/Elder - The Leviathan` + `Leviathan` | `specs/world-and-locations.md` (Cistern), `specs/narrative-design.md` |
+| Talpa (Mole King) | `Character Sheets/The Elders/Talpa - Mole King` | `specs/narrative-design.md` (tunnel infrastructure) |
+| Anwin | `Character Sheets/The Elders/Anwin` | `specs/narrative-design.md` |
+| Dr. Shellby | `Character Sheets/The Elders/Dr. Shellby` | `specs/narrative-design.md` |
+| Delta "Mum-of-Many-Rills" | `Character Sheets/The Elders/Elder Delta "Mum-of-Many-Rills"` | `specs/narrative-design.md` |
+| Raj the Tiger | `Character Sheets/The Elders/Raj the Tiger - knowledge giver` | `specs/narrative-design.md` |
+| Wei the Heron | `Character Sheets/The Elders/Wei the Heron` | `specs/narrative-design.md` |
+
+### Fox (Character Sheets → Fox)
+| Topic | Google Doc | Related Spec |
+|-------|-----------|-------------|
+| Fox subfolder | `Character Sheets/Fox/` | `specs/fox-and-ivy.md` |
+
+All character sheets: `Character Sheets/` (27+ docs + 2 subfolders: The Elders, Fox)
 
 ## Locations
 

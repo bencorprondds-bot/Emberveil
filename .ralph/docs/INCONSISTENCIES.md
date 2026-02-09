@@ -118,11 +118,9 @@
 
 ## Lore Gaps from Location Documents (2026-02-08)
 
-### I-019: Who is Ava? — OPEN
-- **Source:** The Cistern location doc
-- **Context:** "There is an old maintenance facility there that Ava will decide to hide away in."
-- **Issue:** "Ava" does not appear in any existing spec, character sheet, or chapter. Appears to be a Book 2+ character.
-- **Impact:** Cistern location design (maintenance facility layout), future character sheet needed.
+### I-019: Who is Ava? — RESOLVED
+- **Source:** The Cistern location doc + "Ava, Arlow, and Gray" character sheet
+- **Resolution (author confirmed):** Ava is a human engineer (age 26 at stasis) who helped design the Cistern and tunnels with Mouse. She was Mouse's friend and mentee. Her stasis pod is deliberately malfunctioned by the Ivy at the very end of Book 1 (post-climax hook into Book 2). She is infected by the Ivy upon waking, pregnant with twins (Arlow and Gray), and retreats to the Cistern maintenance facility. The Ivy hijacks her Woodlander tether, gaining a covert agent in the valley. Every chapter intro note in Book 1 is revealed to be Mouse writing to the twins.
 
 ### I-020: Hawk's Academy Professor — OPEN
 - **Source:** The Archenreach Academy location doc
@@ -136,11 +134,9 @@
 - **Issue:** Unnamed character. Could be an Elder or a regular NPC.
 - **Impact:** Academy NPC roster, potential quest-giver.
 
-### I-022: Mole King and Cistern Construction — OPEN (Incomplete)
-- **Source:** The Mere location doc
-- **Context:** "The Mole King - A mole that's so convincing he manages to convince all the other moles to do his bidding. They build the cistern, which controls [incomplete]"
-- **Issue:** Sentence is incomplete in the source doc. The Mole King's role in cistern construction is partially described but unfinished.
-- **Impact:** Cistern backstory, Mole King character sheet, possible Elder candidate.
+### I-022: Mole King and Cistern Construction — RESOLVED
+- **Source:** The Mere location doc + "Talpa - Mole King" character sheet (The Elders folder)
+- **Resolution (author confirmed):** The Mole King is named **Talpa** (Latin for mole). He IS an Elder. His Ember is integrated into the tunnels and safety/maintenance infrastructure beneath the valley. **Correction:** The moles did NOT build the cistern — the humans built it during original valley construction. Talpa and the moles maintain the tunnel/maintenance infrastructure. The Mere doc's phrasing ("They build the cistern") was misleading. Character sheet is still incomplete (ends mid-sentence).
 
 ### I-023: Ivy's Forge Location — OPEN
 - **Source:** The Glass Caverns location doc
@@ -148,16 +144,13 @@
 - **Issue:** The Ivy's forge exists but its location is unspecified. This is a significant strategic detail.
 - **Impact:** Ivy encounter design, late-game location, possible story beat.
 
-### I-024: "Leafmere Lake" vs. "The Mere" — OPEN
+### I-024: "Leafmere Lake" vs. "The Mere" — RESOLVED
 - **Source:** The Archenreach Academy calls it "Leafmere Lake"; The Mere doc calls it "The Mere"
-- **Issue:** Could be formal vs. common name, or the lake vs. the broader region. Needs clarification.
-- **Impact:** Naming consistency in dialogue and specs.
+- **Resolution (author confirmed):** Leafmere Lake and The Mere are the same body of water. **Otterdam** divides it into two sections: the **Leafmere** (at the base of Sister West, exposed to the sun) and the **Fellmere** (under Sister West / inside the mountain). Both sides cover a submerged human city from before stasis. "The Mere" is the general name for the whole lake system.
 
-### I-025: Is Leviathan an Elder? — OPEN
-- **Source:** The Mere and The Cistern docs
-- **Context:** The Leviathan manages the cistern water system (critical infrastructure) and is described as a "water dragon of sorts" — currently asleep, managing reflexively. She has her own pronouns.
-- **Issue:** Currently listed as an infrastructure custodian in the Elder mapping, but it's unclear if Leviathan is an Elder (has an Ember, has a boon, is a Woodlander) or something else entirely (a biomechanical entity like the loaming serpents).
-- **Impact:** Elder count, infrastructure mapping, deep lore about the cistern/cooling system.
+### I-025: Is Leviathan an Elder? — RESOLVED
+- **Source:** The Mere, The Cistern, and "Elder - The Leviathan" character sheet
+- **Resolution (author confirmed):** Yes, the Leviathan IS an Elder. It is a massive, deformed **axolotl** — dragon/wyrm-like, elemental force. Its Ember **fused directly with its body** (unique among Elders — most have Embers integrated into separate infrastructure). Its tail extends like roots deep underground, far beyond the valley, draining surrounding landscape. Dual purpose: (1) perpetual water supply to the valley and Sisters, (2) creates the impassable desert that prevents invaders. The Leviathan cannot leave its post. Disrupting it is an immediate existential threat to the valley. Currently asleep, managing reflexively. Fox installed it during the valley rebuilding period.
 
 ---
 
@@ -183,10 +176,10 @@
 | I-016 | **RESOLVED** | Hawk + Bear always present; additional companions unlockable via side-quests; more allies = better final confrontation outcomes |
 | I-017 | **RESOLVED** | Seasons are story-scripted, not real-time |
 | I-018 | **PARTIAL** | ~600 years stasis; Fox established tethering; exact timeline needs locking down |
-| I-019 | **OPEN** | Who is Ava? (Cistern maintenance facility, Book 2+ character) |
-| I-020 | **OPEN** | Hawk's Academy professor unnamed (author flagged as open question) |
-| I-021 | **OPEN** | Professor of Woodland Literature unnamed (Academy tower) |
-| I-022 | **OPEN** | Mole King / cistern construction — incomplete sentence in source doc |
-| I-023 | **OPEN** | Ivy's forge exists but location unspecified |
-| I-024 | **OPEN** | "Leafmere Lake" vs "The Mere" — naming clarification needed |
-| I-025 | **OPEN** | Is Leviathan an Elder (with Ember) or a biomechanical entity? |
+| I-019 | **RESOLVED** | Ava = human engineer, Mouse's mentee; stasis pod malfunctioned by Ivy end of Book 1; infected; pregnant with twins Arlow & Gray; retreats to Cistern |
+| I-020 | **OPEN** | Hawk's Academy professor unnamed (author working on this) |
+| I-021 | **OPEN** | Professor of Woodland Literature unnamed (author working on this) |
+| I-022 | **RESOLVED** | Talpa (Latin for mole) = Mole King, IS an Elder; Ember in tunnel/maintenance infrastructure; moles maintain but did NOT build cistern (humans built it) |
+| I-023 | **OPEN** | Ivy's forge exists but location unspecified (author working on this) |
+| I-024 | **RESOLVED** | Leafmere = sun-exposed side of Otterdam; Fellmere = under Sister West; both = The Mere; all cover submerged human city |
+| I-025 | **RESOLVED** | Leviathan IS an Elder (massive axolotl); Ember fused with body (unique); roots create desert for water + defense; cannot leave post |

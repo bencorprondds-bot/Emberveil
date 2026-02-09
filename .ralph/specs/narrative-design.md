@@ -134,21 +134,22 @@ The number of Elders (~20+) is driven by how many critical infrastructure nodes 
 | 7 | Water distribution | River network / valley streams | Delta "Mum-of-Many-Rills" | Active |
 | 8 | Healing/medical | TBD location | Dr. Shellby | Active |
 | 9 | Knowledge/education | Archenreach Academy | Raj the Tiger? | Active |
-| 10 | Cooling reservoir (deep water) | The Cistern (underground) | Leviathan | Active (asleep, reflexive) |
-| 11 | Dam/flood control | Otterdam | Wei the Heron? | Active |
-| 12 | Surface lake system | The Mere / Leafmere Lake | TBD | Active |
-| 13 | Metal production / ore | Glass Caverns (iron vein) | Honeybadger Elder? | Active |
-| 14 | Power generation (geothermal) | TBD — likely inside a Sister | TBD | Active |
-| 15 | Power distribution | TBD | TBD | Active |
-| 16 | Atmospheric/weather | TBD | TBD | Active |
-| 17 | Seasonal regulation | TBD | TBD | Active |
-| 18 | Forest/flora management | Emberveil | Queen Bee Hyleae? | Active |
-| 19 | Fauna/population balance | TBD | TBD | Active |
-| 20 | Perimeter defense (anti-Ivy) | TBD — valley borders | TBD | Active |
-| 21 | Stasis pod life support | Deep under Sister North (Ark) | TBD | Active |
-| 22 | Cultural preservation | TBD | Morwen? | Active |
-| 23 | Navigation/pathfinding | Emberveil | Anwin? | Active |
-| 24 | Glass/artisan crafting | Glass Caverns (Sunbears) | TBD | Active |
+| 10 | Water supply + cistern cooling | The Cistern (underground) | **Leviathan** (axolotl, Elder) | Active (asleep, reflexive) — Ember FUSED with body; roots extend beyond valley creating desert; cannot leave post |
+| 11 | Tunnel/maintenance infrastructure | Tunnels beneath the valley | **Talpa** (Mole King, Elder) | Active — Ember integrated into tunnels and safety/maintenance systems |
+| 12 | Dam/flood control | Otterdam | Wei the Heron? | Active |
+| 13 | Surface lake system | The Mere / Leafmere / Fellmere | TBD | Active |
+| 14 | Metal production / ore | Glass Caverns (iron vein) | Honeybadger Elder? | Active |
+| 15 | Power generation (geothermal) | TBD — likely inside a Sister | TBD | Active |
+| 16 | Power distribution | TBD | TBD | Active |
+| 17 | Atmospheric/weather | TBD | TBD | Active |
+| 18 | Seasonal regulation | TBD | TBD | Active |
+| 19 | Forest/flora management | Emberveil | Queen Bee Hyleae? | Active |
+| 20 | Fauna/population balance | TBD | TBD | Active |
+| 21 | Perimeter defense (anti-Ivy) | TBD — valley borders | TBD | Active |
+| 22 | Stasis pod life support | Deep under Sister North (Ark) | TBD | Active |
+| 23 | Cultural preservation | TBD | Morwen? | Active |
+| 24 | Navigation/pathfinding | Emberveil | Anwin? | Active |
+| 25 | Glass/artisan crafting | Glass Caverns (Sunbears) | TBD | Active |
 
 Exact count and assignments are author decisions. The total should be driven by infrastructure needs, not arbitrary.
 
@@ -159,8 +160,8 @@ Exact count and assignments are author decisions. The total should be driven by 
 - **The Mere sits over an abandoned human city** — deep lore, not revealed early.
 - **Archenreach Academy** is built over a pre-Leviathan pumping station — infrastructure archaeology.
 - **Fox's rebuilding period** (after emerging from Sister North) is described as "its own story" — potential prequel/flashback content.
-- **The Mole King** organized moles to build the cistern — early valley infrastructure builder, possibly an Elder.
-- **Leviathan** is currently asleep, managing water reflexively. The Ivy hasn't found the cistern yet — but it's a high-value target.
+- **Talpa (Mole King)** is an Elder whose Ember is integrated into the valley's tunnel/maintenance infrastructure. The moles maintain the tunnels but did NOT build the cistern — humans built it during original valley construction.
+- **Leviathan** is an Elder (massive axolotl) whose Ember **fused with its body** (unique). Its root-like tail extends beyond the valley, draining surrounding landscape to create the impassable desert AND provide perpetual water supply. Currently asleep, managing reflexively. The Ivy hasn't found the cistern yet — but it's a high-value target. Disrupting the Leviathan = immediate existential threat to the entire valley.
 
 ---
 
@@ -270,6 +271,22 @@ Mouse returns the first Ember - Zora's corrupted Ember from the Aetherbloom - to
 - **What is lost:** The Ancestral Apple Tree (Aetherbloom) withers and dies. No squirrels are physically harmed, but the tree was central to their collective identity. An irreplaceable cultural loss.
 - **The tone:** Bittersweet. Not a triumph. Not a tragedy. A "game about fixing things" reckons with the fact that fixing one thing can break another.
 - **Implication for future books:** Each Ember returned will presumably carry a similar trade-off. The weight of restoration compounds.
+- **The chapter intro notes** throughout Book 1 are revealed to be **Mouse writing to Arlow and Gray** (Ava's twins). This is not apparent until Book 2.
+
+### Book 1 Ending / Book 2 Hook: Ava's Awakening
+At the very end of Book 1, **after** the first Ember is returned and the Aetherbloom withers:
+
+- **Ava's stasis pod malfunctions.** This is NOT an accident — the Ivy deliberately selected her.
+- **Ava** was a human engineer (age 26 at stasis) who helped design the Cistern and tunnels with Mouse. She considered Mouse a teacher and mentor.
+- The Ivy infiltrated Sister West's history logs, found Ava's connection to Mouse, and targeted her specifically to sow discord between Mouse and Fox.
+- The Ivy wraps around Ava's pod, detaches it from the stasis chamber ceiling, and brings it to the ground. When Ava breaks through the Ivy coating, it scratches her — **infecting her.**
+- Ava wakes in Sister North's Core (where Mouse was reawoken a year before). She's disoriented, with memory fog (unclear cause: stasis, tethering, or Ivy infection).
+- Fox finds her. Bloodwork in Sister North's hospital bay reveals: she's **pregnant with twins** (Arlow and Gray), and something from the Ivy is growing in both her and the children.
+- **Critical revelation:** Ava was tethered to a Woodlander. Instead of letting the Woodlander die from the severed connection, the Ivy **hijacks the tether** — giving the Ivy an undercover agent in the valley. Fox eventually realizes this in Book 2, recognizing it as an existential escalation: the Ivy can now embody itself through Woodlanders, giving it free physical movement throughout the valley.
+- Ava retreats to the Cistern maintenance facility (the shack she once supervised construction from). Salmon raceways + automated vertical gardens in the Mothership provide food.
+- Fox, Mouse, Dr. Shellby, Hawk, and Bear attend the birth under oath of silence: *"This is what we are sworn to protect. These creatures. They sleep under the mountain, but this one has awoken before the Sisters were ready. We must protect them at all costs."*
+
+**Design implications for Game 1:** Ava does not appear in gameplay. Her stasis pod malfunction is a post-climax cutscene / end-of-game hook. The Cistern maintenance facility should exist in the world data even if the player cannot access it in Game 1.
 
 ### Later Chapters (Titles Known, Numbering TBD)
 - **Mouse Returns to Sister North** - Outline/fragment only. Key endgame chapter where Mouse confronts the full truth and returns the first Ember.

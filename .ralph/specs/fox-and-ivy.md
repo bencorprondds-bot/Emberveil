@@ -129,6 +129,13 @@ The Ivy operates with high-level intelligent strategy, targeting infrastructure 
 - Community-facing Elders (Dr. Shellby, Raj) — their loss would be noticed by everyone
 - Pattern: remove the ability to see the threat → neutralize the ability to respond → corrupt from within → destroy structural foundations. Classic siege strategy from an intelligence that thinks in centuries.
 
+**Phase 6: Direct human targeting** (end of Book 1 / Book 2)
+- The Ivy infiltrates Sister West's history logs. It identifies **Ava**, a human engineer with a direct connection to Mouse, and deliberately malfunctions her stasis pod.
+- When Ava breaks free, the Ivy scratches her — **infecting the first human directly.**
+- The Ivy **hijacks Ava's Woodlander tether** instead of letting the Woodlander die — giving the Ivy a covert embodied agent in the valley. This represents a massive escalation: the Ivy can now move freely through the valley via a Woodlander proxy.
+- Fox recognizes this as an existential crisis: if the Ivy can scale up tether hijacking, it can bypass the centuries-long silent war with Sister North entirely.
+- The Ivy is also gathering biological data from Ava's pregnancy (twins Arlow and Gray are infected in utero) — its long-term plan for harnessing human minds.
+
 ### Lore: Zora's Death (Full Sequence)
 - Zora's Ember gave her **foresight in dreams** and the ability to **see throughout the valley** (similar to Mouse)
 - Zora had a premonition: she foresaw the aftermath of Mouse descending into the valley

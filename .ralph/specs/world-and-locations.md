@@ -147,13 +147,19 @@ Mouse's ancient home. A massive oak tree shaped (not built) into a living struct
 
 ### Otterdam / Felmere (Chapter 7)
 - Dam and water management system in the valley
+- **Otterdam separates two bodies of water:**
+  - **Leafmere** = the part of the lake at the base of Sister West, exposed to the sun
+  - **Fellmere** = the part under Sister West / inside the mountain
+  - Both are effectively the same lake ("The Mere" / "Leafmere Lake"), divided by the dam
+  - Both cover a submerged human city from before stasis
 - Fox once appeared here to repair the dam — one of Fox's rare direct interventions
-- Beavers maintain the dam; muskrat families from The Mere help patch holes beavers can't reach
+- Beavers maintain the dam; muskrat families help patch holes beavers can't reach
 - Connected to the Mere and the river network
-- Important geography established during the Thanksgiving map-drawing
+- The Leviathan directs water to the spring that feeds the Fellmere
 
 ### The Mere / Leafmere Lake
 - Large lake at one of the lowest points in the valley, hugging the base of **Sister West**
+- "The Mere," "Leafmere Lake," and "Leafmere" all refer to the same body of water (Otterdam divides it into Leafmere and Fellmere)
 - Sits over an **abandoned human city** (undisclosed lore)
 - **Fed by the Leviathan** from the cistern deep below — NOT by the river (hidden lore, revealed several books in)
 - Prone to flooding in heavy rain years
@@ -198,13 +204,16 @@ Mouse's ancient home. A massive oak tree shaped (not built) into a living struct
 
 ### The Cistern (Underground)
 - Massive underground lake deep beneath the valley — the starting point of the entire cooling system
-- Fed by the **Leviathan** (a water dragon of sorts, positioned at the bottom)
+- **Built by humans** during original valley construction (part of the infrastructure that undergirds the Three Sisters)
+- The **Leviathan** (Elder) lives at the bottom — a massive, deformed **axolotl**, dragon/wyrm-like. Its tail extends like roots deep into the earth, far beyond the valley, sucking moisture from the surrounding landscape. Dual purpose: (1) perpetual water supply, (2) creates the impassable desert that prevents invaders from reaching the valley. The Leviathan directs all water to the valley's rivers, tributaries, and springs. An elemental force, silent and implacable. Disrupting it = immediate existential threat.
+- Leviathan's Ember **fused directly with it** (unique among Elders — most Embers are integrated into infrastructure or separate objects). The Leviathan cannot leave its post.
 - Overhung by **Glowcap mushrooms** (which the moles harvest for Lottie's Casino)
-- Contains an old maintenance facility where **"Ava"** will hide (Book 2+ — **LORE GAP: who is Ava?**)
+- Contains an old maintenance facility — a shack where **Ava** once supervised the Cistern buildout with Mouse. Ava retreats here in Book 2 after her stasis pod malfunctions.
+- Salmon raised in **raceways** near the cistern (food supply)
 - Former human occupant was a reader and fisherman — kept a journal (discoverable lore item)
-- **Mole King** organized moles to build the cistern infrastructure (incomplete lore — **LORE GAP**)
+- **Talpa (the Mole King)** and his moles maintain the tunnel/maintenance infrastructure beneath the valley (but did NOT build the cistern — humans did)
 - The Ivy has NOT found its way down here yet — the cistern is currently safe but a future target
-- The Leviathan is asleep, managing water levels reflexively
+- The Leviathan is asleep, managing water levels reflexively. Fox installed the Leviathan here during the valley rebuilding period.
 
 ### The Glass Caverns
 - Caverns that look like a giant art installation — every surface covered in glass art
