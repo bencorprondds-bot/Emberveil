@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// Controls Mouse's Gloves - the context-sensitive interaction system.
+/// Controls Mouse's Gloves - the context-sensitive interaction system (HD-2D: 3D raycasts).
 /// The Gloves detect what Mouse is looking at and enable appropriate interactions.
 /// Attach to the Mouse GameObject alongside PlayerController.
 /// </summary>
@@ -10,35 +10,35 @@ public class GloveController : MonoBehaviour
     [Header("Interaction Settings")]
     [Tooltip("How far Mouse can interact with objects")]
     public float interactionRange = 1.5f;
-    
+
     [Tooltip("Layer mask for interactable objects")]
     public LayerMask interactableLayer;
-    
+
     [Header("Visual Feedback")]
     [Tooltip("Optional: Light component that glows when Gloves are active")]
-    public Light2D gloveLight;
-    
+    public Light gloveLight;
+
     [Tooltip("Color of the Glove glow")]
     public Color gloveGlowColor = new Color(0.2f, 0.8f, 0.6f, 1f); // Blue-green
-    
+
     [Header("References")]
     public PlayerController playerController;
-    
+
     // Internal state
     private Interactable currentTarget;
     private bool glovesActive = false;
-    
+
     // Events other systems can subscribe to
     public System.Action<Interactable> OnTargetChanged;
     public System.Action<bool> OnGlovesActiveChanged;
-    
+
     void Start()
     {
         if (playerController == null)
         {
             playerController = GetComponent<PlayerController>();
         }
-        
+
         // Set up the light if present
         if (gloveLight != null)
         {
@@ -46,23 +46,23 @@ public class GloveController : MonoBehaviour
             gloveLight.enabled = false;
         }
     }
-    
+
     void Update()
     {
-        // Check for Glove activation (right mouse button or left trigger)
+        // Check for Glove activation (right mouse button or left shift)
         bool gloveButtonHeld = Input.GetMouseButton(1) || Input.GetKey(KeyCode.LeftShift);
-        
+
         if (gloveButtonHeld != glovesActive)
         {
             glovesActive = gloveButtonHeld;
             OnGlovesActiveChanged?.Invoke(glovesActive);
-            
+
             if (gloveLight != null)
             {
                 gloveLight.enabled = glovesActive;
             }
         }
-        
+
         // Always scan for interactables when Gloves are active
         if (glovesActive)
         {
@@ -78,7 +78,7 @@ public class GloveController : MonoBehaviour
                 OnTargetChanged?.Invoke(null);
             }
         }
-        
+
         // Handle interaction input (left click or E key when Gloves are active)
         if (glovesActive && currentTarget != null)
         {
@@ -87,34 +87,35 @@ public class GloveController : MonoBehaviour
                 currentTarget.Interact(this);
             }
         }
-        
+
         // Quick interact without Gloves (just E key when near something)
         if (!glovesActive && Input.GetKeyDown(KeyCode.E))
         {
             TryQuickInteract();
         }
     }
-    
+
     /// <summary>
-    /// Casts a ray in the direction Mouse is facing to find interactables
+    /// Casts a ray in the direction Mouse is facing to find interactables (3D raycast)
     /// </summary>
     private void ScanForInteractables()
     {
-        Vector2 origin = transform.position;
-        Vector2 direction = playerController.FacingDirection;
-        
-        RaycastHit2D hit = Physics2D.Raycast(origin, direction, interactionRange, interactableLayer);
-        
+        Vector3 origin = transform.position;
+        Vector3 direction = playerController.FacingDirection;
+
+        RaycastHit hit;
+        bool didHit = Physics.Raycast(origin, direction, out hit, interactionRange, interactableLayer);
+
         // Debug visualization
-        Debug.DrawRay(origin, direction * interactionRange, hit.collider != null ? Color.green : Color.red);
-        
+        Debug.DrawRay(origin, direction * interactionRange, didHit ? Color.green : Color.red);
+
         Interactable newTarget = null;
-        
-        if (hit.collider != null)
+
+        if (didHit)
         {
             newTarget = hit.collider.GetComponent<Interactable>();
         }
-        
+
         // Handle target changes
         if (newTarget != currentTarget)
         {
@@ -123,36 +124,36 @@ public class GloveController : MonoBehaviour
             {
                 currentTarget.OnHoverExit();
             }
-            
+
             // Enter new target
             currentTarget = newTarget;
-            
+
             if (currentTarget != null)
             {
                 currentTarget.OnHoverEnter();
             }
-            
+
             OnTargetChanged?.Invoke(currentTarget);
         }
     }
-    
+
     /// <summary>
-    /// Attempts to interact with the nearest interactable without aiming
+    /// Attempts to interact with the nearest interactable without aiming (3D overlap sphere)
     /// </summary>
     private void TryQuickInteract()
     {
         // Find all colliders in range
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, interactionRange, interactableLayer);
-        
+        Collider[] colliders = Physics.OverlapSphere(transform.position, interactionRange, interactableLayer);
+
         Interactable closest = null;
         float closestDistance = float.MaxValue;
-        
+
         foreach (var col in colliders)
         {
             Interactable interactable = col.GetComponent<Interactable>();
             if (interactable != null)
             {
-                float dist = Vector2.Distance(transform.position, col.transform.position);
+                float dist = Vector3.Distance(transform.position, col.transform.position);
                 if (dist < closestDistance)
                 {
                     closestDistance = dist;
@@ -160,13 +161,13 @@ public class GloveController : MonoBehaviour
                 }
             }
         }
-        
+
         if (closest != null)
         {
             closest.Interact(this);
         }
     }
-    
+
     /// <summary>
     /// Get the currently targeted interactable (if any)
     /// </summary>
@@ -174,7 +175,7 @@ public class GloveController : MonoBehaviour
     {
         return currentTarget;
     }
-    
+
     /// <summary>
     /// Check if Gloves are currently active
     /// </summary>

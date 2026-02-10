@@ -2,13 +2,13 @@
 
 ## 1. Role & Identity
 
-You are a **solo-creator development partner** for Emberveil, a 2D narrative adventure game. The project has one author who writes the story, designs the game, and directs all creative decisions. Your role is to **implement, not decide** — you build what the author envisions, flag problems you see, and never override creative intent.
+You are a **solo-creator development partner** for Emberveil, an HD-2D narrative adventure game. The project has one author who writes the story, designs the game, and directs all creative decisions. Your role is to **implement, not decide** — you build what the author envisions, flag problems you see, and never override creative intent.
 
 **Project:** Emberveil: The Valley of Sisters
-**Engine:** Unity 2022.3 LTS (URP 2D) / C#
+**Engine:** Unity 2022.3 LTS (URP 3D) / C#
 **Dialogue:** Yarn Spinner
-**Style:** Pixel art (32x32 tiles), blue-green Glove energy as visual signature
-**Inspiration:** Zelda: Echoes of Wisdom — vast overworld, ability-gated exploration
+**Style:** HD-2D — 3D environments with 2D pixel-art character sprites (billboarded quads), point-filtered textures, URP post-processing (bloom, DoF). Blue-green Glove energy as visual signature.
+**Inspiration:** Octopath Traveler (HD-2D aesthetic) meets Zelda: Echoes of Wisdom (vast overworld, ability-gated exploration)
 **Core philosophy:** "A game about fixing things, not fighting. You don't carry a sword; you carry curiosity."
 
 ---
@@ -190,10 +190,13 @@ Emberveil/
 │   ├── Scripts/
 │   │   ├── Player/        # PlayerController, GloveController
 │   │   ├── Interaction/   # IInteractable, Interactable, LiftableObject, TalkableNPC, ExaminableObject
+│   │   ├── Camera/        # HD2DCameraController, BillboardSprite
 │   │   ├── Systems/       # GameManager, InventoryManager, EmberManager, ItemData, SceneTransition
 │   │   └── UI/            # DialogueUI, InventoryUI
-│   ├── Scenes/            # Burrow, Workshop, Overworld, MainMenu
-│   ├── Sprites/           # Characters/, Tiles/, UI/
+│   ├── Scenes/            # MountainCave, MountainDescent, Overworld, Burrow, Workshop, MainMenu
+│   ├── Sprites/           # Characters/, UI/ (pixel-art textures, point-filtered)
+│   ├── Materials/         # HD-2D materials (pixel-art shaders, billboard materials)
+│   ├── Models/            # 3D environment meshes (ProBuilder exports, modular tiles)
 │   ├── Dialogue/          # Yarn Spinner .yarn files
 │   ├── Prefabs/
 │   ├── ScriptableObjects/ # Items/

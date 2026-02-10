@@ -1,84 +1,100 @@
 using UnityEngine;
 
 /// <summary>
-/// Controls Mouse's movement in the game world.
-/// Attach to the Mouse GameObject. Requires Rigidbody2D component.
+/// Controls Mouse's movement in the game world (HD-2D: 3D space, XZ plane movement).
+/// Attach to the Mouse GameObject. Requires CharacterController component.
 /// </summary>
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement Settings")]
     [Tooltip("How fast Mouse moves in units per second")]
     public float moveSpeed = 5f;
-    
+
+    [Tooltip("Gravity applied to the character")]
+    [SerializeField] private float gravity = -20f;
+
     [Header("References")]
     [Tooltip("Leave empty to auto-find on this GameObject")]
-    public Rigidbody2D rb;
-    
+    public CharacterController characterController;
+
     // Internal state
-    private Vector2 movement;
+    private Vector3 movement;
+    private float verticalVelocity;
     private bool canMove = true;
-    
-    // Direction Mouse is facing (for interaction raycasts)
-    public Vector2 FacingDirection { get; private set; } = Vector2.down;
-    
+
+    /// <summary>
+    /// Direction Mouse is facing on the XZ plane (for interaction raycasts).
+    /// </summary>
+    public Vector3 FacingDirection { get; private set; } = Vector3.forward;
+
     void Start()
     {
-        // Auto-find Rigidbody2D if not assigned in Inspector
-        if (rb == null)
+        // Auto-find CharacterController if not assigned in Inspector
+        if (characterController == null)
         {
-            rb = GetComponent<Rigidbody2D>();
+            characterController = GetComponent<CharacterController>();
         }
-        
-        if (rb == null)
+
+        if (characterController == null)
         {
-            Debug.LogError("PlayerController requires a Rigidbody2D component!");
+            Debug.LogError("PlayerController requires a CharacterController component!");
         }
     }
-    
+
     void Update()
     {
         // Don't read input if movement is disabled (e.g., during dialogue)
         if (!canMove)
         {
-            movement = Vector2.zero;
+            movement = Vector3.zero;
             return;
         }
-        
+
         // Read input (works with WASD and Arrow keys)
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-        
+        // In HD-2D: X = left/right, Z = forward/back (into/out of screen)
+        float inputX = Input.GetAxisRaw("Horizontal");
+        float inputZ = Input.GetAxisRaw("Vertical");
+
+        movement = new Vector3(inputX, 0f, inputZ).normalized;
+
         // Update facing direction (only when actually moving)
         if (movement.sqrMagnitude > 0.01f)
         {
-            // Prioritize horizontal or vertical based on which is larger
-            if (Mathf.Abs(movement.x) > Mathf.Abs(movement.y))
+            // Prioritize horizontal or depth based on which input is larger
+            if (Mathf.Abs(inputX) > Mathf.Abs(inputZ))
             {
-                FacingDirection = movement.x > 0 ? Vector2.right : Vector2.left;
+                FacingDirection = inputX > 0 ? Vector3.right : Vector3.left;
             }
             else
             {
-                FacingDirection = movement.y > 0 ? Vector2.up : Vector2.down;
+                FacingDirection = inputZ > 0 ? Vector3.forward : Vector3.back;
             }
         }
+
+        // Apply gravity
+        if (characterController.isGrounded)
+        {
+            verticalVelocity = -2f; // Small downward force to keep grounded
+        }
+        else
+        {
+            verticalVelocity += gravity * Time.deltaTime;
+        }
+
+        // Move using CharacterController (respects colliders)
+        Vector3 finalMovement = movement * moveSpeed + Vector3.up * verticalVelocity;
+        characterController.Move(finalMovement * Time.deltaTime);
     }
-    
-    void FixedUpdate()
-    {
-        // Move using physics (respects colliders)
-        // Normalize to prevent faster diagonal movement
-        rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
-    }
-    
+
     /// <summary>
     /// Call this to freeze Mouse in place (e.g., during dialogue or cutscenes)
     /// </summary>
     public void DisableMovement()
     {
         canMove = false;
-        movement = Vector2.zero;
+        movement = Vector3.zero;
     }
-    
+
     /// <summary>
     /// Call this to restore Mouse's ability to move
     /// </summary>
@@ -86,7 +102,7 @@ public class PlayerController : MonoBehaviour
     {
         canMove = true;
     }
-    
+
     /// <summary>
     /// Check if Mouse can currently move
     /// </summary>

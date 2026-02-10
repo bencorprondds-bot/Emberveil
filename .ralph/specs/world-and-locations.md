@@ -9,11 +9,15 @@ A vast valley nestled between mountains, maintained by the Three Sisters (superc
 
 The Emberveil forest acts as a sentient guide, leading travelers where they "need" to go. The valley's infrastructure is slowly failing as Sister North remains in her coma. The Ivy encroaches. The Embers are scattered. Mouse must restore what was broken.
 
-## Art Direction
-- **Style:** Pixel art, 32x32 tile base
-- **Palette:** Warm earth tones (greens, browns, golds) with blue-green accent from the Gloves/Embers
-- **Mood:** Cozy, inviting, slightly melancholic - like a garden that's been waiting for someone to return
-- **Lighting:** URP 2D lighting. Warm interiors, soft outdoor light. Glove glow as visual signature.
+## Art Direction — HD-2D Style
+- **Visual Style:** HD-2D (Octopath Traveler / Triangle Strategy inspired). 3D environments with 2D pixel-art character sprites rendered as billboarded quads in 3D space.
+- **Environments:** 3D geometry (ProBuilder or modular meshes) with pixel-art textures, point-filtered (no bilinear smoothing). Terrain, walls, structures, and props are all 3D.
+- **Characters:** 2D pixel-art sprites on billboarded quads that always face the camera. 32x32 base resolution for characters.
+- **Camera:** Fixed ~30-45° tilt angle, orthographic or low-FOV perspective. Slight depth of field to separate foreground/background.
+- **Palette:** Warm earth tones (greens, browns, golds) with blue-green accent from the Gloves/Embers.
+- **Mood:** Cozy, inviting, slightly melancholic - like a garden that's been waiting for someone to return.
+- **Lighting:** URP 3D lighting with post-processing. Bloom for Glove glow and Ember luminescence. Warm point lights for interiors, directional light for outdoors. Volumetric light shafts through trees and windows.
+- **Post-Processing:** Bloom (blue-green Glove signature), depth of field (tilt-shift feel), vignette (subtle), color grading (warm).
 - **Scale:** Zelda: Echoes of Wisdom-inspired. Vast, explorable overworld. Not a small tile room.
 
 ## Game Scale
@@ -34,15 +38,15 @@ Mouse's ancient home. A massive oak tree shaped (not built) into a living struct
 - **Feel:** Warm, cluttered, cozy. Mouse and Hawk's home.
 - **Contents:** Sleeping area, bookshelf, broken shelf (mendable), window, stairs down to Workshop, door to outside
 - **Story:** Mouse and Hawk dig this out together (Chapter 2). It's their first act of creation.
-- **Lighting:** Warm amber, the Old Oak's supernatural warmth
+- **Lighting:** Warm amber point lights, the Old Oak's supernatural warmth. Bloom on warm light sources.
 - **Music:** Gentle, intimate, music-box quality
 
 #### The Workshop
-- **Size:** ~25x20 tiles, circular layout
+- **Size:** ~25x20 unit footprint, circular layout (3D geometry)
 - **Feel:** Industrial-magical. Ancient technology wrapped in living wood.
-- **Contents:** Spiral staircase from Burrow, the Forge (dark rectangle, channels blue-green energy), workbenches, tool rack, dusty drawers (contain Lenses), metal scraps (contain Frames)
+- **Contents:** Spiral staircase from Burrow, the Forge (dark metallic structure, channels blue-green energy), workbenches, tool rack, dusty drawers (contain Lenses), metal scraps (contain Frames)
 - **Story:** Where Mouse crafts Hawk's glasses (Chapter 3). Reveals Mouse's true nature - she built this.
-- **Lighting:** Dim with Forge glow (blue-green), contrasts with warm Burrow above
+- **Lighting:** Dim with Forge glow (blue-green point light + bloom), contrasts with warm Burrow above
 - **Music:** Low hum, occasional metallic tones, technological undertone
 
 ### The Mountain Cave (Opening Area)
