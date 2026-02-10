@@ -15,48 +15,65 @@ This plan builds a playable vertical slice covering Act 1: Awakening (Chapters 1
 - [x] Migrate LiftableObject.cs: Collider2D → Collider
 - [x] Migrate TalkableNPC.cs: SpriteRenderer flip → Y-axis rotation for facing
 - [x] Migrate SceneTransition.cs: OnTriggerEnter2D → OnTriggerEnter, Collider2D → Collider
-- [ ] Verify all scripts compile (no 2D API references remain)
+- [x] Verify all scripts compile (no 2D API references remain)
 
 ### 0B. HD-2D Camera & Rendering
-- [ ] Create HD2DCameraController.cs — fixed ~35° tilt, follows player on XZ, smooth damp
-- [ ] Create BillboardSprite.cs — makes sprite quads always face the camera
-- [ ] Set up URP 3D pipeline asset with post-processing: bloom, depth of field, vignette
-- [ ] Create point-filtered pixel-art material (unlit or lit, no texture smoothing)
-- [ ] Create billboard sprite material (alpha cutout, point-filtered, receives shadows optional)
-- [ ] Test: grey cube on 3D plane, camera at angle, billboard sprite quad — confirms pipeline works
+- [x] Create HD2DCameraController.cs — fixed ~35° tilt, follows player on XZ, smooth damp
+- [x] Create BillboardSprite.cs — makes sprite quads always face the camera
+- [x] Create HD2DSetupWizard.cs editor tool — pipeline asset, post-processing, materials
+- [x] Create PixelArtLit.shader — point-filtered, URP lit, shadow casting/receiving
+- [x] Create BillboardSprite.shader — alpha cutout, URP lit, double-sided, shadow casting
+- [x] Create Packages/manifest.json — URP, post-processing, ProBuilder, Input System, TextMeshPro
+- [ ] Test in Unity Editor: run HD2DSetupWizard, verify pipeline works
 
 ### 0C. ProBuilder Grey-Box Toolkit
-- [ ] Install ProBuilder package
-- [ ] Create modular grey-box pieces: floor tile (1x1), wall segment, stair block, door frame
-- [ ] Verify collision on all pieces (MeshCollider or BoxCollider)
-- [ ] Create a test room (10x10 floor, walls, a door opening) and walk around in it
+- [x] Add ProBuilder to package manifest
+- [x] Create GreyboxToolkit.cs editor tool — room builder, floors, walls, stairs, ramps, pillars, outdoor pieces
+- [ ] Test in Unity Editor: open toolkit, build a test room, walk around
 
 ---
 
 ## Phase 1: The Awakening — Mountain Cave & Descent (Chapter 1 opening)
 
 ### 1A. Mountain Cave Scene (Opening)
-- [ ] Create MountainCave scene — grey-box cave interior with ProBuilder
-- [ ] Design: small chamber, narrow exit passage, light shaft from above
-- [ ] Place Mouse at "awakening" position (lying down → stands up)
-- [ ] Implement simple awakening cutscene: camera slowly reveals the cave
-- [ ] Add cold ambient lighting (blue-white directional, dim)
-- [ ] Mouse's Gloves flicker with faint blue-green light (first visual hook)
-- [ ] Exit passage leads to MountainDescent scene transition
+- [x] Create MountainCaveBuilder.cs editor script — generates grey-box cave with geometry, lighting, gameplay objects
+- [x] Design: small chamber, narrow exit passage, light shaft from above (spot light)
+- [x] Place Mouse at "awakening" position with standing position
+- [x] Add cold ambient lighting (blue-white directional, dim)
+- [x] Mouse's Gloves — point light placeholder, flicker effect in IntroSequenceController
+- [x] Exit passage with SceneTransition trigger
+- [x] Camera waypoints for intro sweep (peak → mid → cave entrance → inside)
+- [ ] Run MountainCaveBuilder in Unity Editor to generate scene
+- [ ] Wire up IntroSequenceController references in Inspector
+- [ ] Test awakening sequence and cave walkthrough
 
 ### 1B. Mountain Descent Scene
-- [ ] Create MountainDescent scene — grey-box outdoor mountain path
-- [ ] Design: winding path downhill, rocky terrain, distant valley visible below
-- [ ] Add a bridge crossing (narrative landmark from the intro sequence)
-- [ ] Brief Fox encounter: Fox silhouette visible on a ridge, then gone (no dialogue, just visual)
-- [ ] Environmental storytelling: broken trail markers, overgrown path (hints of decay)
-- [ ] Transition at bottom of path → Overworld (near Old Oak)
+- [x] Create MountainDescentBuilder.cs editor script — generates grey-box mountain path
+- [x] Design: winding path downhill with 7 sections, descending platforms and ramps
+- [x] Bridge crossing (wooden deck, posts, railings — narrative landmark)
+- [x] Fox silhouette on a ridge (dark placeholder cube)
+- [x] Environmental storytelling: broken trail markers (tilted), overgrown path stones, scattered rocks
+- [x] Transition trigger at valley floor → Overworld
+- [ ] Run MountainDescentBuilder in Unity Editor to generate scene
+- [ ] Wire up SceneTransition targets in Inspector
+- [ ] Test full descent walkthrough
 
-### 1C. Intro Sequence Flow
-- [ ] Implement cutscene manager basics (camera moves, fade in/out, text overlay)
-- [ ] Opening text: brief first-person narration (Mouse's voice, 2-3 lines)
-- [ ] Camera: start at Sister North peak (distant mountain shot), sweep down to cave entrance
-- [ ] Seamless flow: Cave → Descent → Bridge → Valley → Old Oak exterior
+### 1C. Overworld Scene (Initial Area)
+- [x] Create OverworldBuilder.cs editor script — generates grey-box valley around Old Oak
+- [x] The Old Oak: trunk (cylinder), canopy (sphere), door opening, warm interior glow
+- [x] River with banks and redwood bridge
+- [x] Forest edge with procedural trees
+- [x] Ivy patches blocking paths (area gates with collision + emissive green glow)
+- [x] Hawk NPC near Old Oak (TalkableNPC + BillboardSprite)
+- [x] Spawn points: FromMountain, FromBurrow
+- [x] Scene transition into Burrow at Oak door
+- [ ] Run OverworldBuilder in Unity Editor to generate scene
+- [ ] Wire up Hawk dialogue and SceneTransition targets in Inspector
+
+### 1D. Intro Sequence Flow
+- [x] Create CutsceneManager.cs — fade effects, narration typewriter, camera movement, waypoint paths
+- [x] Create IntroSequenceController.cs — full intro sequence orchestration (sweep → narration → awakening → Glove flicker → player control)
+- [ ] Test full intro flow in Unity: Camera sweep → narration → awakening → cave exit → descent → overworld
 
 ---
 
@@ -233,6 +250,18 @@ This plan builds a playable vertical slice covering Act 1: Awakening (Chapters 1
 - [x] Comprehensive game design documentation
 - [x] HD-2D art direction specs updated
 - [x] All project docs updated for URP 3D / HD-2D
+- [x] HD2DCameraController.cs (fixed tilt, smooth follow, orthographic)
+- [x] BillboardSprite.cs (Y-axis locked billboard for pixel-art characters)
+- [x] Packages/manifest.json (URP, post-processing, ProBuilder, Input System, TextMeshPro)
+- [x] HD2DSetupWizard.cs editor tool (pipeline asset, post-processing, materials)
+- [x] PixelArtLit.shader (point-filtered, URP lit, shadow casting/receiving)
+- [x] BillboardSprite.shader (alpha cutout, URP lit, double-sided, shadows)
+- [x] GreyboxToolkit.cs editor tool (room builder, individual pieces, outdoor pieces)
+- [x] CutsceneManager.cs (fade effects, narration typewriter, camera paths)
+- [x] IntroSequenceController.cs (full intro orchestration: sweep → narration → awakening → control)
+- [x] MountainCaveBuilder.cs editor script (cave geometry, lighting, gameplay objects, 4 camera waypoints)
+- [x] MountainDescentBuilder.cs editor script (7-section descent, bridge, Fox silhouette, storytelling)
+- [x] OverworldBuilder.cs editor script (Old Oak, river, forest, ivy gates, Hawk NPC, spawn points)
 
 ## Notes
 - Scripts live in `Emberveil/Assets/Scripts/` — always check there first
